@@ -27,6 +27,7 @@ Albert Dreary
 Alboin
 Alcarin
 Aldamir
+Aldariel
 Aldor
 Alfrida Bolger
 Algund
@@ -36,6 +37,7 @@ Almarian
 Almiel
 Almáriel
 Alphros
+Altariel
 Aluin
 Amandil
 Amaranth Brandybuck
@@ -89,6 +91,7 @@ Arahad I
 Arahad II
 Arahael
 Aranarth
+Arandóre
 Arantar
 Aranuir
 Aranwë
@@ -125,15 +128,22 @@ Arwen's grave
 Asgon
 Asphodel Burrows
 Astrid
+Atan
 Atanalcar
 Atanatar I
 Atanatar II
 Attack Troll
 Audoin Errol
 Aulendil
+Aulëonna
 Aulë
 Auredhir
+Aurel
+Aureld
+Aureldi
 Ausir
+Auzel
+Auzeldi
 Avallónë
 Avari
 Avatan
@@ -380,6 +390,7 @@ Councilors
 Crebain
 Crugbit
 Cuiviénen
+Culúrien
 Curufin
 Cwén
 Círdan
@@ -534,6 +545,7 @@ Elladan and Elrohir
 Elmar
 Elmo
 Elphir
+Elpino
 Elrond
 Elros
 Eltariel
@@ -552,9 +564,11 @@ Enerdhil
 Enthor
 Ents
 Entwives
+Enu
 Envinyatar
 Eoh
 Eorl the Young
+Éowyn
 Eradan
 Erchirion
 Eregion
@@ -566,7 +580,9 @@ Erkenbrand
 Erland
 Erling Greenhand
 Ermon and Elmir
+Eru
 Eru Ilúvatar
+Eruva
 Eryn
 Esmeralda Brandybuck
 Estella Brandybuck
@@ -575,6 +591,7 @@ Estirin
 Estrid
 Estë
 Ethlon
+Etyangol
 Everard Took
 Evonyn
 Evranin
@@ -606,6 +623,7 @@ Falmari
 Fangluin
 Faniel
 Fankil
+Fantur
 Fanuin
 Faramir
 Faramir Took
@@ -994,6 +1012,7 @@ Ilberic Brandybuck
 Ilion
 Ilkorindi
 Ilmarë
+Ilúvatar
 Ilwen
 Imin
 Iminyë
@@ -1080,8 +1099,8 @@ Kirun
 Knight of Gondor
 Kurúki
 Kôrtirion
-LOTR:Fandom tour/Aragorn II
-LOTR:Fandom tour/Frodo Baggins
+Aragorn II
+Frodo Baggins
 Lady of Dor-lómin
 Lagduf
 Laiquendi
@@ -1097,6 +1116,8 @@ Largo Brandyfoot
 Larnach
 Larnach's daughter
 Laura Baggins
+Laurenfindil
+Laurenlin
 Lavender Boffin
 Legolas
 Lenwë
@@ -1201,6 +1222,7 @@ Marach
 Marcho
 Marchwardens
 Mardil Voronwë
+Mardorunando
 Margid Rustborin
 Marhari
 Marhwini
@@ -1357,6 +1379,7 @@ Northmen
 Northmen revolt
 Nost-na-Lothion
 Nuin
+Nurufantur
 Nurwë
 Náin
 Náin I
@@ -1371,6 +1394,7 @@ Odovacar Bolger
 Ogres
 Ohta
 Ohtar
+Oiacúma
 Oikeroi
 Old Entish
 Old Gammidge
@@ -1385,6 +1409,7 @@ Olo Proudfoot
 Olog
 Olog-Graug
 Olog-hai
+Olórin
 Olwyn
 Olwë
 Ondoher
@@ -1488,6 +1513,7 @@ River-tolls
 River-woman
 Robin Gardner
 Robin Smallburrow
+Roccalas
 Rog
 Rogash
 Rohirrim
@@ -1548,7 +1574,9 @@ Sarnas Fingolfin
 Saruman
 Saruman's army
 Saruman's scouts
+Sauro
 Sauron
+Súro
 Scatha
 Sea-serpents
 Seal of the Stewards
@@ -1665,6 +1693,7 @@ Thalion
 Thane Ulchor
 Thargelion
 Tharzog
+Thauron
 The Ascetic
 The Dweller
 The Governor
@@ -1753,6 +1782,8 @@ Uffo Boffin
 Ufthak
 Uglúk
 Uinen
+Ulban
+Ulband
 Ulbandi
 Ulbar
 Uldor
@@ -1769,9 +1800,6 @@ Ungoliant
 Urthel
 Uruk-hai
 Urwen
-User blog:HiddenVale/Did Balrogs have wings?
-User:Cerberxx
-User:HiddenVale/pastepage
 Vairë
 Valacar
 Valandil

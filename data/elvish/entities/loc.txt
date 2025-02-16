@@ -1,1561 +1,1419 @@
-==A==
-{| class="tg-timeline citizen-overflow"
-|-
-!
-!
-!
-|-
-|
-*[[Abyss]]
-*[[Tarlang's Neck|Achad Tarlang]] (Tarlang's Neck)
-*[[Adorn]]
-*[[Adurant]]
-*[[Aelin-uial]]
-*[[Tarn Aeluin|Aeluin]]
-*[[Afros]]
-*[[Agar]]
-*[[Gwathló|Agathurush]] (River Greyflood)
-*[[Glittering Caves|Aglarond]]
-*[[Pass of Aglon|Aglon]], Pass of
-*[[Ailin (lake in Valinor)]]
-*[[Aiwenórë]]
-*[[Akallabêth]] (Atlantë)
-*[[Alalminórë]]
-*[[Alcarinquë]]
-*[[Aldalómë]]
-*[[Aldburg]]
-*[[Alley of Roses]]
-*[[Almaida]]
-*[[Almaren]]
-*[[Alqualondë]]
-*[[Aman]]
-*[[Fangorn Forest|Ambaróna]] (Fangorn)
-*[[Mount Doom|Amon Amarth]] (Mount Doom)
-*[[Amon Anwar]] (Halifirien)
-*[[Amon Darthir]]
-*[[Amon Dîn]]
-*[[Amon Ereb]]
-*[[Amon Ethir]]
-*[[Amon Gwareth]]
-*[[Amon Hen]]
-*[[Amon Lanc]] (Dol Guldur)
-|
-*[[Amon Lhaw]]
-*[[Amon Obel]]
-*[[Amon Rûdh]]
-*[[Weathertop|Amon Sûl]] (Weathertop)
-*[[Taniquetil|Amon Uilos]] (Taniquentil)
-*[[Anach]]
-*[[Númenor|Anadûnê]] (Númenor)
-*[[Sun|Anar]]
-*[[Anarríma]]
-*[[Aman|Ancient West]] (Aman)
-*[[Anfalas|Andafalassë]] (Langstrand or Anfalas)
-*[[Númenor|Andor]] (Númenor)
-*[[Andram]]
-*[[Andrast]]
-*[[Andrath]]
-*[[Androth]]
-*[[Anduin]]
-*[[Andúnië]]
-*[[Andustar]]
-*[[Anfalas]]
-*[[Anfauglith]]
-*[[Angband|Angamando]] (Angband)
-*[[Angband]]
-*[[Anghabar]]
-*[[Angle]]
-*[[Angmar]], Realm of
-*[[Isen|Angren]] (River Isen)
-*[[Isengard|Angrenost]]
-*[[Gate of the Noldor|Annon-in-Gelydh]]
-|
-*[[Annúminas]]
-*[[Anórien]]
-*[[Antaro]]
-*[[Araman]]
-*[[Arandor]] (Kingsland)
-*[[Archet]]
-*[[Arch of Inwë]]
-*[[Arda]]
-*[[Ard-galen]]
-*[[Argonath]]
-*[[Armenelos]]
-*[[Arnach]] (Lossarnach)
-*[[Arnor]]
-*[[Aros]], River of
-*[[Arossiach]]
-*[[Arthedain]]
-*[[Gondor|Arthor na Challonnas]] (Gondor)
-*[[Arnor|Arthor na Forlonnas]] (Arnor)
-*[[Arthórien]]
-*[[Arvernien]]
-*[[Ascar]], River of
-*[[Ered Lithui|Ash Mountains]] (Ered Lithui)
-*[[Astulat]]
-*[[Númenor|Atalantë]] (Númenor)
-*[[Fords of Isen|Athrad Angren]] (Fords of Isen)
-*[[Atyamar]]
-*[[Avallónë]]
-*[[Tower of Avallónë|Avallónë]], Tower of
-*[[Avathar]]
-*[[Dimrill Dale|Azanulbizar]] (Dimrill Dale)
-|}{{Timeline page styles}}
-
-==B==
-{| width=100%
-|- valign=top
-| width=33.33% |
-*[[Bag End]]
-*[[Bagshot Row]]
-*[[Isle of Balar|Balar]]
-*[[Balin's Tomb]]
-*[[Bamfurlong]] (Maggot's Farm)
-*[[House of Ransom|Bar-en-Danwedh]] (House of Ransom)
-*[[House of Ransom|Bar-en-Nibin-noeg]] (House of Ransom)
-*[[Ras Mewrim|Bar-in-Mŷl‎]]
-*[[Bar-erib]]
-*[[Barad-dûr]]
-*[[Barad Eithel]]
-*[[Barad Nimras]]
-*[[Baranduin]] (Brandywine River)
-*[[Caradhras|Barazinbar]] (Caradhras or Redhorn)
-*[[Barrow-downs]]
-*[[Barrowfield]]
-*[[Battle Pit]]
-*[[Dagorlad|Battle Plain]]
-*[[Bay of Balar]]
-*[[Bay of Belfalas]]
-*[[Bay of Andúnië]]
-*[[Bay of Eldamar]]
-*[[Bay of Eldanna]]
-*[[Bay of Rómenna]]
-*[[Belegaer]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Belegost]]
-*[[Beleriand]]
-*[[Belfalas]]
-*[[Bent Seas]]
-*[[Beorn's Hall|Beorn's House]]
-*[[Bindbole Wood|Bindbale Wood]]
-*[[Nimbrethil|Birchwoods of Nimbrethil]]
-*[[Black Gate]] (Morannon)
-*[[Mordor|Black Land]] (Mordor)
-*[[Moria|Black Pit]] (Moria)
-*[[Black Pits]]
-*[[Morthond|Blackroot]] (Morthond River)
-*[[Aman|Blessed Realm]] (Aman)
-*[[Blue Mountains]]
-*[[Underhill (house)|Bombadil's House]]
-*[[Bonfire Glade]]
-*[[Astulat|Bony ridge]] (Astulat)
-*[[Borgil]]
-*[[Branda-nîn]] (Brandywine River)
-*[[Brandywine Bridge]] (Bridge of Stonebows)
-*[[Bree]]
-*[[Bree-hill|Bree Hill]]
-*[[Bree-land]]
-*[[Breredon]]
-*[[Brethil]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Bridge of Esgalduin]]
-*[[Last Bridge|Bridge of Mitheithel]] (Last Bridge)
-*[[Bridge of Khazad-dûm]]
-*[[Bridge of Nargothrond]]
-*[[Brandywine Bridge|Bridge of Stonebows]] (Brandywine Bridge)
-*[[Bridgefields]]
-*[[Brilthor]] (River)
-*[[Ford of Brithiach|Brithiach]]
-*[[Brithombar]]
-*[[Brithon]] (River)
-*[[Brockenbores]]
-*[[Brodda's hall]]
-*[[Brook of Glass]]
-*[[Brown Lands]]
-*[[Bruinen]] (River Loudwater)
-*[[Buck Hill]]
-*[[Buckland]]
-*[[Buckland Gate]]
-*[[Bucklebury]]
-*[[Bucklebury Ferry]]
-*[[Budgeford]] (Village)
-*[[Fanuidhol|Bundushathûr]] (Cloudyhead or Fanuidhol)
-*[[Bywater]]
-*[[Bywater Pool]]
-*[[Bywater Road]]
-|}
-
-==C==
-{| width=100%
-|- valign=top
-| width=33.33% |
-*[[Cabed-en-Aras]] ([[Cabed Naeramarth]])
-*[[Cair Andros]]
-*[[Calacirya]]
-*[[Calacirian]]
-*[[Calembel]]
-*[[Calenardhon]]
-*[[Calenhad]]
-*[[Calmindon]]
-*[[Cape Andras]]
-*[[Cape Balar]]
-*[[Cape of Andrast]]
-*[[Cape of Forochel]]
-*[[Carach Angren]] (Isenmouthe)
-*[[Caradhras]] (Redhorn)
-*[[Caragdûr]]
-*[[Caras Galadhon]]
-*[[Carchost]]
-*[[Cardolan]]
-*[[Carn Dûm]]
-*[[Carnil]]
-*[[Carnen]] (River Redwater)
-*[[Carrock]]
-*[[Causeway Forts]]
-*[[Causeway (Gondor)]]
-*[[Glittering Caves|Caverns of Helm's Deep]] (Aglarond or the Glittering Caves)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Nargothrond|Caverns of Narog]] (Nargothrond)
-*[[Caves of the Forgotten]]
-*[[River Running|Celduin]] (River Running)
-*[[Celbaros]]
-*[[Celebdil]] (Silvertine)
-*[[Celebrant]] (River Silverlode)
-*[[Celebros]] (River)
-*[[Celon]] (River)
-*[[Celos]] (River)
-*[[Cerin Amroth]]
-*[[Chamber of Mazarbul]] (Chamber of Records)
-*[[Cracks of Doom|Chambers of Fire]] (Sammath Naur or the Cracks of Doom)
-*[[Chasm of Ilmen]]
-*[[Chetwood]]
-*[[Qerkaringa|Chill Gulf]]
-*[[Circles of the World]]
-*[[Ciril]] (River)
-*[[Cirith Dúath]]
-*[[High Pass|Cirith Forn en Andrath]] (High Pass)
-*[[Cirith Gorgor]]
-*[[Cirith Ninniach]] (Rainbow Cleft)
-*[[Cirith Thoronath]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Cirith Ungol]]
-*[[Citadel of Gondor]]
-*[[Osgiliath|Citadel of Stars]] (Osgiliath)
-*[[Umbar|City of the Corsairs]]
-*[[City Wall]] (Minas Tirith)
-*[[Avathor|Cleft of the mountains]] (Ungoliant's lair)
-*[[Fanuidhol|Cloudyhead]] (Fanuidhol)
-*[[Cobas Haven]]
-*[[Bay of Belfalas#Other names|Côf Belfalas]] (Bay of Belfalas)
-*[[Coldfells]]
-*[[Combe]]
-*[[Field of Cormallen|Cormallen]] (Field)
-*[[Ezellohar|Corollairë]] (Ezellohar)
-*[[Ezellohar|Coron Oiolairë]] (Ezellohar)
-*[[Cottage of Lost Play]]
-*[[Court of the Fountain (Minas Tirith)|Court of the Fountain]]
-*[[Cracks of Doom]]
-*[[Crickhollow]]
-*[[Crissaegrim]]
-*[[Cirith Thoronath|Cristhorn]]
-*[[Crossings of Erui]]
-*[[Crossings of Poros]]
-*[[Crossings of the Taeglin|Crossings of Teiglin]] (Crossings of the Taeglin)
-*[[Cross-roads]] (Cross Roads of the Fallen King)
-*[[Crown of the Hidden Kingdom]]
-*[[Cuiviénen]]
-*[[Cûl Bîn]]
-*[[Cûl Veleg]]
-*[[Cûm-nan-Arasaith]] (Mound of Avarice)
-*[[Cú nan Eilch]]
-|}
-
-==D==
-{| width=100%
-|- valign=top
-| width=33.33% |
-* [[Dagorlad]]
-* [[Dáin's hall]]
-* [[Dale]]
-* [[Dale (Kingdom)]]
-* [[Dark Door]]
-* [[Gate of Wood|Dark Gate]]
-* [[Dark Land]] (South Land)
-* [[Middle-earth#Names|Dark Lands]] (Middle-earth)
-* [[Dark Mountains]] (Mountains of Mirkwood)
-* [[Dark Tower]] (Barad-dûr)
-* [[Dead Marshes]]
-* [[Fornost Erain|Deadmen's Dike]] (Fornost)
-* [[Death Down]]
-* [[Aman|Deathless Lands]] (Aman, Eressëa)
-* [[Helm's Deep|Deeping]] (Helms Deep)
-* [[Deephallow]]
-* [[Deeping-coomb|Deeping Coomb]]
-* [[Deeping-road]]
-* [[Deeping-stream|Deeping Stream]]
-* [[Deeping Wall]]
-* [[Cabed-en-Aras|Deer's Leap]] (Cabed-en-Aras)
-* [[Taur-nu-Fuin (Dorthonion)|Deldúwath]] (Taur-nu-Fuin)
-* [[Derndingle]]
-* [[Desert of Lostladen]]
-* [[Desolation of the Dragon|Desolation of Smaug]] (Desolation of the Dragon)
-* [[Desolation of the Morannon]]
-* [[Dimbar]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Dimholt]]
-* [[Dimrill Dale]]
-* [[Great Gates|Dimrill Gate]] (Great Gates)
-* [[Dimrill Stair]]
-* [[Dimrost]]
-* [[Dol Amroth]]
-* [[Dol Baran]]
-* [[Dol Guldur]]
-* [[Dol Tarlang]]
-* [[Dome of Stars]] (Tower of the Stone)
-* [[Dome of Varda]]
-* [[Door of Night]]
-* [[Doors of Durin]] (Hollin Gate)
-* [[Dor Caranthir]] (Thargelion)
-* [[Dor-Cúarthol]]
-* [[Dor Daedeloth]]
-* [[Dor Dínen]]
-* [[Dor-en-Ernil]]
-* [[Dor Firn-i-Guinar]] (Land of the Dead that Live)
-* [[Dor-lómin]]
-* [[Anfauglith|Dor-Nu-Fauglith]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Doriath]]
-* [[Dorthonion]]
-* [[Dorwinion]]
-* [[Barrow-downs|Downlands]] (Barrow-downs)
-* [[Drengist]]
-* [[Drúadan Forest]]
-* [[Drûn]]
-* [[Drúwaith Iaur]]
-* [[Dry River]]
-* [[Duilwen]]
-* [[Nan Dungortheb|Dungortheb]] (Nan Dungortheb)
-* [[Dunharrow]]
-* [[Dúnharg]]
-* [[Dunland]]
-* [[Durin's Bridge]]
-* [[Durin's Crown]]
-* [[Durin's Tower]]
-* [[Durthang]]
-* [[Dwaling]]
-* [[Dwarf-road of Beleriand]]
-* [[Dwarrowdelf]] (Khazad-dûm)
-* [[Dwimorberg]]
-* [[Dwimorberg glen]]
-* [[Dwimordene]] (Lórien)
-|}
-
-==E==
-{| width=100%
-|- valign=top
-| width=33.33% |
-* [[Eä]]
-* [[Eagle's Eyrie]]
-*[[Eärendil]], Star of
-* [[East Beleriand]]
-* [[East Bight]]
-* [[Eastemnet]]
-* [[Eastemnet Downs]]
-* [[Eastern Eriador]]
-* [[Eastfarthing|East Farthing]]
-* [[Eastfold]]
-* [[Great Gates|East-gate]] (Great Gates)
-* [[East Lórien]]
-* [[Buckland|East March]] (Buckland)
-* [[East-mark]]
-* [[East Road]]
-* [[East Sea]]
-* [[East Wall of Rohan]]
-* [[Fangorn Forest|Eastwood]] (Fangorn)
-* [[Echad i Sedryn]] (Bar-en-Dunwedh)
-* [[Ered Lómin|Echoing Hills]] (Ered Lómin)
-* [[Echoriad]]
-* [[Edge of the Wild]]
-* [[Edhellond]]
-* [[Edoras]]
-* [[Egladil]]
-* [[Eglador]] (Doriath)
-* [[Eglamar (Falas)]]
-* [[Eglarest]]
-* [[Eilenach]]
-* [[Eilenaer]] (Halifirien)
-* [[Eithel Ivrin]]
-* [[Eithel Nínui]]
-* [[Eithel Sirion]]
-* [[Ekkaia]]
-* [[Eldalondë|Eldalondë the Green]]
-* [[Eldamar]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Elemmírë]]
-* [[Elendë]]
-* [[Elenna]]
-* [[Númenor|Elennanórê]] (Númenor)
-* [[Elerrína]] (Taniquetil)
-* [[Elf-path]]
-* [[Ellor Eshúrizel]]
-* [[Elostirion]]
-* [[Elros' tower]]
-* [[Elvenhome]] (Calacirian, Eressêa)
-* [[Elvenking's Halls]]
-* [[Elvet-isle]]
-* [[Elwing's tower]]
-* [[Emerië]]
-* [[Empty Lands]]
-* [[Emyn Arnen]]
-* [[Emyn Beraid]] (Tower Hills)
-* [[Emyn Duir]] (Mountains of Mirkwood)
-* [[Emyn Eglain]]
-* [[Emyn Muil]]
-* [[Emyn-nu-Fuin]] (Mountains of Mirkwood)
-* [[Emyn Uial]] (Hills of Evendim)
-* [[Enchanted Isles]]
-* [[Enchanted River]]
-* [[Encircling Mountains]] (Echoriath)
-* [[Ekkaia|Encircling Sea]] (Ekkaia)
-* [[Endless Stair]]
-* [[Endor]] (Middle-earth)
-* [[Ened]]
-* [[Enedwaith]]
-* [[Entwade]]
-* [[Entwash]] (river)
-* [[Entwash Vale]]
-* [[Entwood]] (Fangorn)
-* [[Ephel Brandir]]
-* [[Ephel Dúath]]
-* [[Lonely Mountain|Erebor]] (Lonely Mountain)
-* [[Erech]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Iron Mountains|Ered Engrin]] (Iron Mountains)
-* [[Ered Gorgoroth]]
-* [[Ered Lindon]] (Ered Luin)
-* [[Ered Lithui]]
-* [[Ered Lómin]]
-* [[Grey Mountains|Ered Mithrin]] (Grey Mountains)
-* [[White Mountains|Ered Nimrais]] (White Mountains)
-* [[Ered Wethrin]]
-* [[Eregion]]
-* [[Erelas]]
-* [[White House of Erendis|Erendis]] (White House of Erendis)
-* [[Tol Eressëa|Eressëa]], Tol
-* [[Eriador]]
-* [[Erui]]
-* [[Firienholt|Eryn Fuir]]
-* [[Mirkwood|Eryn Galen]] (Greenwood the Great)
-* [[Mirkwood|Eryn Vorn]] (Greenwood the Great)
-* [[Esgalduin]]
-* [[Lake-town|Esgaroth]] (Lake-town)
-* [[Estirin]]
-* [[Estolad]]
-* [[Ethir Anduin]]
-* [[Ethraid Engrin]] (Fords of Isen)
-* [[Ethring]]
-* [[Ettendales]]
-* [[Ettenmoors]]
-* [[Evadrien]]
-* [[Evereven]] (Valinor)
-* [[Everholt]] (Firien Wood)
-* [[Evernight]] (Shadowy Seas)
-* [[Ezellohar]]
-|}
-
-==F==
-{| width=100%
-|- valign=top
-| width=33.33% |
-* [[Faerie]]
-* [[Falas]]
-* [[Falassë Númëa]]
-* [[Falls of Esgalduin]]
-* [[Falls of Gelion]]
-* [[Eithel Ivrin|Falls of Irvin]] (Eithel Ivrin)
-* [[Rauros|Falls of Rauros]]
-* [[Falls of Sirion]]
-* [[Fangorn Forest]]
-* [[Fanuidhol]] (Cloudyhead)
-* [[Fanyamar]]
-* [[Far Downs]]
-* [[Far Harad]]
-* [[Haerast|Far Shore]] (Haerast)
-* [[Aman|Far West]] (Aman)
-* [[Fôs' Almir|Faskalan]] (Fôs' Almir)
-* [[Fôs' Almir|Faskala-númen]] (Fôs' Almir)
-* [[Fen Hollen]]
-* [[Fen of Serech]]
-* [[Fenmarch]]
-* [[Fens of Sirion]] (Aeluin-uial)
-* [[Ferry Lane]]
-* [[Field of Celebrant]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Field of Cormallen]]
-* [[Fingolfin's Cairn]]
-* [[Firienfeld]]
-* [[Firienholt]]
-* [[Firienholt|Firien Wood]]
-* [[Firmament]]
-* [[First Deep]]
-* [[First Hall]]
-* [[Firth of Drengist]]
-* [[Firth of Rómenna]]
-* [[Fladweth Amrod]]
-* [[Foen]]
-* [[Folde]]
-* [[Folkmoot for Judgement]]
-* [[Forannest]]
-* [[Forbidden Pool]]
-* [[Ford of Brithiach]] (Brithiach)
-* [[Ford of Bruinen]]
-* [[Sarn Athrad|Ford of Stones]] (Sarn Athrad)
-* [[Fords of Isen]]
-* [[Forest Gate]]
-* [[Brethil|Forest of Brethil]]
-* [[Forest of Neldoreth]]
-* [[Forest of Region]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Forest River]]
-* [[Forest Road]]
-* [[Forfalas]]
-* [[Forgotten Villages]]
-* [[Forlindon]]
-* [[Forlond]]
-* [[Formenos]]
-* [[Amon Anwar|Fornarthan]]
-* [[Fornost Erain]]
-* [[Forochel]]
-* [[Forodwaith (lands)|Forodwaith]]
-* [[Forostar]]
-* [[The Forsaken Inn|Forsaken Inn]]
-* [[Fôs' Almir]]
-* [[Eithel Nínui|Fountain of Tinúviel]]
-* [[Fox Downs]]
-* [[Framsburg]]
-* [[Frogmorton]]
-* [[Front Gate]]
-* [[Front Porch]]
-|}
-
-==G==
-{| width=100%
-|- valign=top
-| width=33.33% |
-* [[Belegost|Gabilgathod]] (Belegost)
-* [[Gamwich]]
-* [[Gap of Calenardhon]]
-* [[Gap of Rohan]]
-* [[Gardens of Lórien]]
-* [[Garth of the Graves]]
-* [[Gate of Gold]]
-* [[Gate of Isengard]]
-* [[Dark Door|Gate of the Dead]]
-* [[Gate of the Noldor]] (Annon-In-Gadydh)
-* [[Gate Stream]] (Sirannon)
-* [[Gates of Morning]]
-* [[Gates of Sirion]]
-* [[Gateway]]
-* [[Gelion]]
-* [[Gelion-Ascar Stockade]]
-* [[Gilrain]]
-* [[Ginglith]]
-* [[Girdle of Arda]]
-* [[Girdle of Melian]]
-* [[Girdley Island]]
-* [[Gladden Fields]]
-* [[Gladden River]]
-* [[Glanduin]]
-* [[Mering Stream|Glanhír]] (Mering Stream)
-* [[Gliding Water]]
-* [[Glithui]]
-* [[Glittering Caves]] (Aglarond)
-* [[Goblin-gate]] (Back-door)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Goblin-town]]
-* [[Golden Gates]]
-* [[Golden Hill]]
-* [[Golden Wood]] (Lórien)
-* [[Gollum's lake]]
-* [[Gondolin]]
-* [[Gondor]]
-* [[Swans of Gorbelgod|Gorbelgod]]
-* [[Pass of Aglon|Gorge of Aglon]]
-* [[Ered Gorgoroth|Gorgoroth]], Ered
-* [[Plateau of Gorgoroth|Gorgoroth]], Plateau of
-* great [[East Road]]
-* [[Great Chamber of Thrór]]
-* [[Swanfleet|Great Fens]] (Swanfleet)
-* [[Great Gates]]
-* [[Great Gulf]]
-* [[Great Hall of Feasts]]
-* [[Great Hall of Osgiliath]]
-* [[ Hall of the Chieftains]]
-* [[Great Hall of Thráin]]
-* [[Great Houses]]
-* [[Great Lakes]]
-* [[Great Lands]] (Middle-earth)
-* [[Great Market]]
-* [[Great Mound]] (Haudh-en-Ndengin)
-* [[Great Plains]]
-* [[Great Rift]]
-* [[Anduin|Great River]] (Anduin)
-* [[Great Shelf]] (Eagles' Eyrie)
-* [[Great Smials]]
-* [[Great Southern Forests]]
-* [[Great Square]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Great West Road]]
-* [[Old Man Willow|Great Willow]]
-* [[Greater Gelion]]
-* [[Green Dragon]]
-* [[Green Emberü]]
-* [[Green Hill Country]]
-* [[Green Hills]]
-* [[Pinnath Gelin|Green Hills]] (Pinnath Gelin)
-* [[Greenfields]]
-* [[Greenholm]]
-* [[Greenway]]
-* [[Mirkwood|Greenwood the Great]]
-* [[Grey Havens]] (Mithlond)
-* [[Grey Mountains]]
-* [[Grey Mountains (ancient)]]
-* [[Grey Wood]]
-* [[Greyflood]] (River Gwathlo)
-* [[Greylin]]
-* [[Grimslade]]
-* [[Grinding Ice]] (Helcaraxë)
-* [[Grindwall]]
-* [[Gruir]]
-* [[Talath Dirnen|Guarded Plain]] (Talath Dirnen)
-* [[Gulf of Lune|Gulf of Lhûn]]
-* [[Gundabad]]
-* [[Gwathló]], River (Gwathir, Greywood)
-|}
-
-==H==
-{| width=100%
-|- valign=top
-| width=33.33% |
-*[[Hadhodrond]]
-*[[Haeren]]
-*[[Haerast]]
-*[[Amon Anwar|Halifirien]] (Amon Anwar)
-*[[Brodda's hall|Hall of Brodda]]
-*[[Hall of Fire]]
-*[[Hallows]]
-*[[Mansions of Aulë|Halls of Aulë]]
-*[[Khazad-dûm|Halls of Durin]] (Khazad-dûm)
-*[[Halls of Mandos]]
-*[[Halls of Nienna]]
-*[[Hanstovánen]]
-*[[Harad]]
-*[[Harad Road]]
-*[[Hardbottle]]
-*[[Harfalas]]
-*[[Harlindon]]
-*[[Harlond (Gondor)]], Gondor
-*[[Harlond (Lindon)]], Gondor
-*[[Harnen]], River
-*[[South Gondor|Harondor]] (South Gondor)
-*[[Harrowdale]]
-*[[Haudh-en-Elleth]]
-*[[Hill of the Slain|Haudh-en-Ndengin]] (Hill of the Slain)
-*[[Hill of the Slain|Haudh-en-Nirnaeth]] (Hill of the Slain)
-*[[Haudh in Gwanûr]]
-*[[Dwimorberg|Haunted Mountain]] (Dwimorberg)
-*[[Cirith Gorgor|Haunted Pass]] (Cirith Gorgor)
-*[[Avallónë|Haven of the Eldar]] (Avallónë)
-*[[Haven of the Swans]] (Alqualondë)
-*[[Grey Havens|Havens of Mithlond]] (Grey Havens)
-*[[Mouths of Sirion|Havens of Sirion]]
-*[[Havens of the Falas]]
-*[[Umbar|Haven of Umbar]]
-*[[Buckland Gate|Hay Gate]] (Buckland Gate)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Haysend]]
-*[[Heath of the Sky-roof]]
-*[[Heats of the South]]
-*[[High Hay|Hedge]], the
-*[[Sea of Helcar|Helcar]], Sea of
-*[[Helcaraxë]]
-*[[Helevorn]]
-*[[Helluin]]
-*[[Helm's Deep]]
-*[[Helm's Dike]]
-*[[Helm's Gate]]
-*[[Henneth Annûn]]
-*[[Hidden Ferries]]
-*[[Hidden Way]]
-*[[Court of the Fountain (Minas Tirith)|High Court]] (Court of the Fountain)
-*[[Taur-en-Faroth|High Faroth]] (Taur-en-Faroth)
-*[[High Hay]] (The Hedge)
-*[[High Pass]]
-*[[Hildórien]]
-*[[Amon Anwar|Hill of Awe]] (Halifirien, Amon Anwar)
-*[[Hill of Erech]]
-*[[Hill of Guard]]
-*[[Amon Lhaw|Hill of Hearing]] (Amon Lhaw)
-*[[Hill of Himring]]
-*[[Taniquetil|Hill of Ilmarin]] (Taniquetil)
-*[[Hill of Oromet]]
-*[[Amon Hen|Hill of Seeing]] (Amon Hen)
-*[[Amon Ethir|Hill of Spies]] (Amon Ethir)
-*[[Amon Lhaw|Hill of the Ear]] (Amon Lhaw)
-*[[Amon Hen|Hill of the Eye]] (Amon Hen)
-*[[The Hill|Hill]], the
-*[[Hills of Agar]] (Pinnath Gelin)
-*[[Emyn Eglain|Hills of Eglamar]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Hills of Evendim]] (Emyn Uial)
-*[[Hills of Scary]]
-*[[Hill of the Slain]]
-*[[Himlad]]
-*[[Himring]]
-*[[Hírilorn]]
-*[[Hithlum]]
-*[[Misty Mountains|Hithaeglir]] (Misty Mountains)
-*[[Hither Lands]]
-*[[Hither Shore]] (Nevrast)
-*[[Hithlum]]
-*[[Hoarwell]] (River Mitheithel)
-*[[Hobbiton]]
-*[[Hobbiton Hill]] (The Hill)
-*[[Hobbiton Road]]
-*[[Hollin]] (Eregion)
-*[[Doors of Durin|Hollin Gate]] (Doors of Durin, West-door)
-*[[Hollin ridge]]
-*[[Hornburg]]
-*[[Hornrock]]
-*[[House of Oromë]]
-*[[House of the Hundred Chimneys]]
-*[[House of the Kings]]
-*[[House of the Mírdain]]
-*[[House of the Stewards]]
-*[[House of Ransom]]
-*[[House of Tulkas]]
-*[[Houses of Healing]]
-*[[Halls of Mandos|House of the Dead]] (Halls of Mandos)
-*[[Houses of the Dead]]
-*[[Huts of the raft-elves]]
-*[[Hyarastorni]]
-*[[Hyarmentir]]
-*[[Hyarnustar]]
-*[[Hyarrostar]]
-|}
-
-==I==
-{| width=100%
-|- valign=top
-| width=33.33% |
-* [[Iant Iaur]]
-* [[Icebay of Forochel]]
-* [[Ice of the North]] (Helcaraxë)
-* [[Idril's secret way]]
-* [[Trann|i Drann]] (the Shire)
-* [[Illuin]]
-* [[Ilmarin]]
-* [[Ilmen]], Chasm of
-* [[Ilmen]]
-* [[Ilu]]
-* [[Ilurambar]]
-* [[Imlad Morgul]] (Morgul Vale)
-* [[Rivendell|Imladris]] (Rivendell)
-* [[Imloth Melui]]
-* [[Imrath Gondraith]] (Stonewain Valley)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Inner Seas]]
-* [[Sea of Rhûn|Inland Sea]] (Sea of Rhûn)
-* [[Sea of Helcar|Inland Sea of Helcar]]
-* [[Írensaga]]
-* [[Angband|Iron Fortress]] (Angband)
-* [[Iron Hills]]
-* [[Iron Mountains]]
-* [[Irtinsa]]
-* [[Isen]]
-* [[Isengard]]
-* [[Isenmouthe]]
-* [[Ishmalog]]
-* [[Almaren|Isle of Almaren]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Isle of Balar]]
-* [[Isle of Elenna]]
-* [[Tol Eressëa|Isle of Eressëa]] (Tol Eressëa)
-* [[Meneltarma|Isle of Meneltarma]]
-* [[Tol-in-Gaurhoth|Isle of Werewolves]] (Tol-in-Gaurhoth)
-* [[Isles of the West]] (Aman)
-* [[Ithilien]]
-* [[Pools of Ivrin|Ivrin]] (Eithel Irvin)
-* [[Ivrin's Well]]
-* [[Ivy Bush]]
-|}
-
-==J==
-*N/A
-
-==K==
-{| width=100%
-|- valign=top
-| width=33.33% |
-* [[Kalormë]]
-* [[Kapalinda]]
-* [[Rivendell#Etymology|Karningul]] (Rivendell)
-* [[Celos|Kelos]]
-* [[Kelusindi]]
-* [[Khand]]
-* [[Moria|Khazad-dûm]]
-* [[Kheled-zâram]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Kibil-nâla]] (Spring of Silverlode)
-* [[Kingdom of the South]] (Gondor)
-* [[Kingdom under the Mountain]] (Erebor)
-* [[King's Court]]
-* [[King's House]]
-* [[Kingsland]] (Arandor [in Númenor])
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Arnor#Etymology|Kingsland]] (Arnor)
-* [[Fornost Erain|Kings' Norbury]] (Fornost Erain)
-* [[Ciril|Kiril]]
-* [[Cirith Ungol|Kirith Ungol]]
-* [[Kôr]]
-* [[Kortirion]]
-|}
-
-==L==
-{| width=100%
-|- valign=top
-| width=33.33% |
-*[[Ladros]]
-*[[Helevorn|Lake Helevorn]]
-*[[Lake Mithrim]]
-*[[Lake Evendim|Lake Nenuial]]
-*[[Lake-town]] (Esgaroth)
-*[[Lamedon]]
-*[[Lammoth]]
-*[[Lampwrights' Street]] (Rath Celerdain)
-*[[Dor-Cúarthol|Land of Bow and Helm]]
-*[[Númenor|Land of Gift]]
-*[[Dor Firn-i-Guinar|Land of the Dead that Live]] (Dor Firn-i-Guinar)
-*[[Land of the Sun]]
-*[[Middle-earth#Names|Lands Without]] (Middle-earth)
-*[[Anduin|Langflood]] (River Anduin)
-*[[Langstrand]] (Anfalas)
-*[[Langwell]], River
-*[[Lanthir Lamath]]
-*[[Last Bridge]] (Bridge of Mitheithel)
-*[[last Desert]]
-*[[Rivendell|Last Homely House]]
-*[[Methedras|Last Mountain]] (Methedras)
-*[[Last Shore]] (Eressëa, Calacirian)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Laurelin]]
-*[[Lothlórien|Laurelindórenan]] (Lórien)
-*[[Lebennin]]
-*[[Lefnui]], River
-*[[Legolin]], River
-*[[Lesser Market]]
-*[[Lhûn]] (River Lune)
-*[[Limlight]]
-*[[Linaewen]]
-*[[Lindon]]
-*[[Lothlórien|Lindórinan]] (Lórien)
-*[[Linhir]]
-*[[Lisgardh]]
-*[[Lithir]], River
-*[[Lithlad]]
-*[[Little Delving]]
-*[[Little Gelion]], River
-*[[Little Lune]]
-*[[Lockholes]] (at Michael Delving)
-*[[Loeg Ningloron]] (Gladden Fields)
-*[[Lond Daer|Lond Daer Enedh]] (Lond Daer)
-*[[Lone-lands]]
-*[[Tol Eressëa|Lonely Isle]] (Tol Eressëa)
-*[[Lonely Mountain]] (Erebor)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Longbottom]]
-*[[Long Cleeve]]
-*[[Long Lake]]
-*[[Long Marshes]]
-*[[Andram|Long Wall]], the (Andram)
-*[[Lórellin]]
-*[[Lothlórien|Lórien]]
-*[[Lórinand]] (Lórien)
-*[[Losgar]]
-*[[Lossarnach]]
-*[[Eressêa|Lost Isle]] (Eressêa)
-*[[Desert of Lostladen|Lostladen, Desert of]]
-*[[Lothlann]]
-*[[Lothlórien]]
-*[[Loudwater]] (River Bruinen)
-*[[Lower Halls]]
-*[[Barad-dûr|Lugbúrz]] (Barad-dûr)
-*[[Lhûn|Lune]] (River Lhûn)
-*[[Luinil]]
-*[[Lumbar]]
-*[[Luthany]]
-*[[Luvailin]] (Shadowmere)
-|}
-
-==M==
-{| width=100%
-|- valign=top
-| width=33.33% |
-*[[Bamfurlong|Maggot's Farm]] (Bamfurlong)
-*[[Maggot's Lane]]
-*[[Maglor's Gap]]
-*[[Máhanaxar]] (Ring of Doom)
-*[[Malduin]], River
-*[[Halls of Mandos|Mandos]], Halls of
-*[[Mansions of Aulë]]
-*[[March of Maedhros]]
-*[[Marish]], The
-*[[Riddermark|Mark]], The (Riddermark)
-*[[Mar-nu-Falmar]] (Atalantë)
-*[[Marshes in the south]]
-*[[Marshes of Nevrast]]
-*[[Meduseld]]
-*[[Men-i-Naugrim]] (Forest Road)
-*[[Menegroth]]
-*[[Menelrond]]
-*[[Menelmacar]]
-*[[Menelmakil]]
-*[[Meneltarma]]
-*[[Menelvagor]]
-*[[Mere of Dead Faces]]
-*[[Meres of Twilight]] (Aelin-uial)
-*[[Great Hall of Feasts|Merethrond]] (Hall of Feasts)
-*[[Mering Stream]]
-*[[Methed-en-glad]]
-*[[Methedras]]
-*[[Methiriad]]
-*[[Michel Delving]]
-*[[Middle-earth]]
-*[[Midgewater Marshes]]
-*[[Old Mill|Mill]], Sandyman's (Old Mill)
-*[[Minas Anor]]
-*[[Minas Morgul|Minas Ithil]]
-*[[Minas Morgul]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Minas Tirith]] (Gondor)
-*[[Minas Tirith (Beleriand)|Minas Tirith]] (Tol Sirion)
-*[[Mindeb]], River
-*[[Mindolluin]], Mount
-*[[Mindon Eldaliéva]]
-*[[Minhiriath]]
-*[[Min-Rimmon]]
-*[[Mirkwood]]
-*[[Mirrormere]]
-*[[Misty Mountains]] (Hithaeglir)
-*[[Mithe]]
-*[[Mithe Steps]]
-*[[Mitheithel]] (River Hoarwell)
-*[[Grey Havens|Mithlond]] (Grey Havens)
-*[[Mithrim]]
-*[[Mittalmar]]
-*[[Moors of the Nibin-noeg|Moors of the Neweglu]]
-*[[Moors of the Nibin-noeg]]
-*[[Folkmoot for Judgement|Moot of Brethil]]
-*[[Moot-ring]]
-*[[Black Gate|Morannon]]
-*[[Mordor]]
-*[[Morgai]]
-*[[Morgul Pass]]
-*[[Morgul-road]]
-*[[Morgulduin]], River
-*[[Moria]] (Khazad-dûm)
-*[[Moria]], Mountains of
-*[[Moriondë]]
-*[[Mornan]]
-*[[Morthond]], River
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Mound of the Riders]]
-*[[Mounds of Mundburg]]
-*[[Mountains of Moria]]
-*[[Dolmed|Mount Dolmed]]
-*[[Mount Doom]]
-*[[Taniquetil|Mount Everwhite]] (Taniquentil)
-*[[Mount Fang]] (Orthanc)
-*[[Mount Gram]]
-*[[Gundabad|Mount Gundabad]]
-*[[Mindolluin|Mount Mindolluin]]
-*[[Orod-na-Thôn|Mount of the Pine Tree(s)]] (Orod-na-Thôn)
-*[[Rerir|Mount Rerir]]
-*[[Taras|Mount Taras]]
-*[[Mountain of Fire]]
-*[[Pelóri|Mountains of Aman]] (The Pelóri)
-*[[Mountains of Angmar]]
-*[[Blue Mountains|Mountains of Lune]] (Ered Luin, Blue Mountains)
-*[[Mountains of Mirkwood]]
-*[[Mountains of Mithrim]]
-*[[Ered Wethrin|Mountains of Shadow]] (Ered Wethrin)
-*[[Ephel Dúath|Mountains of Shadow]] (Ephel Dúath)
-*[[Mountains of Terror]] (Ered Gorgoroth)
-*[[Ered Gorgoroth|Mountains of the East]] (Orocarni)
-*[[Mountain Wall]]
-*[[Ethir Anduin|Mouths of Anduin]]
-*[[Mouths of Entwash]]
-*[[Mouths of Sirion]]
-*[[Mundburg]] (Minas Tirith of Gondor)
-|}
-
-==N==
-{| width=100%
-|- valign=top
-| width=33.33% |
-*[[Naith]], the
-*[[Mordor|Nameless Land]] (Mordor)
-*[[Nan Curunír]]
-*[[Nan Dungortheb]]
-*[[Nan Elmoth]]
-*[[Nan-tathren]] (Tasarinan)
-*[[Nanduhirrion]]
-*[[Narchost]]
-*[[Nardol]]
-*[[Nargil Pass]]
-*[[Nargothrond]]
-*[[Narog]], River
-*[[Narrows of the Forest]]
-*[[Near Harad]]
-*[[Needlehole]]
-*[[Forest of Neldoreth|Neldoreth]], Forest of
-*[[Neldoreth (Rhûn)]]
-*[[Nen (river in Valinor)|Nen]]
-*[[Nénar]]
-*[[Cuiviénen|Nen Echui]] (Cuiviénen)
-*[[Nen Girith]] (Dimrost)
-*[[Nen Hithoel]]
-*[[Nen Lalaith]]
-*[[Nenning]], River
-*[[Nenuial]] (Lake Evendim)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Nether Darkness]]
-*[[Nevrast]] (Hither Shore)
-*[[Nevrast]]
-*[[Lond Daer Enedh|New Haven]] (Lond Daer Enedh)
-*[[New lands]]
-*[[Newbury]]
-*[[Nimbrethil]]
-*[[Nimrodel]], River
-*[[Nindalf]]
-*[[Nindamos]]
-*[[Gladden River|Ninglor]] (River Gladden)
-*[[Nîn-in-Eilph]] (Swanfleet)
-*[[Nísimaldar]]
-*[[Nísinen]], Lake
-*[[Nivrim]]
-*[[Nobottle]]
-*[[Nogrod]]
-*[[Noirinan]]
-*[[Noman-lands]]
-*[[Fornost|Norbury]] (Fornost)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Nornhabar]]
-*[[North Cape]]
-*[[North Downs]]
-*[[North End]] (Moria)
-*[[North Farthing]]
-*[[Buckland Gate|North Gate]] (Buckland Gate)
-*[[North Ithilien]]
-*[[Arnor|North Kingdom]] (Arnor)
-*[[Northlands]]
-*[[North March]] (Gondor)
-*[[North Marches of Beleriand]]
-*[[North-march]] (Brethil)
-*[[North Moors]]
-*[[North Road]]
-*[[North Road of Ithilien]] (Southward Road)
-*[[North-South Road]]
-*[[North Stair]]
-*[[North Undeep]]
-*[[North-way]]
-*[[Eriador|Northerland]] (Eriador)
-*[[Northern Dark]]
-*[[Northern Waste]]
-*[[Novrod]] (Nogrod)
-*[[Woods of Núath|Núath]] , Woods of
-*[[Númenor|Númendor]] (Númenor)
-*[[Númenor]]
-*[[Nunduinë]]
-*[[Nurn]]
-|}
-
-==O==
-{| width=100%
-|- valign=top
-| width=33.33% |
-* [[Oatbarton]]
-* [[Obel Halad]]
-* [[Ocean]]
-* [[Taniquetil|Oiolossë]] (Taniquetil)
-* [[Oiomúrë]]
-* [[Iant Iaur|Old Bridge]] (Iant Iaur)
-* [[Old Ford]]
-* [[Old Forest]]
-* [[Old Forest Road]]
-* [[Old Grange]]
-* [[Old Guesthouse]] (Sennas Iaur)
-* [[Old Mill]]
-* [[Drúwaith Iaur|Old Púkel land]] (Drúwaith Iaur)
-* [[Old Road]]
-* [[Old South Road (Beleriand)]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Old South Road]] (Middle-earth)
-* [[Old Winyards]]
-* [[Old World]]
-* [[Ondolindë]] (Gondolin)
-* [[Ondoluncanando]] (Stonewain Valley)
-* [[Gondor|Ondonórë]] (Gondor)
-* [[Ondosto]]
-* [[Onodló]] (Entwash)
-* [[Orc-holds]]
-* [[Orfalch Echor]]
-* [[Ormal]]
-* [[Orocarni]] (Red Mountains)
-* [[Orod-na-Thôn]] (Pine-mountain)
-* [[Mount Doom|Orodruin]] (Mount Doom)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Oromet]]
-* [[Orrostar]]
-* [[Orthanc]]
-* [[Osgiliath]]
-* [[Ossiriand]]
-* [[Ost-in-Edhil]]
-* [[Valinor|Otherworld]] (Valinor, in the ''[[Eärendillinwë]]'')
-* [[Void|Outer Dark]] or [[Void|Outer Darkness]]
-* [[Outer Lands]]
-* [[Outer Sea]]
-* [[Outlands]]
-* [[Overbourn]]
-* [[Overbourn Marshes]]
-* [[Overhill]]
-|}
-
-==P==
-{| width=100%
-|- valign=top
-| width=33.33% |
-*[[Palisor]]
-*[[Field of Celebrant|Parth Celebrant]] (Field of Celebrant)
-*[[Parth Galen]]
-*[[Party Field]]
-*[[Pass of Aglon]]
-*[[Anach|Pass of Anach]]
-*[[Pastures of Yavanna]]
-*[[Paths of the Dead]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Pelargir]]
-*[[Pelennor Fields]]
-*[[Pelóri]]
-*[[Pen-arduin]]
-*[[Phûrunargian]] (Khazad-dûm)
-*[[Argonath|Pillars of the King]] (Argonath)
-*[[Pincup]]
-*[[Orod-na-Thôn|Pine-mountain]] (Orod-na-Thôn)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Pine of Tavrobel]]
-*[[Pinnath Gelin]]
-*[[Place of the Fountain]]
-*[[Place of the Well]]
-*[[Pool of Bywater]]
-*[[Pool-side]]
-*[[Pools of Ivrin]] (Eithel Ivrin)
-*[[Poros]], River
-*[[The Prancing Pony|Prancing Pony]], the
-|}
-
-==Q==
-*[[Qerkaringa]]
-*[[Quarry]]
-
-==R==
-{| width=100%
-|- valign=top
-| width=33.33% |
-*[[Radhrim]]
-*[[Rainbow Cleft]] (Cirith Ninniach)
-*[[Ramdal]]
-*[[Rammas Echor]]
-*[[Ras Mewrim]]
-*[[Ras Morthil]] (Andrast)
-*[[Rath Celerdain]]
-*[[Rath Dínen]]
-*[[Rathlóriel]]
-*[[Rauros]]
-*[[Ravenhill]]
-*[[Ravines of Taeglin|Ravines of Teiglin]] (Cabed-en-Aras)
-*[[Caradhras|Redhorn]] (Caradhras)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Caradhras|Redhorn Gate]], Pass
-*[[Redwater]] (River Carnen)
-*[[Forest of Region|Region]]
-*[[Region of Everlasting Cold]]
-*[[Remmirath]]
-*[[Reunited Kingdom]]
-*[[Rhimdath]]
-*[[Rhosgobel]]
-*[[Rhovanion]]
-*[[Rhudaur]]
-*[[Rhûn]]
-*[[Min-Rimmon]] (Min-Rimmon)
-*[[Máhanaxar|Ring of Doom]] (Máhanaxar)
-*[[Ring of Isengard]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Ringil (tower)|Ringil]] (tower)
-*[[Sea of Ringil|Ringil, Sea of]]
-*[[Ringló]], River
-*[[Ringló Vale]]
-*[[Ringwil]], River
-*[[Rivendell]] (Imladris)
-*[[River Running]]
-*[[Rivil]]
-*[[Rivil's Well]]
-*[[Road of Arches]]
-*[[Road of Pomps]]
-*[[Rohan|Rochand]] (Rohan)
-*[[Rómenna]]
-*[[Rôs]]
-*[[Ruamórë]]
-*[[Rhûn#Other versions of the Legendarium|Rûnaer]]
-*[[Rushdown]]
-*[[Rushock Bog]]
-*[[Rushey|Rushy]] (Rushey)
-|}
-
-==S==
-{| width=100%
-|- valign=top
-| width=33.33% |
-*[[Sammath Naur]]
-*[[Old Mill|Sandyman's Mill]] (Old Mill)
-*[[Sarn Athrad]]
-*[[Sarn Ford]] (Sarn Athrad of Eriador)
-*[[Sarn Gebir]]
-*[[Sauron's Isle]] (Tol Sirion)
-*[[Sauron's Road]]
-*[[Sauron's Temple]]
-*[[Scary]]
-*[[The Sea|Sea]], the
-*[[Sea of Helcar]]
-*[[Sea of Núrnen]]
-*[[Sea of Rhûn]]
-*[[Sea of Ringil]]
-*[[Seat of Hearing]]
-*[[Seat of Seeing]]
-*[[Sea-ward Tower]]
-*[[Second Hall]]
-*[[Serni]] (River Sernui)
-*[[Seven Gates of Gondolin]]
-*[[Seventh Level]]
-*[[Seven Stars]]
-*[[Luvailin|Shadowmere]] (Luvailin)
-*[[Enchanted Isles|Shadowy Isles]] (Enchanted Isles)
-*[[Ered Wethrin|Shadowy Mountains]] (Ered Wethrin)
-*[[Ephel Dúath|Shadowy Mountains]] (Ephel Dúath)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Shadowy Seas]]
-*[[Shadowy Spring]]
-*[[Amon Rûdh|Sharabhund]] (Amon Rûdh)
-*[[Shathûr]] (Cloudyhead)
-*[[Shelob's Lair]]
-*[[The Shire|Shire]], the
-*[[Shirebourn]], River
-*[[Back Door|Side-door]]
-*[[Celebrant|Silverlode]], River (Celebrant)
-*[[Celebdil|Silvertine]] (Celebdil)
-*[[Sindanórie]]
-*[[Sirannon]]
-*[[Siril]], River
-*[[Sirion]], River
-*[[Sirith]], River
-*[[Sirnúmen]]
-*[[Gladden River|Sîr Ninglor]]
-*[[Slag-hills]]
-*[[Snowbourn]], River
-*[[Snowmane's Howe]]
-*[[Sorontil]]
-*[[Soronúmë]]
-*[[South Downs]]
-*[[Southern Fiefs]]
-*[[Southfarthing|South Farthing]]
-*[[South Gondor]]
-*[[South Ithilien]]
-*[[Gondor|South Kingdom]] (Gondor)
-*[[South Lane]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Old South Road|South Road]], Eriador
-*[[South Road]], Gondor
-*[[South Undeep]]
-*[[Southward Road]]
-*[[Spider's Ring]]
-*[[Staddle]]
-*[[Stair Falls]]
-*[[Stair of the Hold]]
-*[[Stairs of Cirith Ungol]]
-*[[Standelf]]
-*[[Starkhorn]]
-*[[Star of Eärendil]]
-*[[Fen Hollen|Steward's Door]] (Fen Hollen)
-*[[Stock]]
-*[[Stock Road]]
-*[[Stock-brook|Stockbrook]]
-*[[Stone-city]]
-*[[Stone-houses]]
-*[[Stonewain Valley]]
-*[[Gondor|Stoningland]] (Gondor)
-*[[Straight Road]]
-*[[Straight Stair]]
-*[[Straits of the World]]
-*[[Sun]]
-*[[Sundering Seas]] (Belegaer)
-*[[Sunlands]] (Harad and beyond)
-*[[Sunlendings]] (Anórien)
-*[[Hornburg|Sûthburg]] (Hornburg)
-*[[Sûza]] (The Shire)
-*[[Swanfleet]]
-|}
-
-==T==
-{| width=100%
-|- valign=top
-| width=33.33% |
-*[[Taeglin]], River
-*[[Talath Dirnen]]
-*[[Taruithorn]]
-*[[Thargelion|Talath Rhûnen]] (Thargelion)
-*[[Taniquetil]]
-*[[Fôs' Almir|Tanyasalpë]] (Fôs' Almir)
-*[[Taras]]
-*[[Taras-ness]]
-*[[Tar-Minastir]]
-*[[Tarlang's Neck]]
-*[[Tarmasundar]]
-*[[Tarn Aeluin]]
-*[[Tarnost]]
-*[[Tasarinan]] (Nan-tathren)
-*[[Tauremorna]] (Fangorn)
-*[[Fangorn Forest|Tauremornalómë]] (Fangorn)
-*[[Mirkwood|Taur e-Ndaedelos]] (Mirkwood)
-*[[Taur-en-Faroth]]
-*[[Taur-im-Duinath]]
-*[[Dorthonion#Etymology|Taur-na-Foen]] (Dorthonion)
-*[[Forest of Neldoreth|Taur-Na-Neldor]] (Forest of Neldoreth)
-*[[Taur-nu-Fuin (Dorthonion)|Taur-nu-Fuin]] (Dorthonion)
-*[[Mirkwood|Taur-nu-Fuin]] (Mirkwood)
-*[[Tavrobel]]
-*[[Teeth of Mordor]]
-*[[Tekel-Mirim]]
-*[[Telperion]]
-*[[Telumendil]]
-*[[Temple of Sauron]]
-*[[Thalos]], River
-*[[Thangorodrim]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Tharbad]]
-*[[Thargelion]]
-*[[The Wild]]
-*[[Third Deep]] (Moria)
-*[[Thistle Brook]]
-*[[Thorin's Halls]]
-*[[Thorn Sir]]
-*[[Menegroth|Thousand Caves]] (Menegroth)
-*[[Three-Farthing Stone]]
-*[[Thrihyrne]]
-*[[Tighfield]]
-*[[Til (star)]]
-*[[Timeless Halls]]
-*[[Tindrock]] (Tol Brandir)
-*[[Tirion]]
-*[[Tirin na Gilweth]]
-*[[Tirith Aear]]
-*[[Tol Brandir]]
-*[[Tol Eressëa]] (Eressëa)
-*[[Tolfalas]]
-*[[Tol Fuin]]
-*[[Tol Galen]]
-*[[Tol-in-Gaurhoth]] (Tol Sirion)
-*[[Tol Morwen]]
-*[[Tol Sirion]]
-*[[Tol Uinen]]
-*[[Tol Withernon]]
-*[[Tomb of Elendil]]
-*[[Tomb of the Kings]]
-*[[Tongue]]
-*[[Tookbank]]
-*[[Tookland]]
-*[[Tompollë]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Shelob's Lair|Torech Ungol]] (Shelob's Lair)
-*[[Tower Hall]]
-*[[Tower Hills]]
-*[[Tower of Avallónë]]
-*[[Tower of Cirith Ungol]]
-*[[Tower of Ecthelion]] (White Tower)
-*[[Mindon Eldaliéva|Tower of Ingwë]] (Mindon Eldaliéva)
-*[[Tower of the King]]
-*[[Tower of Pearl]]
-*[[Tower of the Stone]]
-*[[Towers of the Teeth]] (Narchost, Carchost)
-*[[Town Hole]]
-*[[Tram Nybol]]
-*[[Treebeard's Hill]]
-*[[Treegarth of Orthanc]]
-*[[Trolls' lair]]
-*[[Trollshaws]]
-*[[Troll Ridge]]
-*[[Tuckborough]]
-*[[Tumhalad]]
-*[[Tumladen|Tumladen of Gondolin]]
-*[[Tumladen (Gondor)|Tumladen of Gondor]]
-*[[Tumunzahar]] (Nozgrod)
-*[[Túna]]
-*[[Twenty-First Hall]]
-*[[Aelin-uial|Twilight Meres]] (Aelin-uial)
-*[[Two Trees of Valinor]]
-*[[Two Watchers]]
-*[[Barrow-downs|Tyrn Gorthad]] (Barrow-downs)
-|}
-
-==U==
-{| width=100%
-|- valign=top
-| width=33.33% |
-*[[Udul]]
-*[[Udûn (stronghold)|Udûn]] (Utumno)
-*[[Udûn (valley)|Udûn of Mordor]]
-*[[Umbar]]
-*[[Aelin-uial|Umboth-muilin]] (Aelin-uial, Twilight Meres)
-*[[Undeeps]] (North and South)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Undergate]]
-*[[Underhill (house)|Underhill]] (house of Tom Bombadil)
-*[[Underhill (village)|Underhill]]
-*[[Under-way]]
-*[[Underharrow]]
-*[[Undertowers]]
-*[[Undying Lands]] (Aman and Eressëa)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Ulmonan]]
-*[[Upbourn]]
-*[[Uttermost West]] (Aman and Eressëa)
-*[[Utumno]]
-|}
-
-==V==
-{| width=100%
-|- valign=top
-| width=33.33% |
-*[[Vaiya]]
-*[[Valacirca]]
-*[[Vale of Sirion]]
-*[[Vales of Anduin]]
-*[[Valinor|Valandor]] (Valinor)
-*[[Valimar]]
-*[[Valmar]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Valinor]]
-*[[Veil of Arda]]
-*[[Verna]]
-*[[Vinyalondë]] (Lond Daer Enedh)
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-*[[Vinyamar]]
-*[[Vista]]
-*[[Void]]
-|}
-
-==W==
-{| width=100%
-|- valign=top
-| width=33.33% |
-* [[Waking Water]] (Cuiviénen)
-* [[Wall's End]] (Ramdal)
-* [[Walls of Moria]]
-* [[Walls of Night]]
-* [[Walls of the Sun]]
-* [[Walls of the World]]
-* [[Waste]]
-* [[Treegarth of Orthanc|Watchwood]] (Treegarth of Orthanc)
-* [[Water-valley]]
-* [[Water of Awakening]] (Cuiviénen)
-* [[Way of Escape]]
-* [[Way of Running Waters]]
-* [[Waymeet]]
-* [[Weather Hills]]
-* [[Weathertop]]
-* [[Wellinghall]]
-* [[Wells of Ivrin]] (Eithil Ivrin)
-* [[Wells of Varda]]
-* [[Doors of Durin|West-door]] (Hollin Gate)
-* [[West-gate of Bree]]
-* [[Doors of Durin|West-gate of Moria]] (Doors of Durin)
-* [[West-march]]
-* [[West-mark]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[West Beleriand]]
-* [[Uttermost West|West of the World]]
-* [[West Pass]] (Pass of Sirion)
-* [[West Road]]
-* [[Westemnet]]
-* [[Annúminas|Westermanton]] (Annúminas)
-* [[Western Sea]] (Belegaer)
-* [[Western Shore]] (Falas)
-* [[Westernesse]] (Númenor)
-* [[Westfarthing]]
-* [[Westfold]]
-* [[Westfold Vale]]
-* [[Westlands]]
-* [[Westmarch]]
-* [[Wetwang]] (Nindalf)
-* [[Whispering Wood]] (Firien Wood)
-* [[White Downs]]
-* [[White House of Erendis]]
-* [[White Mountain]] (Taniquetil)
-* [[White Mountains]] (Ered Nimrais)
-* [[White pillar]]
-* [[Tower of Ecthelion|White Tower]] (Minas Tirith)
-* [[White Towers]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Whitfurrows]]
-* [[Whitwell]]
-* [[Wild Wood]]
-* [[Rhovanion|Wilderland]]
-* [[Willowbottom]]
-* [[Wilwarin]]
-* [[Windle-reach]]
-* [[Winding Stair]]
-* [[Window-curtain]] (Falls)
-* [[Window of the Eye]]
-* [[Window of the West]] (Henneth Annûn)
-* [[Withered Heath]]
-* [[Brown Lands|Withered Wold]]
-* [[Withywindle|Withywindle River]]
-* [[Withy-weir]]
-* [[Wizard's Isle]] (Tol-in-Gaurhoth)
-* [[Nan Curunír|Wizard's Vale]] (Nan Curunír)
-* [[Wold]]
-* [[Wood of Anwar]] (Firien Wood)
-* [[Woods of Oromë]]
-* [[Woodhall]]
-* [[Woodland Realm]]
-* [[Woody End]]
-|}
-
-==X==
-*N/A
-
-==Y==
-{| width=100%
-|- valign=top
-| width=33.33% |
-* [[The Yale]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Yellow Mountains]]
-| width=33.33% style="border-left: 1px solid #9999FF; padding-left:1em;"|
-* [[Yôzâyan]] (Númenor)
-|}
-==Z==
-* [[Celebdil|Zirakzigil]] (Celebdil or Silvertine)
-
-{{DEFAULTSORT:{{PAGENAME}}}}
-[[Category:Index]]
-[[Category:Locations| ]]
+Abyss
+Achad Tarlang
+Adorn
+Adurant
+Aelin-uial
+Aeluin-uial
+Afros
+Agar
+Agathurush
+Aglarond
+Aglon
+Aiwenor
+Aiwenórë
+Akallabêth
+Alalminórë
+Alcarinquë
+Aldalómë
+Aldburg
+Alley of Roses
+Almaida
+Almaren
+Alqualondë
+Aman
+Ambaróna
+Amon Amarth
+Amon Anwar
+Amon Darthir
+Amon Dîn
+Amon Ereb
+Amon Ethir
+Amon Gwareth
+Amon Hen
+Amon Lanc
+Amon Lhaw
+Amon Obel
+Amon Rûdh
+Amon Sûl
+Amon Uilos
+Anach
+Anadûnê
+Anar
+Anarríma
+Ancient West
+Andafalassë
+Andor
+Andórë
+Andram
+Andrast
+Andrath
+Androth
+Anduin
+Andustar
+Andúnië
+Anfalas
+Anfauglith
+Angamando
+Angband
+Anghabar
+Angle
+Angmar
+Angren
+Angrenost
+Annon-In-Gadydh
+Annon-in-Gelydh
+Annúminas
+Antaro
+Anórien
+Araman
+Arandor
+Arandóre
+Arch of Inwë
+Archet
+Ard-galen
+Arda
+Ardaranyë
+Argonath
+Armenelos
+Arnach
+Arnor
+Aros
+Arossiach
+Arthedain
+Arthor na Challonnas
+Arthor na Forlonnas
+Arthórien
+Arvernien
+Ascar
+Ash Mountains
+Astulat
+Atalantë
+Athrad Angren
+Atlantë
+Atyamar
+Avallónë
+Avathor
+Azanulbizar
+Back Door
+Bag End
+Bagshot Row
+Balar
+Balin's Tomb
+Bamfurlong
+Bar-en-Danwedh
+Bar-en-Dunwedh
+Bar-en-Nibin-noeg
+Bar-erib
+Bar-in-Mŷl‎
+Barad Eithel
+Barad Nimras
+Barad-dûr
+Baranduin
+Barazinbar
+Barrow-downs
+Barrowfield
+Battle Pit
+Battle Plain
+Bay of Andúnië
+Bay of Balar
+Bay of Belfalas
+Bay of Eldamar
+Bay of Eldanna
+Bay of Rómenna
+Belegaer
+Belegost
+Beleriand
+Belfalas
+Bent Seas
+Beorn's Hall
+Beorn's House
+Bindbale Wood
+Bindbole Wood
+Birchwoods of Nimbrethil
+Black Gate
+Black Land
+Black Pit
+Black Pits
+Blackroot
+Blessed Realm
+Blue Mountains
+Bombadil's House
+Bonfire Glade
+Bony ridge
+Borgil
+Branda-nîn
+Brandywine Bridge
+Brandywine River
+Bree
+Bree Hill
+Bree-hill
+Bree-land
+Breredon
+Brethil
+Bridge of Esgalduin
+Bridge of Khazad-dûm
+Bridge of Mitheithel
+Bridge of Nargothrond
+Bridge of Stonebows
+Bridgefields
+Brilthor
+Brilthor River
+Brithiach
+Brithombar
+Brithon
+Brithon River
+Brockenbores
+Brodda's hall
+Brook of Glass
+Brown Lands
+Bruinen
+Buck Hill
+Buckland
+Buckland Gate
+Bucklebury
+Bucklebury Ferry
+Budgeford
+Bundushathûr
+Bywater
+Bywater Pool
+Bywater Road
+Cabed Naeramarth
+Cabed-en-Aras
+Cair Andros
+Calacirian
+Calacirya
+Calembel
+Calenardhon
+Calenhad
+Calmindon
+Cape Andras
+Cape Balar
+Cape of Andrast
+Cape of Forochel
+Carach Angren
+Caradhras
+Caradhras or Redhorn
+Caragdûr
+Caras Galadhon
+Carchost
+Cardolan
+Carn Dûm
+Carnen
+Carnil
+Carrock
+Causeway
+Causeway Forts
+Caverns of Helm's Deep
+Caverns of Narog
+Caves of the Forgotten
+Celbaros
+Celduin
+Celebdil
+Celebran
+Celebrant
+Celebros
+Celon
+Celos
+Cerin Amroth
+Chamber of Mazarbul
+Chamber of Records
+Chambers of Fire
+Chasm of Ilmen
+Chetwood
+Chill Gulf
+Circles of the World
+Ciril
+Cirith Dúath
+Cirith Forn en Andrath
+Cirith Gorgor
+Cirith Ninniach
+Cirith Ninniach (Rainbow Cleft)
+Cirith Thoronath
+Cirith Ungol
+Citadel of Gondor
+Citadel of Stars
+City Wall
+City of the Corsairs
+Cleft of the mountains
+Cloudyhead
+Cobas Haven
+Coldfells
+Combe
+Cormallen
+Corollairë
+Coron Oiolairë
+Cottage of Lost Play
+Court of the Fountain
+Cracks of Doom
+Crickhollow
+Crissaegrim
+Cristhorn
+Cross-roads
+Crossings of Erui
+Crossings of Poros
+Crossings of Teiglin
+Crossings of the Taeglin
+Crown of the Hidden Kingdom
+Cuiviénen
+Côf Belfalas
+Cú nan Eilch
+Cûl Bîn
+Cûl Veleg
+Cûm-nan-Arasaith
+Dagorlad
+Dale
+Dark Door
+Dark Gate
+Dark Land
+Dark Tower
+Dead Marshes
+Deadmen's Dike
+Death Down
+Deathless Lands
+Deephallow
+Deeping
+Deeping Coomb
+Deeping Stream
+Deeping Wall
+Deeping-coomb
+Deeping-road
+Deeping-stream
+Deer's Leap
+Deldúwath
+Derndingle
+Desert of Lostladen
+Desert of Lothlann
+Desolation of Smaug
+Desolation of the Dragon
+Desolation of the Morannon
+Dimbar
+Dimholt
+Dimrill Dale
+Dimrill Gate
+Dimrill Stair
+Dimrost
+Dol Amroth
+Dol Baran
+Dol Guldur
+Dol Tarlang
+Dolmed
+Dome of Stars
+Dome of Varda
+Door of Night
+Doors of Durin
+Dor Caranthir
+Dor Daedeloth
+Dor Dínen
+Dor Firn-i-Guinar
+Dor-Cúarthol
+Dor-Nu-Fauglith
+Dor-en-Ernil
+Dor-lómin
+Doriath
+Dorthonion
+Dorwinion
+Downlands
+Drengist
+Dry River
+Drúadan Forest
+Drúwaith Iaur
+Drûn
+Duilwen
+Dungortheb
+Dunharrow
+Dunland
+Durin's Bridge
+Durin's Crown
+Durin's Tower
+Durthang
+Dwaling
+Dwarf-road of Beleriand
+Dwarrowdelf
+Dwimorberg
+Dwimorberg glen
+Dwimordene
+Dáin's hall
+Dúnharg
+Eagle's Eyrie
+East Bight
+East Lórien
+East March
+East Road
+East Sea
+East Wall of Rohan
+East-gate
+East-mark
+Eastemnet
+Eastemnet Downs
+Eastern Eriador
+Eastfarthing
+East Farthing
+Eastfold
+Eastwood
+Echad i Sedryn
+Echoing Hills
+Echoriad
+Echoriath
+Edge of the Wild
+Edhellond
+Edoras
+Egladil
+Eglador
+Eglamar
+Eglarest
+Eilenach
+Eilenaer
+Eithel Ivrin
+Eithel Nínui
+Eithel Sirion
+Ekkaia
+Eldalondë
+Eldalondë the Green
+Eldamar
+Elemmírë
+Elendë
+Elenna
+Elennanórê
+Elerrína
+Elf-path
+Ellor Eshúrizel
+Elostirion
+Elros' tower
+Elvenhome
+Elvenking's Halls
+Elvet-isle
+Elwing's tower
+Emerië
+Empty Lands
+Emyn Arnen
+Emyn Beraid
+Emyn Duir
+Emyn Eglain
+Emyn Muil
+Emyn Uial
+Emyn-nu-Fuin
+Enchanted Isles
+Enchanted River
+Encircling Mountains
+Encircling Sea
+Endamar
+Endless Stair
+Endor
+Ened
+Enedwaith
+Entwade
+Entwash
+Entwash Vale
+Entwood
+Ephel Brandir
+Ephel Dúath
+Erebor
+Erech
+Ered
+Ered Engrin
+Ered Gorgoroth
+Ered Lindon
+Ered Lithui
+Ered Luin
+Ered Lómin
+Ered Mithrin
+Ered Nimrais
+Ered Wethrin
+Eregion
+Erelas
+Erendis
+Eressêa
+Eressëa
+Eriador
+Erui
+Eryn Fuir
+Eryn Galen
+Eryn Vorn
+Esgalduin
+Esgaroth
+Estirin
+Estolad
+Ethir Anduin
+Ethraid Engrin
+Ethring
+Ettendales
+Ettenmoors
+Evadrien
+Evendim
+Evereven
+Everholt
+Evernight
+Eyrie
+Ezellohar
+Eä
+Eärendil
+Eärendillinwë
+Faerie
+Falas
+Falassë Númëa
+Falls of Esgalduin
+Falls of Gelion
+Falls of Rauros
+Falls of Sirion
+Fangorn
+Fangorn Forest
+Fanuidhol
+Fanyamar
+Far Downs
+Far Harad
+Faskala-númen
+Faskalan
+Fëanáro
+Fen Hollen
+Fen of Serech
+Fenmarch
+Fens of Sirion
+Ferry Lane
+Field of Celebrant
+Field of Cormallen
+Fingolfin's Cairn
+Firien Wood
+Firienfeld
+Firienholt
+Firmament
+First Deep
+First Hall
+Firth of Drengist
+Firth of Rómenna
+Fladweth Amrod
+Foen
+Folde
+Folkmoot for Judgement
+Forannest
+Forbidden Pool
+Ford of Brithiach
+Ford of Bruinen
+Ford of Stones
+Fords of Isen
+Forest Gate
+Forest River
+Forest Road
+Forest of Neldoreth
+Forest of Region
+Forfalas
+Forgotten Villages
+Forlindon
+Forlond
+Formen
+Formenos
+Fornarthan
+Fornost
+Fornost Erain
+Forochel
+Forodwaith
+Forostar
+Forsaken Inn
+Fountain of Tinúviel
+Fox Downs
+Framsburg
+Frogmorton
+Front Gate
+Front Porch
+Fôs' Almir
+Gabilgathod
+Gamwich
+Gap of Calenardhon
+Gap of Rohan
+Gardens of Lórien
+Garth of the Graves
+Gate Stream
+Gate of Gold
+Gate of Isengard
+Gate of Wood
+Gate of the Noldor
+Gates of Morning
+Gates of Sirion
+Gateway
+Gelion
+Gelion-Ascar
+Gilrain
+Ginglith
+Girdle of Arda
+Girdle of Melian
+Girdley Island
+Gladden Fields
+Gladden River
+Glanduin
+Glanhír
+Gliding Water
+Glithui
+Glittering Caves
+Goblin-gate
+Goblin-town
+Golden Gates
+Golden Hill
+Golden Wood
+Gollum's lake
+Gondolin
+Gondor
+Gorge of Aglon
+Gorgoroth
+Great Chamber of Thrór
+Great Fens
+Great Gates
+Great Gulf
+Great Hall of Feasts
+Great Hall of Osgiliath
+Great Hall of Thráin
+Great Houses
+Great Lakes
+Great Lands
+Great Market
+Great Mound
+Great Plains
+Great Rift
+Great Shelf
+Great Smials
+Great Southern Forests
+Great Square
+Great West Road
+Greater Gelion
+Green Dragon
+Green Emberü
+Green Hill Country
+Green Hills
+Greenfields
+Greenholm
+Greenway
+Grey Havens
+Grey Mountains
+Grey Wood
+Greyflood
+Greylin
+Grimslade
+Grinding Ice
+Grindwall
+Gruir
+Guarded Plain
+Gulf of Lhûn
+Gulf of Lune
+Gundabad
+Gwathir
+Gwathlo
+Gwathló
+Hadhodrond
+Haerast
+Haeren
+Halifirien
+Hall of Feasts
+Hall of Fire
+Hall of the Chieftains
+Hallows
+Halls of Mandos
+Halls of Nienna
+Hanstovánen
+Harad
+Harad Road
+Harad and beyond
+Hardbottle
+Harfalas
+Harlindon
+Harlond
+Harnen
+Harondor
+Harrowdale
+Haudh in Gwanûr
+Haudh-en-Elleth
+Haudh-en-Ndengin
+Haudh-en-Nirnaeth
+Haven of Umbar
+Haven of the Eldar
+Havens of Mithlon
+Havens of Sirion
+Havens of the Falas
+Hay Gate
+Haysend
+Heath of the Sky-roof
+Heats of the South
+Helcar
+Helcaraxë
+Helevorn
+Helluin
+Helm
+Helm's Deep
+Helm's Dike
+Helm's Gate
+Henneth Annûn
+Hidden Ferries
+Hidden Way
+High Hay
+High Pass
+Hildórien
+Hill of Erech
+Hill of Guard
+Hill of Hearing
+Hill of Himring
+Hill of Ilmarin
+Hill of Oromet
+Hill of the Slain
+Hills of Agar
+Hills of Eglamar
+Hills of Evendim
+Hills of Scary
+Himlad
+Himring
+Hithaeglir
+Hither Lands
+Hither Shore
+Hithlum
+Hoarwell
+Hobbiton
+Hobbiton Hill
+Hobbiton Road
+Hollin
+Hollin Gate
+Hollin ridge
+Hornburg
+Hornrock
+House of Oromë
+House of Ransom
+House of Tulkas
+House of the Dead
+House of the Hundred Chimneys
+House of the Kings
+House of the Mírdain
+House of the Stewards
+Houses of Healing
+Houses of the Dead
+Huts of the raft-elves
+Hyarastorni
+Hyarmentir
+Hyarnustar
+Hyarrostar
+Hírilorn
+Iant Iaur
+Icebay of Forochel
+Idril's secret way
+Illuin
+Ilmarin
+Ilmen
+Ilu
+Ilurambar
+Imlad Morgul
+Imladris
+Imloth Melui
+Imrath Gondraith
+Inland Sea
+Inland Sea of Helcar
+Inner Seas
+Iron Fortress
+Iron Hills
+Iron Mountains
+Irtinsa
+Isen
+Isengard
+Isenmouthe
+Ishmalog
+Isle of Almaren
+Isle of Balar
+Isle of Elenna
+Isle of Eressëa
+Isle of Meneltarma
+Isle of Werewolves
+Isles of the West
+Ithilien
+Ivrin
+Ivrin's Well
+Ivy Bush
+Kalormë
+Kapalinda
+Karningul
+Kelos
+Kelusindi
+Khand
+Khazad-dûm
+Kheled-zâram
+Kibil-nâla
+King's Court
+King's House
+Kingdom of the South
+Kingdom under the Mountain
+Kings' Norbury
+Kingsland
+Kiril
+Kirith Ungol
+Kortirion
+Kôr
+Ladros
+Lake Evendim
+Lake Helevorn
+Lake Mithrim
+Lake Nenuial
+Lake-town
+Lamedon
+Lammoth
+Lampwrights' Street
+Land of Bow and Helm
+Land of Gift
+Land of the Dead that Live
+Land of the Sun
+Langflood
+Langstrand
+Langwell
+Lanthir Lamath
+Last Bridge
+Last Shore
+Laurelindórenan
+Laurelindórinan
+Laurenandë
+Lebennin
+Lefnui
+Legendarium
+Legolin
+Lesser Market
+Lhûn
+Limlight
+Linaewen
+Lindon
+Lindórinan
+Linhir
+Lisgardh
+Lithir River
+Lithlad
+Little Delving
+Little Gelion
+Little Lune
+Lockholes
+Loeg Ningloron
+Lond Daer
+Lond Daer Enedh
+Lone-lands
+Lonely Isle
+Lonely Mountain
+Long Cleeve
+Long Lake
+Long Marshes
+Long Wall
+Longbottom
+Losgar
+Lossarnach
+Lost Isle
+Lostladen
+Lothlórie
+Lothlórien
+Loudwater
+Lower Halls
+Lugbúrz
+Luinil
+Lumbar
+Lúnaturco
+Lúnoronti
+Luthany
+Luvailin
+Lórellin
+Lórien
+Lórinand
+Maggot's Farm
+Maggot's Lane
+Maglor's Gap
+Malduin
+Mandos
+Mansions of Aulë
+Mar-nu-Falmar
+March of Maedhros
+Marish
+Mark
+Marshes in the south
+Marshes of Nevrast
+Meduseld
+Men-i-Naugrim
+Menegroth
+Menelmacar
+Menelmakil
+Menelrond
+Meneltarma
+Menelvagor
+Mere of Dead Faces
+Meres of Twilight
+Merethrond
+Mering Stream
+Methed-en-glad
+Methedras
+Methiriad
+Michel Delving
+Middle-earth
+Midgewater Marshes
+Mill
+Min-Rimmon
+Minas Anor
+Minas Ithil
+Minas Morgul
+Minas Tirith
+Mindeb
+Mindolluin
+Mindon Eldaliéva
+Minhiriath
+Mirkwood
+Mirrormere
+Misty Mountains
+Mithe
+Mithe Steps
+Mitheithel
+Mithlond
+Mithrim
+Mittalmar
+Moors of the Neweglu
+Moors of the Nibin-noeg
+Moot of Brethil
+Moot-ring
+Morannon
+Mordor
+Morgai
+Morgul Pass
+Morgul Vale
+Morgul-road
+Morgulduin
+Moria
+Moriondë
+Mornan
+Morthond
+Morthond River
+Mound of Avarice
+Mound of the Riders
+Mounds of Mundburg
+Mount Dolmed
+Mount Doom
+Mount Everwhite
+Mount Fang
+Mount Gram
+Mount Gundabad
+Mount Mindolluin
+Mount Rerir
+Mount Taras
+Mount of the Pine Tree(s)
+Mountain Wall
+Mountain of Fire
+Mountains of Aman
+Mountains of Angmar
+Mountains of Lune
+Mountains of Mirkwood
+Mountains of Mithrim
+Mountains of Moria
+Mountains of Moriondë
+Mountains of Shadow
+Mountains of Terror
+Mountains of the East
+Mouths of Anduin
+Mouths of Entwash
+Mouths of Sirion
+Mundburg
+Máhanaxar
+Naith
+Nameless land
+Nan Curunír
+Nan Dungortheb
+Nan Elmoth
+Nan-tathren
+Nanduhirrion
+Narchost
+Nardol
+Nargil Pass
+Nargothrond
+Narog
+Narrows of the Forest
+Near Harad
+Needlehole
+Neldoreth
+Nen
+Nen Echui
+Nen Girith
+Nen Hithoel
+Nen Lalaith
+Nénar
+Nenning River
+Nenuial
+Nether Darkness
+Nevrast
+New Haven
+New lands
+Newbury
+Nimbrethil
+Nimrodel
+Nindalf
+Nindamos
+Ninglor
+Nísimaldar
+Nísinen
+Nivrim
+Nobottle
+Nogrod
+Noirinan
+Noldomar
+Noman-lands
+Norbury
+Nornhabar
+North Cape
+North Downs
+North End
+North Farthing
+North Gate
+North Ithilien
+North March
+North Marches of Beleriand
+North Moors
+North Road
+North Road of Ithilien
+North Stair
+North Undeep
+North-South Road
+North-march
+North-way
+Northern Dark
+Northern Waste
+Northlands
+Novrod
+Nozgrod
+Nunduinë
+Nur-menel
+Nurn
+Nénar
+Nísimaldar
+Nísinen Lake
+Nîn-in-Eilph
+Núath
+Númenor
+Oatbarton
+Obel Halad
+Ocean
+Oiolossë
+Oiomúrë
+Old Bridge
+Old Ford
+Old Forest
+Old Forest Road
+Old Grange
+Old Guesthouse
+Old Mill
+Old Púkel land
+Old Road
+Old South Road
+Old Winyards
+Old World
+Ondolindë
+Ondoluncanando
+Ondonórë
+Ondórë
+Ondosto
+Onodló
+Orc-holds
+Orfalch Echor
+Ormal
+Orocarni
+Orod-na-Thôn
+Orodruin
+Oromet
+Orrostar
+Orthanc
+Osgiliath
+Ossiriand
+Ost-in-Edhil
+Otherworld
+Outer Dark
+Outer Darkness
+Outer Lands
+Outer Sea
+Outlands
+Overbourn
+Overbourn Marshes
+Overhill
+Palisor
+Parth Celebrant
+Parth Galen
+Party Field
+Pass Redwater
+Pass of Aglon
+Pass of Ailin
+Pass of Anach
+Pastures of Yavanna
+Paths of the Dead
+Pelargir
+Pelennor Fields
+Pelóri
+Pen-arduin
+Phûrunargian
+Pillars of the King
+Pincup
+Pine of Tavrobel
+Pine-mountain
+Pinnath Gelin
+Place of the Fountain
+Place of the Well
+Pool of Bywater
+Pool-side
+Pools of Ivrin
+Poros
+Prancing Pony
+Qerkaringa
+Quarry
+Radhrim
+Rainbow Cleft
+Ramdal
+Rammas Echor
+Ras Mewrim
+Ras Morthil
+Rath Celerdain
+Rath Dínen
+Rathlóriel
+Rauros
+Ravenhill
+Ravines of Taeglin
+Ravines of Teiglin
+Realm of Isen
+Red Mountains
+Redhorn
+Redhorn Gate
+Region
+Region of Everlasting Cold
+Remmirath
+Rerir
+Reunited Kingdom
+Rhimdath
+Rhosgobel
+Rhovanion
+Rhudaur
+Rhûn
+Ring of Doom
+Ring of Isengard
+Ringil
+Ringló Vale
+Ringwil
+Rivendell
+River Anduin
+River Bruinen
+River Carnen
+River Greyflood
+River Gwathlo
+River Hoarwell
+River Isen
+River Loudwater
+River Lune
+River Mitheithel
+River Redwater
+River Running
+River Silverlode
+River of Arossiach
+River of Ered Lithui
+Rivil
+Rivil's Well
+Road of Arches
+Road of Pomps
+Rochand
+Rohan
+Ruamórë
+Rushdown
+Rushey
+Rushock Bog
+Rushy
+Rómenna
+Rôs
+Rûnaer
+Sammath Naur
+Sandyman's
+Sandyman's Mill
+Sarb Athrad
+Sarn Athrad
+Sarn Athrad of Eriador
+Sarn Ford
+Sarn Gebir
+Sauron's Isle
+Sauron's Road
+Sauron's Temple
+Scary
+Sea of Helcar
+Sea of Núrnen
+Sea of Rhûn
+Sea of Ringil
+Sea of Ringló
+Sea-ward Tower
+Seat of Hearing
+Seat of Seeing
+Second Hall
+Sennas Iaur
+Serni
+Sernui
+Seven Gates of Gondolin
+Seven Stars
+Seventh Level
+Shadowmere
+Shadowy Isles
+Shadowy Mountains
+Shadowy Seas
+Shadowy Spring
+Sharabhund
+Shathûr
+Shelob's Lair
+Shirebourn
+Silverlode
+Silvertine
+Sindanórie
+Sirannon
+Siril River
+Sirion River
+Sirith River
+Sirnúmen
+Slag-hills
+Snowbourn River
+Snowmane's Howe
+Sorontil
+Soronúmë
+South Downs
+South Farthing
+South Gondor
+South Ithilien
+South Kingdom
+South Land
+South Lane
+South Undeep
+Southern Fiefs
+Southfarthing
+Southward Road
+Spider's Ring
+Staddle
+Stair Falls
+Stair of the Hold
+Stairs of Cirith Ungol
+Standelf
+Star of East Beleriand
+Star of Eärendil
+Starkhorn
+Steward's Door
+Stock
+Stock Road
+Stock-brook
+Stockade
+Stockbrook
+Stone-city
+Stone-houses
+Stonewain Valley
+Straight Road
+Straight Stair
+Straits of the World
+Sun
+Sundering Seas
+Sunlands
+Sunlendings
+Swanfleet
+Swans of Gorbelgod
+Sîr Ninglor
+Sûthburg
+Sûza
+Taeglin River
+Talath Dirnen
+Talath Rhûnen
+Taniquentil
+Taniquetil
+Tanyasalpë
+Tar-Minastir
+Taras
+Taras Lúna
+Taras-ness
+Tarlang's Neck
+Tarmasundar
+Tarmenel
+Tarn Aeluin
+Aeluin
+Tarnost
+Taruithorn
+Tasarinan
+Taur e-Ndaedelos
+Taur-Na-Neldor
+Taur-en-Faroth
+Taur-im-Duinath
+Taur-na-Foen
+Taur-nu-Fuin
+Tauremorna
+Tauremornalómë
+Tavrobel
+Teeth of Mordor
+Tekel-Mirim
+Telperion
+Telumendil
+Temple of Sauron
+Thalos River
+Thangorodrim
+Tharbad
+Thargelion
+The Forsaken Inn
+The Prancing Pony
+The Riddermark
+The Shire
+The Wild
+The Yale
+Third Deep
+Thistle Brook
+Thorin's Halls
+Thorn Sir
+Thousand Caves
+Three-Farthing Stone
+Thrihyrne
+Tighfield
+Til
+Timeless Halls
+Tindrock
+Tirin na Gilweth
+Tirion
+Tirith Aear
+Tol
+Tol Brandir
+Tol Eressëa
+Tol Fuin
+Tol Galen
+Tol Morwen
+Tol Sirion
+Tol Uinen
+Tol Withernon
+Tol-in-Gaurhoth
+Tolfalas
+Tomb of Elendil
+Tomb of the Kings
+Tompollë
+Tongue
+Tookbank
+Tookland
+Torech Ungo
+Tower Hall
+Tower Hills
+Tower of Avallónë
+Tower of Avathar
+Tower of Cirith Ungol
+Tower of Ecthelion
+Tower of Ingwë
+Tower of Pearl
+Tower of the King
+Tower of the Stone
+Towers of the Teeth
+Town Hole
+Tram Nybol
+Trann
+Treebeard's Hill
+Treegarth of Orthanc
+Troll Ridge
+Trolls' lair
+Trollshaws
+Tuckborough
+Tumhalad
+Tumladen
+Tumladen of Gondolin
+Tumladen of Gondor
+Tumunzahar
+Twenty-First Hall
+Twilight Meres
+Two Trees of Valinor
+Two Watchers
+Tyrn Gorthad
+Túna
+Udul
+Udûn
+Udûn of Mordor
+Ulmonan
+Umbar
+Umboth-muilin
+Undeeps
+Under-way
+Undergate
+Underharrow
+Underhill
+Undertowers
+Undying Lands
+Ungoliant's lair
+Upbourn
+Uttermost West
+Utumno
+Vaiya
+Valacirca
+Valandor
+Vale of Sirion
+Vales of Anduin
+Valimar
+Valinor
+Valmar
+Veil of Arda
+Verna
+Vinyalondë
+Vinyamar
+Vista
+Void
+Waking Water
+Wall's End
+Walls of Moria
+Walls of Night
+Walls of the Sun
+Walls of the World
+Waste
+Watchwood
+Water of Awakening
+Water-valley
+Way of Escape
+Way of Running Waters
+Waymeet
+Weather Hills
+Weathertop
+Wellinghall
+Wells of Ivrin
+Wells of Varda
+West Beleriand
+West Pass
+West Road
+West of the World
+West-door
+West-gate of Bree
+West-gate of Moria
+West-march
+West-mark
+Westemnet
+Westermanton
+Western Sea
+Western Shore
+Westernesse
+Westfarthing
+Westfold
+Westfold Vale
+Westlands
+Westmarch
+Wetwang
+Whispering Wood
+White Downs
+White House of Erendis
+White Mountain
+White Mountains
+White Tower
+White Towers
+White pillar
+Whitfurrows
+Whitwell
+Wild Wood
+Wilderland
+Willowbottom
+Wilwarin
+Winding Stair
+Windle-reach
+Window of the Eye
+Window of the West
+Window-curtain
+Withered Heath
+Withered Wold
+Withy-weir
+Withywindle
+Withywindle River
+Wizard's Isle
+Wizard's Vale
+Wold
+Wood of Anwar
+Woodhall
+Woodland Realm
+Woods of Núath
+Woods of Númenor
+Woods of Oromë
+Woody End
+Yellow Mountains
+Yôzâyan
+Zirakzigil
+i Drann
+last Desert
+stronghold
+Írensaga
