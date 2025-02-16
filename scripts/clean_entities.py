@@ -1,28 +1,29 @@
-import re
+def load(file):
 
-def load_file(file_path):
+    with open(file, 'r') as f:
+        entities = f.readlines()
+        entities = [entity.strip("\n").strip() for entity in entities]
+    
+    return entities
 
-    with open(file_path, "r") as file:
-        data = file.readlines()
-        data = [line.strip() for line in data if line.startswith("*")]
 
-    return data
 
-def clean_entities(entities):
 
-    for entity in entities:
-        entity = entity.split("]]")[0]
-        entity = entity.split("[[")[-1]
-        entity = entity.split("|")[-1]
-        
+def save(entities, file):
 
+    with open(file, 'w') as f:
+        for entity in entities:
+            f.write(entity + "\n")
 
 def main():
 
-    entities = load_file("../data/elvish/entities/loc.txt")
-    clean_entities(entities)
-
-
+    entities = load("../data/elvish/entities/entities_cleaned.txt")
+    print(entities)
+    
+    entities = list(set(entities))
+    entities = sorted(entities)
+    print(entities)
+    save(entities, "../data/elvish/entities/entities_cleanedgr.txt")
 
 if __name__ == "__main__":
     main()
