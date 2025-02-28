@@ -3,20 +3,22 @@ Abigail
 Adalbert
 Adalbert Bolger
 Adaldrida
-Brandybuck
-Adalgar Bolger
+Adaldrida Bolger
+Adaldrida Brandybuck
 Adalgar
-Adalgrim Took
+Adalgar Bolger
 Adalgrim
-Took
-Adamanta Took
+Adalgrim Took
 Adamanta
+Adamanta Took
 Adanel
 Adar
-Adelard Took
 Adelard
+Adelard Took
 Adrahil
 Aegnor
+Aelfheah
+Aelfwine
 Aerandir
 Aerin
 Agaldor
@@ -26,16 +28,15 @@ Aghan
 Aglahad
 Ailinel
 Ainairos
-Ainur
 Alatar
-Albarth
-Albert Dreary
-Dreary
 Albert
+Albert Dreary
 Alboin
+Alboin Errol
 Alcarin
 Aldamir
 Aldariel
+Aldarion
 Aldor
 Alfrida
 Alfrida Bolger
@@ -50,18 +51,16 @@ Aluin
 Amandil
 Amaranth
 Amaranth Brandybuck
-Brandybuck
 Amarië
 Amarthiúl
 Amdír
+Amethyst
 Amethyst Bolger
 Amlach
 Amlaith
 Ammred
-Amnon
-Amon Gwared
 Amon
-Gwared
+Amon Gwared
 Amras
 Amrod
 Amroth
@@ -69,27 +68,26 @@ Amrothos
 Anairë
 Anardil
 Anborn
-Ancalagon
+Ancalimon
+Ancalimë
 Andreth
 Andriel
 Andróg
 Andvír
 Andwise
 Andwise Roper
-Roper
 Angamaitë
 Angbor
 Angelica
 Angelica Baggins
-Baggins
 Angelimir
 Angrim
 Angrod
 Annael
+Anson
 Anson Roper
-Roper
 Anárion
-Arachon
+Appledore
 Arador
 Araglas
 Aragorn
@@ -110,6 +108,7 @@ Araval
 Aravir
 Aravorn
 Arciryas
+Ardamin
 Ardamir
 Aredhel
 Argalad
@@ -121,52 +120,40 @@ Arithir
 Arminas
 Arondir
 Artamir
-Arthad
 Arvedui
 Arvegil
 Arveleg
 Arwen
 Asgon
-Asphodel Burrows
-Burrows
 Asphodel
+Asphodel Burrows
 Astrid
-Atan
 Atanalcar
+Atanamir
 Atanatar
 Audoin
-Errol
 Audoin Errol
 Aulendil
-Aulëonna
 Aulë
+Aulëonna
 Auredhir
-Aurel
-Aureld
-Aureldi
 Ausir
-Auzel
-Auzeldi
-Avari
-Avatan
 Axantur
 Az-Harto
 Azaghâl
-Azain Silverbeard
-Silverbeard
 Azain
+Azain Silverbeard
 Azog
 Baggins
 Bain
-Balbo Baggins
 Balbo
-Balchoth
+Balbo Baggins
 Balcmeg
 Baldor
 Balglin
 Balin
-Ban
 Bandobras
+Banks
 Barach
 Baragund
 Barahir
@@ -174,14 +161,12 @@ Baran
 Baranor
 Barduk
 Bargrisar
-Barliman Butterbur
-Barney Butterbur
-Butterbur
-Barney
 Barliman
-Basso Boffin
+Barliman Butterbur
+Barney
+Barney Butterbur
 Basso
-Boffin
+Basso Boffin
 Bazur
 Beechbone
 Belba
@@ -194,56 +179,47 @@ Belegorn
 Belegund
 Belemir
 Belen
-Beleram
 Beleth
 Bell
-Bell
-Gamgee
 Bell Gamgee
 Bellach
 Belladonna
 Belzagar
 Beorn
-Beornings
 Beravor
 Bereg
 Beregar
 Beregond
-Berek
 Berelach
 Beren
 Berethor
 Bergil
 Beril
 Berilac
+Bert
 Berylla
 Berúthiel
 Betsy
 Bhoghad
+Bianca
 Bifur
 Bilbo
-Gardner
 Bilbo Gardner
-Bill Butcher
 Bill
-Butcher
+Bill Butcher
 Bill Ferny
-Ferny
-Bingo Baggins
 Bingo
+Bingo Baggins
 Bladorthin
 Blanco
 Blanco Bracegirdle
-Bracegirdle
 Blodren
 Blodrin
-Blovo Bolgerbuck
 Blovo
-Bolgerbuck
+Blovo Bolgerbuck
 Bob
-Bodo Proudfoot
 Bodo
-Proudfoot
+Bodo Proudfoot
 Bodruith
 Boffin
 Bofur
@@ -251,6 +227,8 @@ Boldog
 Bolg
 Bolgakh
 Bolger
+Bolgerbuck
+Bombadil
 Bombur
 Borin
 Borlach
@@ -261,16 +239,15 @@ Boron
 Borondir
 Borthand
 Borzag
-Bosco Boffin
 Bosco
-Boffin
-Bowman Cotton
+Bosco Boffin
 Bowman
-Cotton
+Bowman Cotton
 Bracegirdle
 Brand
 Brandir
 Brandybuck
+Brandyfoot
 Bregalad
 Bregil
 Brego
@@ -278,39 +255,35 @@ Bregolas
 Bregor
 Brenna
 Briffo Boffin
-Broadbeams
+Brightapple
 Brockhouse
 Brodda
-Brok Ironfist
 Brok
-Ironfist
-Broncho Stonecrow
+Brok Ironfist
 Broncho
-Stonecrow
+Broncho Stonecrow
 Bronwyn
 Brown
-Bruno Bracegirdle
 Bruno
-Bracegirdle
-Brytta Léofa
+Bruno Bracegirdle
 Brytta
-Léofa
+Brytta Léofa
 Brânk
 Brûz
 Bucca
-Bucklanders
-Buffo Boffin
 Buffo
+Buffo Boffin
 Buhrdur
 Buldar
-Bumbrumug
-Bungo Baggins
+Bumbelly
+Bunce
 Bungo
+Bungo Baggins
 Burin
 Burrows
+Butterbur
 Bëor
 Bór
-Calaquendi
 Caldara
 Calenwë
 Calimehtar
@@ -318,21 +291,17 @@ Calimmacil
 Caliondo
 Calmacil
 Calphon
-Camellia Baggins
 Camellia
+Camellia Baggins
 Camnir
-Caragors
 Caranthir
 Carc
-Carcharoth
-Cargûl
-Carl Cotton
 Carl
-Cotton
+Carl Cotton
 Carnán
 Castamir
-Celandine Brandybuck
 Celandine
+Celandine Brandybuck
 Celeborn
 Celebrim
 Celebrimbor
@@ -343,36 +312,31 @@ Celepharn
 Cemendur
 Ceorl
 Cestaro
-Chance Proudfellow
 Chance
-Proudfellow
-Chica Baggins
+Chance Proudfellow
 Chica
+Chica Baggins
+Chubb
+Chubb-Baggins
 Ciaran
 Cirion
 Ciryandil
-Ciryatur
+Ciryatan
 Ciryon
 Cora Bolger
 Corwin
 Cotman
 Cottar
 Cotton
-Crebain
 Crugbit
-Culúrien
 Curufin
 Cwén
 Círdan
-Daechanar
 Daeron
-Daffodil Burrows
 Daffodil
-Burrows
-Dagor
-Dairuin
-Daisy Boffin
+Daffodil Burrows
 Daisy
+Daisy Boffin
 Daisy Gamgee
 Daisy Gardner
 Damrod
@@ -383,54 +347,45 @@ Delin
 Denethor
 Derufin
 Dervorin
-Dewis Proudfellow
 Dewis
-Proudfellow
-Diamond Took
+Dewis Proudfellow
 Diamond
+Diamond Took
 Diarmid
-Dilly Brandyfoot
 Dilly
-Brandyfoot
-Dina Bolger
+Dilly Brandyfoot
 Dina
-Dinodas Brandybuck
+Dina Bolger
 Dinodas
+Dinodas Brandybuck
 Dirhaborn
 Dirhael
 Disa
-Doderic Brandybuck
 Doderic
-Dodinas Brandybuck
+Doderic Brandybuck
 Dodinas
-Donnamira Boffin
+Dodinas Brandybuck
 Donnamira
-Dora Baggins
+Donnamira Boffin
 Dora
+Dora Baggins
 Dori
 Dorlad
 Dorlas
-Dragons
-Drakes
-Draugluin
-Drogo Baggins
+Dreary
 Drogo
-Drogoth
-Druda Boffin
+Drogo Baggins
 Druda
+Druda Boffin
 Druda Bumbelly
-Bumbelly
-Drúedain
 Drúv
 Drû-buri-Drû
 Drûzhag
-Dudo Baggins
 Dudo
+Dudo Baggins
 Duilin
 Duinhir
 Dunhir
-Dunlendings
-Dunlendish
 Durbûrz
 Durin
 Dwalin
@@ -441,33 +396,27 @@ Déorwine
 Dírhael
 Dírhaval
 Dís
-Dúnedain
 Dúnhere
 Eamon
 Eaoden
-Easterlings
+Earthauler
 Ebor
 Ecgláf
 Ecthelion
-Edain
 Edda
 Edrahil
 Egalmoth
-Eglantine Took
 Eglantine
-Egnor bo-Rimion
+Eglantine Took
 Egnor
-bo-Rimion
+Egnor bo-Rimion
 Eilinel
-Elanor Brandyfoot
 Elanor
+Elanor Brandyfoot
 Elanor Fairbairn
-Fairbairn
 Elatan
 Elboron
 Eldacar
-Eldahir
-Eldar
 Eldarion
 Eleanor
 Elegost
@@ -479,25 +428,22 @@ Elenwë
 Eleran
 Elfhelm
 Elfhild
-Elfstan Fairbairn
-Fairbairn
 Elfstan
+Elfstan Fairbairn
 Elfwine
 Elgarain
 Elladan
-Elrohir
 Elmar
 Elmo
 Elphir
 Elpino
+Elrohir
 Elrond
 Elros
 Eltariel
 Eltas
-Elulindodi
 Eluréd
 Elurín
-Elves
 Elwing
 Emeldir
 Emery
@@ -505,42 +451,36 @@ Enel
 Enelyë
 Enerdhil
 Enthor
-Ents
-Entwives
 Enu
 Envinyatar
 Eoh
 Eorl
-Éowyn
 Eradan
 Erchirion
 Erellont
+Ereol
 Erestor
 Erien
 Erkenbrand
 Erland
-Erling Greenhand
 Erling
-Greenhand
+Erling Greenhand
 Ermon
-Elmir
+Errol
 Eru
 Eru Ilúvatar
-Ilúvatar
 Eruva
 Eryn
-Esmeralda Brandybuck
 Esmeralda
-Estella Brandybuck
+Esmeralda Brandybuck
 Estella
+Estella Brandybuck
 Estelmo
 Estrid
 Estë
 Ethlon
-Etyangol
-Everard Took
 Everard
-Evonyn
+Everard Took
 Evranin
 Eärendil
 Eärendur
@@ -551,44 +491,35 @@ Eärwen
 Eðellos
 Eöl
 Eönwë
-F
 Fairbairn
-Fairies
-Faithful
 Falathar
-Falathrim
-Falco Chubb-Baggins
 Falco
-Chubb
-Chubb-Baggins
-Fallohides
-Falmari
+Falco Chubb-Baggins
 Fangluin
 Faniel
 Fankil
-Fantur
 Fanuin
 Faramir
 Faramir Took
 Farin
 Fastitocalon
-Fastolph Bolger
 Fastolph
+Fastolph Bolger
 Fastred
-Fays
 Felgrom
 Fengel
-Ferdibrand Took
 Ferdibrand
-Ferdinand Took
+Ferdibrand Took
 Ferdinand
+Ferdinand Took
 Feren
-Ferumbras Took
+Ferny
 Ferumbras
+Ferumbras Took
 Fhaleen
 Figwit
-Filibert Bolger
 Filibert
+Filibert Bolger
 Fimbrethil
 Fimbul
 Finarfin
@@ -604,36 +535,37 @@ Finrún
 Finwë
 Firyal
 Fladrif
-Flambard Took
 Flambard
+Flambard Took
 Flói
 Folca
-Folco Boffin
 Folco
+Folco Boffin
 Folcred
 Folcwine
 Forhend
 Forlong
 Forthwini
-Fortinbras Took
 Fortinbras
+Fortinbras Took
 Forweg
-Fosco Baggins
 Fosco
+Fosco Baggins
 Fram
 Freca
 Freda
-Fredegar Bolger
 Fredegar
+Fredegar Bolger
 Fredegar Chubb
 Frerin
-Frodo Baggins
 Frodo
+Frodo Baggins
 Frodo Gardner
 Frumgar
 Frygt
 Frár
 Fréa
+Fréaláf
 Fréaláf Hildeson
 Fréawine
 Frór
@@ -641,11 +573,9 @@ Fuinur
 Fundin
 Fëanor
 Fíli
-Kíli
 Fíriel
 Fíriel Fairbairn
 Galadhon
-Galadhrim
 Galador
 Galadriel
 Galathil
@@ -654,20 +584,20 @@ Galhir
 Galion
 Galweg
 Gamgee
-Gamil Zirak
-Zirak
 Gamil
+Gamil Zirak
 Gamli
 Gamling
+Gammidge
+Gamwich
 Gandalf
 Gardner
-Gaudrim
 Gelmir
 Gerda
 Gerda Bolger
 Gereth
-Gerontius Took
 Gerontius
+Gerontius Took
 Gethron
 Ghulat
 Ghân-buri-Ghân
@@ -676,11 +606,10 @@ Gilbarad
 Gildis
 Gildor
 Gildor Inglorion
-Inglorion
 Gilfanon
 Gilim
-Gilly Baggins
 Gilly
+Gilly Baggins
 Gilmith
 Gilraen
 Gilwen
@@ -690,50 +619,46 @@ Gimli
 Girion
 Glasha
 Glaurung
-Glingal
-Belthil
 Glirhuin
 Glorfindel
 Gléowine
 Glóin
 Glóredhel
 Glûg
+Goatleaf
 Goblok
 Golasgil
 Goldberry
-Goldilocks Took
 Goldilocks
+Goldilocks Took
 Goldwine
 Golfimbul
 Gollum
 Golradir
-Gondolindrim
-Gondorians
 Goodbody
 Goodenough
-Gorbadoc Brandybuck
 Gorbadoc
+Gorbadoc Brandybuck
 Gorbag
-Gorbulas Brandybuck
 Gorbulas
+Gorbulas Brandybuck
 Gorganog
 Gorgol
 Gorgumoth
-Gorhendad Brandybuck
 Gorhendad
+Gorhendad Brandybuck
 Gorin
 Gorkil
 Gorlim
-Gormadoc Brandybuck
-Deepdelver
 Gormadoc
+Gormadoc Brandybuck
+Goroth
 Gostir
 Gothmog
 Gram
-Graugs
 Greenhand
-Griffo Boffin
 Griffo
+Griffo Boffin
 Grimbeorn
 Grimbold
 Grinnah
@@ -741,29 +666,27 @@ Grishnákh
 Grithnir
 Grond
 Grubb
-Gruffo Boffin
 Gruffo
+Gruffo Boffin
 Grugzûk
 Gríma
 Gróin
 Grór
 Guilin
-Guiðlin
 Guma
-Gundabald Bolger
 Gundabald
-Earthauler
-Gundabale Earthauler
+Gundabald Bolger
 Gundabale
-Gundahad Bolger
+Gundabale Earthauler
 Gundahad
-Gundahar Bolger
+Gundahad Bolger
 Gundahar
+Gundahar Bolger
 Gundolpho Bolger
-Gundor
 Guritz
 Guthláf
 Gwaihir
+Gwared
 Gwendil
 Gwindor
 Gálmód
@@ -781,127 +704,112 @@ Haldan
 Haldar
 Haldir
 Haleth
-Halfast Gamgee
 Halfast
-Gamgee
+Halfast Gamgee
+Halfred
 Halfred Gamgee
 Halfred Greenhand
-Halfred
 Hallacar
 Hallas
 Hallatan
 Halmir
+Hambley
+Hamfast
 Hamfast Gamgee
-Hamfast
 Hamfast Gardner
-Hamfast
 Hammer
-Hamson Gamgee
+Hammerhand
 Hamson
+Hamson Gamgee
 Hana
 Hanara
 Handir
-Hanna Brandybuck
 Hanna
+Hanna Brandybuck
 Hannar
-Haradrim
-Hardang
 Harding
 Hareth
-Harry Goatleaf
 Harry
-Goatleaf
+Harry Goatleaf
 Hathaldir
 Hathol
 Hatholdir
 Hayward
 Hazad
+Heathertoes
 Heden
-Helm Hammerhand
-Hammerhand
 Helm
-Henamarth Riversong
+Helm Hammerhand
 Henamarth
-Riversong
+Henamarth Riversong
 Henderch
-Hending Greenhand
 Hending
-Greenhand
+Hending Greenhand
 Hendor
-Hengest
-Horsa
-Heorrenda
 Hendwine
+Hengest
+Heorrenda
 Herefara
 Herendil
-Heribald Bolger
 Heribald
+Heribald Bolger
 Herion
 Herubrand
 Herucalmo
-Herugar Bolger
 Herugar
+Herugar Bolger
 Herumor
 Hild
-Hilda Bianca
 Hilda
-Bianca
+Hilda Bianca
 Hilda Brandybuck
-Hildibrand Took
 Hildibrand
-Hildifons Took
+Hildibrand Took
 Hildifons
-Hildigard Took
+Hildifons Took
 Hildigard
-Hildigrim Took
+Hildigard Took
 Hildigrim
+Hildigrim Took
 Hirgon
 Hiril
 Hirluin
 Hirwen
 Hláfwine
-Hob Gammidge
 Hob
-Gammidge
+Hob Gammidge
 Hob Hayward
-Hayward
-Hobson Gamgee
 Hobson
-Holfast Gardner
+Hobson Gamgee
 Holfast
-Holman Cotton
+Holfast Gardner
 Holman
-Cotton
+Holman Cotton
 Holman Greenhand
-Horn
 Huan
 Hugin
-Hugo Boffin
 Hugo
+Hugo Boffin
 Hugo Bracegirdle
-Bracegirdle
 Hundad
 Hundar
 Hunleth
 Hunthor
 Huor
-Huorns
 Hwaldar
 Hyarmendacil
 Háma
 Húrin
-Ibûn
 Idis
 Idraen
 Idrial
 Idril
-Ilberic Brandybuck
 Ilberic
+Ilberic Brandybuck
 Ilion
-Ilkorindi
 Ilmarë
-Ilúvatar
 Ilwen
+Ilúvatar
 Imin
 Iminyë
 Imlach
@@ -911,6 +819,7 @@ Indis
 Indor
 Ing
 Inglor
+Inglorion
 Ingold
 Ingwion
 Ingwë
@@ -918,13 +827,12 @@ Inzilbêth
 Ioreth
 Iorlas
 Irolas
-Ironfists
-Isembard Took
 Isembard
-Isembold Took
+Isembard Took
 Isembold
-Isengar Took
+Isembold Took
 Isengar
+Isengar Took
 Isengrim
 Isengrim Took
 Isil
@@ -936,15 +844,13 @@ Isumbras Took
 Ithilbor
 Ivorwen
 Ivriniel
-Ivy Boffin
 Ivy
+Ivy Boffin
 Ivárë
-Iârion
-Jago Boffin
 Jago
-Jessamine Bolger
+Jago Boffin
 Jessamine
-Bolger
+Jessamine Bolger
 Jubayr
 Járnsmid
 Jímlí
@@ -959,234 +865,194 @@ Kilaran
 Kilta
 Kirun
 Kurúki
-Kôrtirion
-Frodo Baggins
-Frodo
+Kíli
 Lagduf
-Laiquendi
-Lalia Took
 Lalia
-Lambeñgolmor
+Lalia Took
 Landroval
 Langon
-Lanwyn
-Laprawns
-Largo Baggins
 Largo
+Largo Baggins
 Largo Brandyfoot
 Larnach
-Laura Baggins
 Laura
+Laura Baggins
 Laurenfindil
 Laurenlin
-Lavender Boffin
 Lavender
+Lavender Boffin
 Legolas
 Lenwë
-Lestor
 Lethuin
 Lhamthanc
 Lianna
-Lily Cotton
 Lily
+Lily Cotton
 Lily Goodbody
-Goodbody
-Linda Proudfoot
 Linda
-Proudfoot
+Linda Proudfoot
 Lindenroot
 Lindir
 Lindissë
 Lindo
 Lindórië
 Linnar
-Sindri
-Uri
-Linseed Proudfellow
 Linseed
-Proudfellow
-Lintips
+Linseed Proudfellow
 Lithariel
 Littleheart
-Lobelia Sackville-Baggins
 Lobelia
-Sackville-Baggins
-Sackville
+Lobelia Baggins
+Lobelia Sackville
+Lobelia Sackville-Baggins
 Lofar
-Logri
 Longholes
-Longo Baggins
 Longo
+Longo Baggins
 Lorgan
-Lossoth
-Lotho Sackville-Baggins
 Lotho
+Lotho Baggins
+Lotho Sackville
+Lotho Sackville-Baggins
 Lothíriel
 Louis
 Lugbol
 Lugdush
-Luin
 Lungorthin
 Lurka
 Lurtz
 Léod
+Léofa
 Léowyn
 Lëa-vinya
 Lóni
 Lúsion
 Lúthien
 Lûg
-Ma Hambley
 Ma
-Hambley
+Ma Hambley
 Mablon
 Mablung
-Madoc Brandybuck
 Madoc
+Madoc Brandybuck
 Madril
 Maedhros
 Maeglin
+Maggot
 Maglor
 Magor
-Magrot
 Mahtan
 Maia
-Maiar
 Maidros
 Mairen
-Makar and Meássë
 Makar
-Meássë
 Malach
 Malantur
 Malbeth
 Malendol
+Malgalad
 Malloc
 Mallor
+Malva
 Malva Brandybuck
 Malva Meadowgrass
-Malva
-Meadowgrass
 Malvegil
 Manthor
 Manwendil
 Manwë
 Marach
 Marcho
-Marchwardens
-Mardil Voronwë
-Voronwë
 Mardil
+Mardil Voronwë
 Mardorunando
-Margid Rustborin
 Margid
-Rustborin
+Margid Rustborin
 Marhari
 Marhwini
-Marigold Brandyfoot
 Marigold
+Marigold Brandyfoot
 Marigold Cotton
 Marmadas Brandybuck
 Marmadoc Brandybuck
-Marroc Brandybuck
 Marroc
+Marroc Brandybuck
 Marwen
-Mat Heathertoes
 Mat
+Mat Heathertoes
 Mauhúr
-Heathertoes
 Maur
-May Gamgee
 May
-Mearas
+May Gamgee
 Meleth
 Melian
-Melilot Brandybuck
 Melilot
+Melilot Brandybuck
 Mell
-Menegilda Brandybuck
 Menegilda
+Menegilda Brandybuck
 Meneldil
 Meneldor
-Mentha Brandybuck
+Meneldur
 Mentha
-Meriadoc Brandybuck
+Mentha Brandybuck
 Meriadoc
-Meril-i-Turinqi
+Meriadoc Brandybuck
 Meril
-Turinqi
-Merimac Brandybuck
-Merimas Brandybuck
+Meril-i-Turinqi
 Merimac
+Merimac Brandybuck
 Merimas
-Mermaids
-Merry Gardner
+Merimas Brandybuck
 Merry
-Mewlips
+Merry Gardner
+Meássë
 Miaulë
-Miles Brightapple
 Miles
-Brightapple
-Milo Burrows
+Miles Brightapple
 Milo
-Burrows
-Mimosa Baggins
+Milo Burrows
 Mimosa
+Mimosa Baggins
 Minardil
-Hyarmendacil
 Minastan
 Minohtar
-Minto Boffin
 Minto
+Minto Boffin
 Minto Burrows
-Mirabella Brandybuck
 Mirabella
+Mirabella Brandybuck
 Mirdania
 Mirlonde
 Mithrellas
 Mogru
 Morgomir
 Morgoth
-Moriondor
-Moriquendi
-Moro Burrows
 Moro
+Moro Burrows
 Morris
 Morwen
 Morwen Steelsheen
-Steelsheen
 Morwë
-Mosco Burrows
 Mosco
-Moth
-Mozgog
-Bracegirdle
-Bunce
-Maggot
-Proudfoot
+Mosco Burrows
 Mugwort
 Mugwort Sandyman
-Sandyman
-Mungo Baggins
 Mungo
+Mungo Baggins
 Murgash
 Murzag
 Muzgash
-Myrtle Burrows
 Myrtle
-Mystics
+Myrtle Burrows
 Médhor
 Míriel
 Mîm
 Mûmakil
 Mûmakil Mahûd
-Mahûd
 Na'asiyah
 Naimi
 Nalir
 Nan
-Nandini
-Nandor
 Narag-Shazon
 Narmacil
 Narthseg
@@ -1194,11 +1060,8 @@ Narvi
 Narzug
 Naugladur
 Nauglath
-Nazgûl
 Nellas
-Nenning
 Nerdanel
-Nermir
 Nessa
 Nessanië
 Nielthi
@@ -1206,56 +1069,45 @@ Nielíqui
 Nienna
 Niluzôr
 Nimloth
-Nina Bolger
 Nina
-Niënor
+Nina Bolger
 Noakes
 Nob
-Noldoli
 Nolondil
-Nora Bolger
 Nora
-Nordinbad
+Nora Bolger
 Nordri
 Nori
 Nornorë
-Nost-na-Lothion
 Nuin
-Nurufantur
 Nurwë
 Náin
 Náli
 Nár
+Nólimon
 Númendil
-Númenóreans
 Núneth
-Odo Proudfoot
 Odo
-Odovacar Bolger
+Odo Proudfoot
 Odovacar
-Ogres
+Odovacar Bolger
 Ohta
 Ohtar
-Oiacúma
 Oikeroi
 Oldbuck
 Oleg
 Olga
-Olo Proudfoot
 Olo
-Olog
-Olog-Graug
-Olog-hai
-Olórin
+Olo Proudfoot
 Olwyn
 Olwë
+Olórin
 Ondoher
 Ontamo
 Orchaldor
 Orcobal
-Orfus
-Orgulas Brandybuck
 Orgulas
+Orgulas Brandybuck
 Ori
 Orleg
 Orlin
@@ -1269,64 +1121,63 @@ Oromë
 Orontor
 Oropher
 Orophin
-Orossi
-Ossë
 Ostoher
+Oswin
 Oswin Errol
-Otho Sackville-Baggins
 Otho
-Otho Sackville
 Otho Baggins
+Otho Sackville
+Otho Sackville-Baggins
 Othrod
 Ottar
+Otto
 Otto Boffin
-Paladin Took
 Paladin
+Paladin Took
+Palantir
 Pallando
-Pansy Bolger
 Pansy
-Pearl Took
+Pansy Bolger
 Pearl
-Peeping Jack
+Pearl Took
 Pelendur
 Pengolodh
 Penlod
-Peony Burrows
 Peony
+Peony Burrows
 Percy
-Peregrin Took
 Peregrin
+Peregrin Took
 Perry
-Pervinca Took
 Pervinca
-Pimpernel Took
+Pervinca Took
+Pickthorn
 Pimpernel
-Pippin Gardner
+Pimpernel Took
 Pippin
-Pixies
+Pippin Gardner
 Poldor
-Polo Baggins
 Polo
-Ponto Baggins
+Polo Baggins
 Ponto
-Poppy Bolger
+Ponto Baggins
 Poppy
+Poppy Bolger
 Poppy Proudfellow
-Porto Baggins
 Porto
-Posco Baggins
+Porto Baggins
 Posco
-Primrose Bracegirdle
+Posco Baggins
 Primrose
-Bracegirdle
+Primrose Bracegirdle
 Primrose Gardner
-Primula Baggins
 Primula
-Prisca Bolger
+Primula Baggins
 Prisca
+Prisca Bolger
+Proudfellow
 Proudfoot
 Puddifoot
-Pygmies
 Quennar
 Qurwan
 Radagast
@@ -1337,66 +1188,61 @@ Ragnir
 Ragnor
 Ranuin
 Ratbag
-Regent
-Reginard Took
 Reginard
-Rennar
+Reginard Took
 Revion
 Revna
 Rimion
-Robin Gardner
+Riversong
 Robin
+Robin Gardner
 Robin Smallburrow
-Smallburrow
 Roccalas
 Rog
 Rogash
-Rohirrim
-Rollo Boffin
 Rollo
+Rollo Boffin
 Rootcouncil
-Rorimac Brandybuck
+Roper
 Rorimac
-Rosa Took
-Rosamunda Bolger
+Rorimac Brandybuck
 Rosa
+Rosa Took
 Rosamunda
-Rose Brandyfoot
+Rosamunda Bolger
 Rose
+Rose Brandyfoot
 Rose Cotton
 Rose Gardner
 Rossiel
 Rowan
 Rowan Greenhand
-Greenhand
-Rowlie Appledore
 Rowlie
-Appledore
+Rowlie Appledore
 Roäc
+Ruby
 Ruby Baggins
 Ruby Gardner
+Rudibert
 Rudibert Bolger
-Ruby
-Rudigar Bolger
 Rudigar
-Rudolph Bolger
+Rudigar Bolger
 Rudolph
-Ruffians
-Rufus Burrows
+Rudolph Bolger
 Rufus
-Rukh Stargûsh
+Rufus Burrows
 Rukh
-Stargûsh
+Rukh Stargûsh
 Runsig
 Rupert
-Rána
+Rustborin
 Rían
 Rómendacil
 Rúmil
 Sackville
 Sackville-Baggins
-Sadoc Brandybuck
 Sadoc
+Sadoc Brandybuck
 Sadoc Burrows
 Sador
 Saelbeth
@@ -1407,46 +1253,44 @@ Sagroth
 Saleme
 Salgant
 Salmar
-Salvia Bolger
 Salvia
-Samwise Gamgee
+Salvia Bolger
 Samwise
-Sancho Proudfoot
+Samwise Gamgee
 Sancho
+Sancho Proudfoot
 Sandheaver
 Sandyman
 Sangahyando
-Sapphira Boffin
 Sapphira
-Saradas Brandybuck
+Sapphira Boffin
 Saradas
-Saradoc Brandybuck
+Saradas Brandybuck
 Saradoc
-Sarnas Fingolfin
+Saradoc Brandybuck
 Sarnas
+Sarnas Fingolfin
 Saruman
 Sauro
 Sauron
-Súro
 Scatha
 Sebastian
-Seers
 Sefut
-Seredic Brandybuck
 Seredic
+Seredic Brandybuck
 Serka
 Shagrat
 Shaknar
 Sharku
 Shelob
-Sigismond Took
 Sigismond
+Sigismond Took
 Sigrid
 Silindë
-Silmariën
-Sindar
+Silverbeard
+Sindri
 Siriondil
-Sleeper
+Smallburrow
 Smaug
 Sméagol
 Snaga
@@ -1454,30 +1298,27 @@ Snaggleroot
 Snowmane
 Soronto
 Soury
-Spiderling
-Spiders
-Sprites
 Squint
-Stiffbeards
-Stoors
-Strap Proudfellow
+Steelsheen
+Stonecrow
 Strap
+Strap Proudfellow
 Stuart
 Suladân
 Sunind
-Sylphs
 Sáyar
 Súlien
+Súrion
+Súro
 Takra
 Tal-Elmar
-Talan
 Talion
 Tamar
+Tanta
 Tanta Baggins
 Tar Goroth
 Tar-Alcarin
 Tar-Aldarion
-Mogru
 Tar-Amandil
 Tar-Ancalimon
 Tar-Ancalimë
@@ -1504,26 +1345,25 @@ Targon
 Tarondor
 Tata
 Tatië
-Tauriel
-Tavari
-Ted Sandyman
 Ted
+Ted Sandyman
 Telchar
+Telemmaitë
 Telemnar
-Teleri
 Telimektar
+Telperiën
 Telumehtar
-Temple Guardian
 Tevildo
 Thalin
 Thalion
+Thane
 Thane Ulchor
 Tharzog
 Thauron
 Thengel
 Theo
-Theobald Bolger
 Theobald
+Theobald Bolger
 Thondir
 Thorin
 Thorne
@@ -1543,52 +1383,42 @@ Tilion
 Tim
 Tindómiel
 Tinfang
-Tobold Hornblower
 Tobold
-Hornblower
-Togo Goodbody
+Tobold Hornblower
 Togo
-Goodbody
-Tolman Cotton
+Togo Goodbody
 Tolman
+Tolman Cotton
 Tolman Gardner
-Tom Bombadil
 Tom
+Tom Bombadil
 Tom Pickthorn
-Bombadil
-Pickthorn
-Bert
-William
+Took
 Torvin
-Tosser Grubb
 Tosser
-Grubb
-Tosto Boffin
+Tosser Grubb
 Tosto
+Tosto Boffin
 Tredwill
 Treebeard
 Tulkas
 Tulkastor
-Tumna
 Tunnelly
 Tuor
 Turambar
 Turgon
-Twins
+Turinqi
 Tórin
 Túrin
 Túro
 Tû
-Ufedhin
-Uffo Boffin
 Uffo
+Uffo Boffin
 Ufthak
 Uglúk
 Uinen
-Ulban
-Ulband
-Ulbandi
 Ulbar
+Ulchor
 Uldor
 Ulfang
 Ulfast
@@ -1596,69 +1426,59 @@ Ulmo
 Ulrad
 Ulwarth
 Umuiyan
-Undead
 Unferth
 Ungoliant
+Uri
 Urthel
-Uruk-hai
 Urwen
 Vairë
 Valacar
 Valandil
 Valandur
-Valar
 Valwë
-Vanyar
+Vanimeldë
 Varda
-Vardamir Nólimon
 Vardamir
-Nólimon
+Vardamir Nólimon
 Vardilmë
-Variags
 Varin
 Velindo
 Vidugavia
 Vidumavi
-Vigo Boffin
 Vigo
+Vigo Boffin
 Vilma
-Von
 Vorondil
 Voronwë
 Vrasku
 Vrath
 Vána
-Vása
 Vëannë
 Vëantur
-Wainriders
 Walda
 Waldreg
 Watol
+Whitfoot
 Wiglaf
-Wilcombe Cotton
 Wilcombe
+Wilcombe Cotton
 Wilibald
 Wilibald Bolger
-Wilimar Bolger
 Wilimar
-Will Whitfoot
+Wilimar Bolger
 Will
-Whitfoot
-Willie Banks
+Will Whitfoot
+William
 Willie
-Banks
+Willie Banks
 Winterbloom
-Wiseman Gamwich
 Wiseman
-Gamwich
-Wraiths
+Wiseman Gamwich
 Wulf
 Wulfrun
-Wyrms
 Wídfara
-Yarrow Proudfellow
 Yarrow
+Yarrow Proudfellow
 Yavanna
 Yazan
 Yazneg
@@ -1667,11 +1487,10 @@ Zamîn
 Zhor
 Zhója
 Zimrahin
+Zirak
 Zog
 Ælfheah
-Aelfheah
 Ælfwine
-Aelfwine
 Éadgifu
 Éofor
 Éomer
@@ -1680,7 +1499,6 @@ Aelfwine
 Éothéod
 Éowyn
 Ídhiel
-Ír
 Írildë
 Írimë
 Îbal
