@@ -3,6 +3,7 @@ import re
 import pandas as pd
 from collections import defaultdict, Counter
 import json
+import matplotlib.pyplot as plt
 
 
 '''
@@ -149,40 +150,34 @@ def retrieve_entities(text, loc, char):
         Dict[str, List[str]]: Dictionary containing the entities with their start and end index.
     """
 
-    entities = defaultdict(list)
-
     locations, loc_index = find_entities(text, loc, 'LOC')
     characters, char_index = find_entities(text, char, 'PERSON')
     # languages, lang_index = find_entities(text, lang, 'LANGUAGE')
 
-    entities['LOC'] = locations
-    entities['PERSON'] = characters
-    # entities['LANGUAGE'] = languages
-
-    return loc_index, char_index
+    return loc_index, char_index, locations, characters
 
 
-# def plot_entities(num_loc, num_char):
+def plot_entities(num_loc, num_char, set):
 
-#     import matplotlib.pyplot as plt
- 
-#     fig, ax = plt.subplots()
-#     width = 0.35  
+    fig, ax = plt.subplots()
+    width = 0.35  
 
-#     loc_keys = list(num_loc.keys())
-#     char_keys = list(num_char.keys())
-#     x = range(len(loc_keys))
+    loc_keys = list(num_loc.keys())
+    texts_names = [text[:6] + "..." for text in loc_keys]
+    
+    x = range(len(loc_keys))
 
-#     ax.bar(x, num_loc.values(), width, label='Location entities', color='lightsteelblue')
-#     ax.bar([p + width for p in x], num_char.values(), width, label='Character entities', color='darkgreen')
+    ax.bar(x, num_loc.values(), width, label='Location entities', color='lightsteelblue')
+    ax.bar([p + width for p in x], num_char.values(), width, label='Character entities', color='darkgreen')
 
-#     ax.set_xlabel('Texts')
-#     ax.set_xticks([p + width / 2 for p in x])
-#     ax.set_xticklabels(loc_keys)
-#     ax.legend()
-#     ax.set_ylabel('Number of entities')
-#     ax.set_title('Entity types repartition (DEV)')
-#     plt.show()
+    ax.set_xlabel('Texts')
+    ax.set_xticks([p + width / 2 for p in x])
+    ax.set_xticklabels(texts_names)
+    ax.tick_params(axis='x', rotation=45)
+    ax.legend()
+    ax.set_ylabel('Number of entities')
+    ax.set_title(f'Entity types repartition {set}')
+    plt.show()
 
 def save_entities(entities, output_file):
 
@@ -221,7 +216,8 @@ def main():
     # Now we can retrieve the texts !
     texts = retrieve_texts(df)
    
-
+    all_characters = []
+    all_locations = []
     all_entities = []
     sum_tokens = 0
 
@@ -237,7 +233,7 @@ def main():
         sum_tokens += len(text.split())
 
         # Retrieve the list of entities alongside their start and end index !
-        loc_index, char_index = retrieve_entities(text, loc, char)
+        loc_index, char_index, locations, characters = retrieve_entities(text, loc, char)
 
         # We remove the numbers from the title to avoid duplicates, for stats.
         # Because we have a lot of bible chapters :> 
@@ -248,20 +244,22 @@ def main():
         # For each entity that we found, we store its start and end index alongside its label.
         # So for each text, we get a list of dictionaries. One dictionary per entity !
         list_dict_entities = []
+        all_characters.extend(characters)
+        all_locations.extend(locations)
 
         if len(loc_index) > 0:
             for entity in loc_index:
                 list_dict_entities.append({"start" : entity[0], "end" : entity[1], "label" : entity[2]})
-            num_loc[title_without_num] += len(loc_index)
+                num_loc[title_without_num] += 1
         else:
-            num_loc[title_without_num] = 0
+            num_loc[title_without_num] += 0
 
         if len(char_index) > 0:
             for entity in char_index:
                 list_dict_entities.append({"start" : entity[0], "end" : entity[1], "label" : entity[2]})
-            num_char[title_without_num] += len(char_index)
+                num_char[title_without_num] += 1
         else:
-            num_char[title_without_num] = 0
+            num_char[title_without_num] += 0
 
         # if len(language_index) > 0:
         #     for entity in language_index:
@@ -272,9 +270,13 @@ def main():
         
     save_entities(all_entities, f"../json_inputs/{args.set}.json")
     print("Total number of tokens: ", sum_tokens)
-    # print("Number of entities per text:")
+    print("Number of entities found: ", len(all_entities))
+    print("Number of locations found: ", len(all_locations))
+    print("Number of characters found: ", len(all_characters))
+    print("Number of unique locations found: ", len(set(all_locations)))
+    print("Number of unique characters found: ", len(set(all_characters)))
 
-    # plot_entities(num_loc, num_char)
+    plot_entities(num_loc, num_char, args.set)
 
 if __name__ == "__main__":
     main()
