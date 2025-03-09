@@ -6,7 +6,12 @@ def load(file):
     
     return entities
 
+def clean(entities):
 
+    entities = list(set(entities))
+    entities = sorted(entities)
+
+    return entities
 
 
 def save(entities, file):
@@ -17,13 +22,9 @@ def save(entities, file):
 
 def main():
 
-    entities = load("../data/elvish/entities/entities_cleaned.txt")
-    print(entities)
-    
-    entities = list(set(entities))
-    entities = sorted(entities)
-    print(entities)
-    save(entities, "../data/elvish/entities/entities_cleanedgr.txt")
+    entities = load("../data/entities/entities_cleanedgr.txt")
+    entities = clean(entities)
+    save(entities, "../data/entities/person.txt")
 
 if __name__ == "__main__":
     main()
