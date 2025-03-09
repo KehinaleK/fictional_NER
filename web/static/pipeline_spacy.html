@@ -67,8 +67,7 @@
         <p>
             Ce fichier JSON doit être converti en un format exploitable par Spacy à l'aide du script <code>conversion.py</code>. 
             Cette conversion peut engendrer des erreurs, notamment au niveau d'entités superposées (ex: un nom pouvant être à la fois une PERSON et un LOC). 
-            Des corrections manuelles ont été apportées pour minimiser ces erreurs. Nous avons par exemple décidé d'annoter les noms complets comme entités à part entière.
-            Si "Frodo", "Baggins" et "Frodo Baggins" apparaissent tous les trois dans un même texte, alors "Frodo" et "Baggins" seront reconnues une fois chacune. "Frodo Baggins" sera considérée comme une entité distincte.
+            Des corrections manuelles ont été apportées pour minimiser ces erreurs.
 
         </p>
 
@@ -83,8 +82,8 @@
                 <li><strong>Reconnaissance d'entités :</strong> Transition-Based Parser (Multi Layer Perceptron + contexte token précédent + état actuel).</li>
             </ul>
             <p>
-                Dans notre cas, l'utilisation du label 'xx' permet d'imposer l'utilisation de modèles multilingues afin de s'adapter au mieux à une langue non couverte par la librairie.
-                Spacy commence par tokéniser le texte donné en input. Ce dernier est ensuite vectorisé à l'aide d'un processus impliquant un réseau de neurones convolutifs. <code>Tok2Vec</code> permet de fournir pour chaque token
+                Le label 'xx' permet d'imposer l'utilisation de modèles multilingues afin de s'adapter au mieux à une langue non couverte par la librairie.
+                Spacy commence par tokéniser le texte donné en input puis le vectorise à l'aide d'un processus impliquant un réseau de neurones convolutif. <code>Tok2Vec</code> permet de fournir pour chaque token
                 un embedding représentatif de son contexte, you shall know a word by the company it keeps. <code>MultiHashEmbed</code> permet lui d'encoder des attributs de forme pour chaque token comme d'éventuels préfixes ou suffixes.
                 Ces encodages sont ensuite soumis à une couche d'activation MaxOut permettant de renvoyer un embedding final. Le <code>Transition-Based Parser</code> prend ensuite la représentation vectorielle d'un token en entré. En se basant sur cette dernière
                 ainsi que sur les prédictions précédentes, il établit une probabilité de transition (donc début, fin, et type d'entité) pour le token correspondant à l'embedding. Cette suite de prédictions compose l'annotation finale proposée par le modèle.
@@ -104,24 +103,13 @@
             </ul>
 
             Des entraînements supplémentaires ont de plus été effectués en utilisant les modèles de tokénisation et de vectorisation du finnois.
-            <p>
-                Le script <code>training.py</code> entraîne plusieurs modèles en variant ces hyperparamètres. 
-                Chaque combinaison génère deux versions du modèle :
-            </p>
-            <ul>
-                <li>La dernière version après le dernier epoch sur l'ensemble de validation.</li>
-                <li>La meilleure version obtenue avec l'ensemble de validation.</li>
-            </ul>
-            <p>
-                Ces modèles sont stockés dans des dossiers nommés d’après leurs hyperparamètres respectifs.
-            </p>
+            
             <h3>Évaluation</h3>
 
             <img src="img/training_pipeline.png"/>
             <p>
                 <p>
                     L'output de la pipeline d'entraînement permet d'avoir accès aux métriques d'évaluation calculées pour chaque epoch. 
-                    Ces dernières montrent notamment les valeurs des Loss de <code>Tok2Vec</code>, du Transition-Based Parser, ainsi que la F-mesure, le rappel, la précision et l'accuracy de la prédiction d'entités. 
                     Des métriques plus détaillées (pour chaque classe) sont disponibles dans les dossiers créés après chaque entraînement.
                 </p>
                 
@@ -133,8 +121,6 @@
                     <li>
                         Les scores obtenus pour les entités de type <strong>'PERSON'</strong> sont généralement plus élevés que pour les entités de type <strong>'LOC'</strong>. 
                         Nous pensons que cela est dû à une plus grande variabilité des noms de personnages dans les textes de Tolkien. 
-                        Les lieux sont quasiment absents des textes écrits par Tolkien et ne disposent pas toujours de traduction en quenya in-universe. 
-                        Ceux reconnus proviennent surtout de la traduction de la bible et du Silmarillion par des fans, présentant ainsi une variabilité plus faible que les noms de personnages, qui sont mentionnés dans tout type de texte, indépendamment de leur source.
                     </li>
                     
                     <li>
@@ -151,9 +137,6 @@
                 
                 <p>
                     Nous pouvions désormais vérifier ces tendances sur l'ensemble de test. 
-                    Nous rappelons que ces ensembles ont été constitués afin de préserver un équilibre de sources pour chacun d'entre eux. 
-                    Nous avons une proportion comparable de textes écrits par Tolkien et de textes en néo-quenya écrits par des fans. 
-                    Ces derniers ont également été répartis de manière à ce que la traduction néo-quenya de la bible soit équitablement répartie entre les ensembles, afin de ne pas restreindre un ensemble à une seule source et à une liste d'entités peu variée.
                 </p>
                 
                 <p>
@@ -163,7 +146,7 @@
                 </p>
                 
                 <p>
-                    Indépendamment des modèles de tokenisation et de vectorisation utilisés, voici maintenant les résultats obtenus pour les 5 combinaisons d'hyperparamètres les plus performantes :
+                    Indépendamment des modèles de tokenisation et de vectorisation utilisés, voici maintenant les résultats obtenus pour les 3 combinaisons d'hyperparamètres les plus performantes :
                 </p>
             <table>
                 <table border="1">
@@ -214,15 +197,11 @@
             <p>
                 Ces résultats peuvent premièrement nous montrer que c'est en ne prenant <strong>pas en compte la casse</strong> que nous obtenons de meilleurs résultats. 
                 Bien que cela puisse sembler contre-intuitif au départ, cela pourrait s'expliquer par l'utilisation de majuscules dans des constructions spécifiques des poèmes du corpus. 
-                Néanmoins, les modèles utilisant la casse affichent des scores relativement proches de ceux mentionnés ci-dessus. 
-                Par exemple, le quatrième meilleur modèle utilise efficacement les majuscules comme repère d'entités et présente un score de F-Mesure de <strong>0.662</strong>.
-            </p>
+                Néanmoins, les modèles utilisant la casse affichent des scores relativement proches de ceux mentionnés ci-dessus.            </p>
             
             <p>
                 En ce qui concerne les autres hyperparamètres, il semble qu'un <strong>batch size</strong> plus grand améliore généralement les résultats. 
-                Cela indique qu'une prise en compte plus large du contexte est cruciale dans le cadre de notre projet et au vu des données utilisées. 
-                De plus, la valeur de <strong>learning rate</strong> semble avoir peu d'influence sur les scores, suggérant que les deux valeurs choisies comme hyperparamètres sont relativement basses pour le modèle.
-            </p>
+                Cela indique qu'une prise en compte plus large du contexte est cruciale dans le cadre de notre projet et au vu des données utilisées.             </p>
             
             <p>
                 Il est important de rappeler que ces résultats concernent uniquement une seule combinaison d'ensembles de train, test et validation. 
@@ -234,9 +213,6 @@
                 Par exemple, un split a permis d'obtenir un score de F-Mesure globale de <strong>0.955</strong> (<code>secondtrue_5_1600.json</code>), avec <strong>0.972</strong> pour PERSON et <strong>0.936</strong> pour LOC. 
                 D'autres essais ont donné des résultats plus bas, mais une grande partie a également produit des résultats proches de ceux obtenus avec notre split "équilibré". 
                 Bien qu'une performance "moyenne" d'environ <strong>60%</strong> se retrouve dans plusieurs partitions, la qualité des résultats dépend énormément des données utilisées pour l'entraînement et l'évaluation. 
-                Augmenter les données d'entraînement pourrait donc permettre d'obtenir des résultats plus stables et généralisables. 
-                Cependant, nous faisons face à un manque de sources. 
-                Il reste notamment à annoter le reste de la bible en quenya et à trouver d'autres textes pour éviter de rencontrer toujours les mêmes entités.
             </p>
             
             <p>
@@ -272,10 +248,9 @@
 
 
             <p>
-            Nous pouvons observer que la plupart des noms sont bien reconnus ! Cependant, le modèle a du plus de mal avec les noms de lieux. Par exemple, "Yerúsalemello (Jérusalem)" n'est pas du tout reconnu malgré deux occurrences. 
+            Le modèle plus de mal avec les noms de lieux. "Yerúsalemello (Jérusalem)" n'est pas du tout reconnu malgré deux occurrences. 
             Il est donc peut-être possible que le modèle ait du mal à reconnaître les noms de lieux avec cas, "Yerúsalemello" étant dérivié de "Yerúsalem" en quenya.
-            Le modèle reconnait également "Eques" comme un lieu alors qu'il s'agit d'un lieu. Les noms de personnages sont eux bien mieux reconnus. Nous pouvons d'ailleurs noter 
-            que "Erutercáno" n'est pas reconnu comme un nom de personnage (et heureusement !), signifiant "le prophète" en quenya. "Yesaia i Erutercáno" est lui bien reconnu comme tel !
+            Le modèle reconnait également "Eques" comme un lieu alors qu'il s'agit d'un verbe. "Erutercáno" n'est pas reconnu comme un nom de personnage (et heureusement !), signifiant "le prophète" en quenya. "Yesaia i Erutercáno" est lui bien reconnu comme tel !
             </p>
 
             <h4>Texte 2 - Néo-Quenya : <em>Kelevala</em></h4>
@@ -298,8 +273,8 @@
             </blockquote>
 
             <p>
-            Pour cet exemple ci, le modèle repère "Eldar", signifiant "Elfes" en quenya. Il ne s'agit ici pas d'un lieu comme le pense le modèle. "Melcorello" n'est lui pas reconnu du tout. Nous ne pouvons ici pas vraiment savoir si "Melkor" fait référence à "Melkor" (le grans pas gentil) ou à un lieu le personnifiant.
-            "Amanna" est reconnu comme une personne et non pas un lieu. Les résultats plus faibles pourraient donc ici découler d'une interprétation plus libre des types d'entités présentes.
+            Pour cet exemple ci, le modèle repère "Eldar", signifiant "Elfes" en quenya. Il ne s'agit ici pas d'un lieu comme le pense le modèle. "Melcorello" n'est lui pas reconnu du tout. Nous ne pouvons ici pas vraiment savoir si "Melkor" fait référence à "Melkor" (le grand pas gentil) ou à un lieu le personnifiant.
+            Les résultats plus faibles pourraient donc ici découler d'une interprétation plus libre des types d'entités présentes.
             </p>
 
             <h4>Texte 3 - Néo-Quenya : <em>L'évangile selon Matthieu</em></h4>
@@ -328,9 +303,11 @@
                 </em>
 
             <p>
-            Enfin, concernant ce texte originellement issu du Silmarillion traduit en Quenya par des fans, nous obtenons des résultats loin d'être satisfaisants. Trois entités sont reconnues mais aucune n'est classifiée correctement. "Elendil", "Sauron" et "Númenórello" sont tous les trois reconnus comme des lieux.
-            Il faut cependant noter que "Númenórello" est reconnu alors qu'il n'est pas présent dans les données d'entraînement (en tout cas, pas avec ces accents hehe woop woop). Notre modèle semble donc capable de généraliser. Bien sûre, d'autrres entités non présentes dans nos listes sont reconnues dans l'ensemble de test.
+            "Elendil", "Sauron" et "Númenórello" sont tous les trois reconnus à tort comme des lieux.
+            Malgré tout, "Númenórello" est reconnu alors qu'il n'est pas présent dans les données d'entraînement (en tout cas, pas avec ces accents hehe woop woop). 
+            Bien sûre, d'autrres entités non présentes dans nos listes sont reconnues dans l'ensemble de test.
             </p>
+
 
             <p>
             En conclusion, le modèle semble être assez performant pour reconnaître pour reconnaître les entités mais un peu moins pour les classifier. 
