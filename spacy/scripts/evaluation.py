@@ -1,32 +1,45 @@
-import spacy
 import subprocess
+import argparse
 import glob
 
 
-# def test(model):
+def run_test(model):
 
-#     output_file = model.split("/")[-2]
-    
-#     test_command = ["python", "-m", "spacy", "evaluate", model,
-#                     "spacy_input/test.spacy", "--output", f"spacy_results/{output_file}.json"]
-    
-#     subprocess.run(test_command)
+    """
+    Run the spacy evaluate command on a given model.
+    """
 
-def illustrate(model):
+    output_file = model.split("/")[-2]
     
-    nlp = spacy.load(model)
-    test = nlp("Si Yoháno vettie ná íre i Yúrar mentaner airimóli ar Levindeli Yerúsalemello maquetien senna: “Man nalye?” Ar carampes pantave ar ua lalane, mal quente pantave: “Uan i Hristo.” Ar maquentelte senna: “Tá mana? Ma nalye Elía?” Ar eques: “Uan.” “Ma nalye i Erutercáno?” Ar hanquentes: “Lá!” Etta quentelte senna: “Man nalye? Lava men same hanquenta in mentaner me. Mana quetil pa imle?” Eques: “Nanye óma yamila i ravandasse: Cara i Héruo malle téra! – tambe Yesaia i Erutercáno quente.”")
-    for entity in test.ents:
-        print(entity.text, entity.label_, entity.start_char, entity.end_char)
+    test_command = ["python", "-m", "spacy", "evaluate", model,
+                    "../spacy_inputs/test.spacy", "--output", f"../spacy_results_caca/{output_file}.json"]
+    
+    subprocess.run(test_command)
 
 
 def main():
-    # train_directories = glob.glob()
-    # for directory in train_directories:
-    #     print(f"Testing model in {directory}")
-        # test(f"{directory}/model-best")
 
-    illustrate("original_shuffles/secondtrue_5_1600/model-best")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--models", type=str, help="The path to the directory containing the models to test.", required=False)
+    parser.add_argument("--model", type=str, help="The path to the model to test.", required=False)
+    args = parser.parse_args()
+
+    if args.models:
+        train_directories = glob.glob(f"{args.models}/*")
+        print(train_directories)
+        for directory in train_directories:
+            print()
+            print(f"Testing model in {directory}")
+            run_test(f"{directory}/model-best")
+
+    if args.model:
+        model_name = args.model.split("/")[-2]
+        print(f"Testing model in {args.model}")
+        run_test(f"{args.model}/model-best")
+
+
+
+
 
 if __name__ == "__main__":
     main()
