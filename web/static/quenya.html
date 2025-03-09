@@ -1,0 +1,73 @@
+<!-- GNU TERRY PRATCHETT -->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>NER-Annotateur-Quenya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Navbar à gauche -->
+  <div class="navbar">
+      <a href="quenya.html">Extraction NER</a>
+      <a href="pipeline_spacy.html">Pipepline Spacy</a>
+      <a href="blstm_crf.html">BSLTM CRF</a>
+      <a href="methodologie.html">Méthodologie</a>
+      <a href="sources.html">Sources</a>
+  </div>
+
+<!--Conteneur principal -->
+  <div class="main-content">
+  <div class="blurred-content">
+  <h1 border= 5px solid #3498db >NER Annotateur pour Quenya</h1>
+  <h2> Be the nerd you want to see in the world </h2>
+
+  <p> Ce site propose une reconnaissance des entitées nommées (personne et lieu) dans les textes écrits en quenya et néo-quenya en utilisant une pipeline SpaCy.</p>
+  <p> Entrez votre texte en quenya dans le champ ci dessous et appuyez sur entrée </p>
+
+<!-- Formulaire avec champs de saisie - texte à passer dans le modèle -->
+  <form action="http://localhost:8000/postag" method="POST" id="inputForm">
+    <label for="sentence">Texte à analyser</label>
+    <textarea name="sentence" id="sentence">Oiale enwina istar, oio tulka Väinämöinen
+Marne lúmeryassen tiessen úvie nórer Väinöläo,
+Tiessen nórer Kalevalo, lirines linderyar lienna </textarea>
+  <div class="container">
+    <button type="submit">Envoyer</button>
+  </div>
+  </form>
+  </div>
+  <!-- Conteneur de la réponse script -->
+    <div class="blurred-content" id="result"><h1>RESULTATS</h1></div>
+  </div>
+</body>
+
+<!--lien html - API : récupération du champs de saisie et traitement-->
+<script>
+  document.querySelector("#inputForm").onsubmit = async (event) => {
+      event.preventDefault()
+      const form = event.target
+
+      const data = {
+          sentence: form.querySelector("#sentence").value,
+      }
+
+      const response = await fetch(
+          form.action,
+          {
+              method: "POST",
+              headers: {
+                "Accept": "text/html",
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+          },
+      )
+
+      const text = await response.text()
+      document.querySelector("#result").innerHTML = text
+  }
+</script>
+</html>

@@ -1,0 +1,344 @@
+<!-- GNU TERRY PRATCHETT -->
+
+<!-- GNU TERRY PRATCHETT -->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>NER-Annotateur-Quenya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Navbar à gauche -->
+  <div class="navbar">
+      <a href="quenya.html">Extraction NER</a>
+      <a href="pipeline_spacy_1.html">Pipepline Spacy</a>
+      <a href="blstm_crf.html">BSLTM CRF</a>
+      <a href="methodologie.html">Méthodologie</a>
+      <a href="sources.html">Sources</a>
+  </div>
+
+<!--Conteneur principal -->
+  <div class="main-content">
+    <div class="blurred-content">
+
+      <h1 border= 5px solid #3498db >Pipeline Spacy</h1>
+
+      <p>
+        La première méthode utilisée pour la création d'un annotateur NER pour le Quenya est celle de l'architecture proposée par Spacy.
+      </p>
+      <p>
+        Spacy est une bibliothèque Python dédiée au traitement automatique des langues, proposant divers outils pour des tâches telles que le parsing, la reconnaissance d'entités nommées et le POS-tagging.
+        Bien que Spacy couvre plusieurs langues, il ne prend malheureusement pas en charge l'elfique (pour l'instant...) !
+      </p>
+
+      <h2>Architecture NER</h2>
+      <p>
+        L'architecture NER de Spacy repose sur un système de transition de séquences. Un token peut être identifié comme le début d'une entité, une partie d'une entité ou hors de toute entité.
+        Ces différents états permettent au modèle de reconnaître les entités en analysant leur contexte et comprendre quelles caractéristiques les définissent.
+      </p>
+        <p>
+            Spacy propose une pipeline complète intégrant des outils de reconnaissance pré-entraînés, utilisables directement ou comme baseline pour des applications spécifiques.
+            Cette pipeline inclut plusieurs étapes :
+        </p>
+        <ul>
+            <li><strong>Tokenizer :</strong> Divers modèles adaptés à plusieurs langues.</li>
+            <li><strong>Vectorizer :</strong> Modèles de vectorisation pour représenter chaque token.</li>
+            <li><strong>Transition Based Parser :</strong> Reconnaissance des entités.</li>
+        </ul>
+
+        <h2>Utilisation</h2>
+        <h3>Formatage des données</h3>
+        <p>
+            Spacy nécessite un format spécifique pour l'entraînement et la prédiction des entités nommées. 
+            Les annotations doivent être stockées dans un fichier JSON sous la forme d'une liste contenant autant de dictionnaires que de textes dans le corpus.
+            Chaque dictionnaire contient les items suivants :
+        </p>
+        <ul>
+            <li><strong>'text'</strong> : le texte complet.</li>
+            <li><strong>'entities'</strong> : une liste de dictionnaires contenant le type d'entité, l'index de début et l'index de fin.</li>
+        </ul>
+
+        <img src="img/spacy_input.png"/>
+
+        <p>
+            Ce fichier JSON doit être converti en un format exploitable par Spacy à l'aide du script <code>conversion.py</code>. 
+            Cette conversion peut engendrer des erreurs, notamment au niveau d'entités superposées (ex: un nom pouvant être à la fois une PERSON et un LOC). 
+            Des corrections manuelles ont été apportées pour minimiser ces erreurs. Nous avons par exemple décidé d'annoter les noms complets comme entités à part entière.
+            Si "Frodo", "Baggins" et "Frodo Baggins" apparaissent tous les trois dans un même texte, alors "Frodo" et "Baggins" seront reconnues une fois chacune. "Frodo Baggins" sera considérée comme une entité distincte.
+
+        </p>
+
+        <h3>Entraînement</h3>
+            <p>
+                Lors du premier lancement de la pipeline NER, Spacy génère automatiquement un fichier <strong>config</strong> contenant les détails des modèles et étapes du traitement :
+            </p>
+            <ul>
+                <li><strong>Tokenizer :</strong> <code>Spacy.Tokenizer.v1</code></li>
+                <li><strong>Vectorisation :</strong> <code>Spacy.Vectors.v1</code> (ou <code>Tok2Vec</code> si aucun embedding n'est fourni).</li>
+                <li><strong>Encodage des tokens :</strong> <code>Spacy.MultiHashEmbed.v2</code>.</li>
+                <li><strong>Reconnaissance d'entités :</strong> Transition-Based Parser (Multi Layer Perceptron + contexte token précédent + état actuel).</li>
+            </ul>
+            <p>
+                Dans notre cas, l'utilisation du label 'xx' permet d'imposer l'utilisation de modèles multilingues afin de s'adapter au mieux à une langue non couverte par la librairie.
+                Spacy commence par tokéniser le texte donné en input. Ce dernier est ensuite vectorisé à l'aide d'un processus impliquant un réseau de neurones convolutifs. <code>Tok2Vec</code> permet de fournir pour chaque token
+                un embedding représentatif de son contexte, you shall know a word by the company it keeps. <code>MultiHashEmbed</code> permet lui d'encoder des attributs de forme pour chaque token comme d'éventuels préfixes ou suffixes.
+                Ces encodages sont ensuite soumis à une couche d'activation MaxOut permettant de renvoyer un embedding final. Le <code>Transition-Based Parser</code> prend ensuite la représentation vectorielle d'un token en entré. En se basant sur cette dernière
+                ainsi que sur les prédictions précédentes, il établit une probabilité de transition (donc début, fin, et type d'entité) pour le token correspondant à l'embedding. Cette suite de prédictions compose l'annotation finale proposée par le modèle.
+
+            </p>
+
+            <h3>Changement des hyperparamètres</h3>
+            <p>
+                Le fichier de configuration contient également les hyperparamètres du modèle. Nous avons expérimenté plusieurs combinaisons pour optimiser la reconnaissance des entités.
+                Les valeurs modifiées incluent :
+            </p>
+            <ul>
+                <li><strong>upper_use :</strong> Utilisation de la casse pour la reconnaissance d'entités (<code>True</code>, <code>False</code>).</li>
+                <li><strong>learn_rate :</strong> Valeur de la learning rate (<code>0.01</code>, <code>0.001</code>).</li>
+                <li><strong>batch_size :</strong> Nombre d'échantillons traités simultanément lors de l'évaluation (<code>100</code>, <code>500</code>, <code>1000</code>).</li>
+                <li><strong>rate :</strong> Nombre d'échantillons traités simultanément lors de l'entraînement (<code>100</code>, <code>500</code>, <code>1000</code>).</li>
+            </ul>
+
+            Des entraînements supplémentaires ont de plus été effectués en utilisant les modèles de tokénisation et de vectorisation du finnois.
+            <p>
+                Le script <code>training.py</code> entraîne plusieurs modèles en variant ces hyperparamètres. 
+                Chaque combinaison génère deux versions du modèle :
+            </p>
+            <ul>
+                <li>La dernière version après le dernier epoch sur l'ensemble de validation.</li>
+                <li>La meilleure version obtenue avec l'ensemble de validation.</li>
+            </ul>
+            <p>
+                Ces modèles sont stockés dans des dossiers nommés d’après leurs hyperparamètres respectifs.
+            </p>
+            <h3>Évaluation</h3>
+
+            <img src="img/training_pipeline.png"/>
+            <p>
+                <p>
+                    L'output de la pipeline d'entraînement permet d'avoir accès aux métriques d'évaluation calculées pour chaque epoch. 
+                    Ces dernières montrent notamment les valeurs des Loss de <code>Tok2Vec</code>, du Transition-Based Parser, ainsi que la F-mesure, le rappel, la précision et l'accuracy de la prédiction d'entités. 
+                    Des métriques plus détaillées (pour chaque classe) sont disponibles dans les dossiers créés après chaque entraînement.
+                </p>
+                
+                <p>
+                    Les résultats obtenus sur l'ensemble de validation nous ont permis d'observer certaines tendances :
+                </p>
+                
+                <ul>
+                    <li>
+                        Les scores obtenus pour les entités de type <strong>'PERSON'</strong> sont généralement plus élevés que pour les entités de type <strong>'LOC'</strong>. 
+                        Nous pensons que cela est dû à une plus grande variabilité des noms de personnages dans les textes de Tolkien. 
+                        Les lieux sont quasiment absents des textes écrits par Tolkien et ne disposent pas toujours de traduction en quenya in-universe. 
+                        Ceux reconnus proviennent surtout de la traduction de la bible et du Silmarillion par des fans, présentant ainsi une variabilité plus faible que les noms de personnages, qui sont mentionnés dans tout type de texte, indépendamment de leur source.
+                    </li>
+                    
+                    <li>
+                        Les scores de précision semblent varier de manière plus importante que les scores de rappel. 
+                        Le modèle semble donc performer de manière plus stable sur la reconnaissance d'entités que sur leur classification. 
+                        Les entités sont reconnues de manière homogène entre chaque epoch, mais le nombre de faux positifs varie plus fortement.
+                    </li>
+                    
+                    <li>
+                        La F-Mesure, bien qu'elle puisse osciller de manière importante entre chaque epoch pour certains entraînements, reste constamment plus élevée que la moyenne. 
+                        Il semblerait que le modèle soit capable de reconnaître les entités de manière satisfaisante, même si la classe majoritaire (PERSON) peut entraîner des mauvaises classifications.
+                    </li>
+                </ul>
+                
+                <p>
+                    Nous pouvions désormais vérifier ces tendances sur l'ensemble de test. 
+                    Nous rappelons que ces ensembles ont été constitués afin de préserver un équilibre de sources pour chacun d'entre eux. 
+                    Nous avons une proportion comparable de textes écrits par Tolkien et de textes en néo-quenya écrits par des fans. 
+                    Ces derniers ont également été répartis de manière à ce que la traduction néo-quenya de la bible soit équitablement répartie entre les ensembles, afin de ne pas restreindre un ensemble à une seule source et à une liste d'entités peu variée.
+                </p>
+                
+                <p>
+                    La F-mesure moyenne pour les 24 essais est de <strong>0.628</strong>. 
+                    Lorsque nous faisons la moyenne de la F-score sur les modèles finlandais et multilingues, nous obtenons respectivement <strong>0.623</strong> et <strong>0.634</strong>. 
+                    La différence semble minime, mais montre bien que le finlandais est particulièrement adapté à la langue quenya.
+                </p>
+                
+                <p>
+                    Indépendamment des modèles de tokenisation et de vectorisation utilisés, voici maintenant les résultats obtenus pour les 5 combinaisons d'hyperparamètres les plus performantes :
+                </p>
+            <table>
+                <table border="1">
+                <caption><strong>Résultats des 3 meilleurs modèles</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Langue du modèle</th>
+                        <th>Hyperparamètres</th>
+                        <th>F-Mesure</th>
+                        <th>Rappel</th>
+                        <th>Précision</th>
+                        <th>F-Mesure PERSON</th>
+                        <th>F-Mesure LOC</th>
+                    </tr>
+                </thead>
+                <tbody>
+               
+                    <tr>
+                        <td>Finnish</td>
+                        <td><code>upper_use: False, learning_rate: 0.01, batch_size: 1000</code></td>
+                        <td><strong>0.684</strong></td>
+                        <td>0.619</td>
+                        <td>0.764</td>
+                        <td>0.783</td>
+                        <td>0.375</td>
+                    </tr>
+                    <tr>
+                        <td>Multilingual</td>
+                        <td><code>upper_use: False, learning_rate: 0.001, batch_size: 1000</code></td>
+                        <td><strong>0.682</strong></td>
+                        <td>0.69</td>
+                        <td>0.674</td>
+                        <td>0.753</td>
+                        <td>0.375</td>
+                    </tr>
+                    <tr>
+                        <td>Multilingual</td>
+                        <td><code>upper_use: False, learning_rate: 0.001, batch_size: 100</code></td>
+                        <td><strong>0.679</strong></td>
+                        <td>0.642</td>
+                        <td>0.72</td>
+                        <td>0.76</td>
+                        <td>0.421</td>
+                    </tr>
+                </tbody>
+            </table>            
+          
+            <p>
+                Ces résultats peuvent premièrement nous montrer que c'est en ne prenant <strong>pas en compte la casse</strong> que nous obtenons de meilleurs résultats. 
+                Bien que cela puisse sembler contre-intuitif au départ, cela pourrait s'expliquer par l'utilisation de majuscules dans des constructions spécifiques des poèmes du corpus. 
+                Néanmoins, les modèles utilisant la casse affichent des scores relativement proches de ceux mentionnés ci-dessus. 
+                Par exemple, le quatrième meilleur modèle utilise efficacement les majuscules comme repère d'entités et présente un score de F-Mesure de <strong>0.662</strong>.
+            </p>
+            
+            <p>
+                En ce qui concerne les autres hyperparamètres, il semble qu'un <strong>batch size</strong> plus grand améliore généralement les résultats. 
+                Cela indique qu'une prise en compte plus large du contexte est cruciale dans le cadre de notre projet et au vu des données utilisées. 
+                De plus, la valeur de <strong>learning rate</strong> semble avoir peu d'influence sur les scores, suggérant que les deux valeurs choisies comme hyperparamètres sont relativement basses pour le modèle.
+            </p>
+            
+            <p>
+                Il est important de rappeler que ces résultats concernent uniquement une seule combinaison d'ensembles de train, test et validation. 
+                Après plusieurs essais sur ces ensembles, les résultats obtenus demeurent très similaires, ce qui indique que nos modèles apprennent de manière constante. 
+                Cependant, lorsque nous effectuons les mêmes comparaisons avec des splits différents (obtenus aléatoirement), nous pouvons obtenir des résultats considérablement variés.
+            </p>
+            
+            <p>
+                Par exemple, un split a permis d'obtenir un score de F-Mesure globale de <strong>0.955</strong> (<code>secondtrue_5_1600.json</code>), avec <strong>0.972</strong> pour PERSON et <strong>0.936</strong> pour LOC. 
+                D'autres essais ont donné des résultats plus bas, mais une grande partie a également produit des résultats proches de ceux obtenus avec notre split "équilibré". 
+                Bien qu'une performance "moyenne" d'environ <strong>60%</strong> se retrouve dans plusieurs partitions, la qualité des résultats dépend énormément des données utilisées pour l'entraînement et l'évaluation. 
+                Augmenter les données d'entraînement pourrait donc permettre d'obtenir des résultats plus stables et généralisables. 
+                Cependant, nous faisons face à un manque de sources. 
+                Il reste notamment à annoter le reste de la bible en quenya et à trouver d'autres textes pour éviter de rencontrer toujours les mêmes entités.
+            </p>
+            
+            <p>
+                Nous souhaitions ensuite utiliser le modèle le plus performant pour annoter trois textes qui ne proviennent pas des données d'entraînement, de test ou de validation. 
+                Le premier texte est écrit par Tolkien, le second par un fan en néo-quenya, et le dernier est une traduction de la bible (également en néo-quenya). 
+                Vous pouvez tester le modèle vous-même à l'aide du script <code>illustration.py</code>.
+            </p>
+            
+            <h4>Texte 1 - Tolkien : <em>Eldar ataformaiti</em></h4>
+
+            <blockquote>
+                <em><b>
+                Si Yoháno vettie ná íre i Yúrar mentaner airimóli ar Levindeli Yerúsalemello maquetien senna: 
+                “Man nalye?” Ar carampes pantave ar ua lalane, mal quente pantave: “Uan i Hristo.” Ar maquentelte senna: 
+                “Tá mana? Ma nalye Elía?” Ar eques: “Uan.” “Ma nalye i Erutercáno?” Ar hanquentes: “Lá!” Etta quentelte senna: 
+                “Man nalye? Lava men same hanquenta in mentaner me. Mana quetil pa imle?” Eques: “Nanye óma yamila i ravandasse: 
+                Cara i Héruo malle téra! – tambe Yesaia i Erutercáno quente.”
+                </b></em>
+            </blockquote>
+            <blockquote>
+                <em>
+                This is the witness of John when the Jews sent some priests and Levites from Jerusalem to inquire of him: 
+                “Who are you?” And he spoke openly and did not deny [it], but said openly: “I am not the Christ.” 
+                And they asked him: “Then what? Are you Elijah?” And he said: “I am not.” “Are you the Prophet?” And he answered: 
+                “No!” Therefore they said to him: “Who are you? Let us have an answer for those who sent us. What do you say about yourself?” 
+                He said: “I am a voice crying in the desert: Make the Lord’s way straight! – as Isaiah the Prophet said.”
+                </em>
+            </blockquote>
+
+            <div class="image-container", style="text-align:center">
+                <img src="img/neo_quenya_bible_results_spacy.png" alt="NER Results for Tolkien Text">
+              </div>
+
+
+            <p>
+            Nous pouvons observer que la plupart des noms sont bien reconnus ! Cependant, le modèle a du plus de mal avec les noms de lieux. Par exemple, "Yerúsalemello (Jérusalem)" n'est pas du tout reconnu malgré deux occurrences. 
+            Il est donc peut-être possible que le modèle ait du mal à reconnaître les noms de lieux avec cas, "Yerúsalemello" étant dérivié de "Yerúsalem" en quenya.
+            Le modèle reconnait également "Eques" comme un lieu alors qu'il s'agit d'un lieu. Les noms de personnages sont eux bien mieux reconnus. Nous pouvons d'ailleurs noter 
+            que "Erutercáno" n'est pas reconnu comme un nom de personnage (et heureusement !), signifiant "le prophète" en quenya. "Yesaia i Erutercáno" est lui bien reconnu comme tel !
+            </p>
+
+            <h4>Texte 2 - Néo-Quenya : <em>Kelevala</em></h4>
+            <div class="image-container", style="text-align:center">
+                <img src="img/tolkien_results_spacy.png" alt="NER Results for Kelevala">
+            </div>
+
+            <blockquote>
+                <em><b>
+                Eldar ataformaiti, epetai i hyarma ú ten ulca símaryassen. 
+                úsië, an cé mo quernë cendelë númenna, ve senya, i hyarma tentanë Melcorello, ar cé mo formenna tentanes Amanna.
+                </b></em>  
+            </blockquote>
+
+            <blockquote>
+                <em>
+                The Elves were ambidexters, consequently the left hand was not to them evil in their imaginations. 
+                On the contrary, for if one turned the face westward, as was usual, the left hand pointed away from Melkor, and if northwards, it pointed toward towards Aman.
+                </em>
+            </blockquote>
+
+            <p>
+            Pour cet exemple ci, le modèle repère "Eldar", signifiant "Elfes" en quenya. Il ne s'agit ici pas d'un lieu comme le pense le modèle. "Melcorello" n'est lui pas reconnu du tout. Nous ne pouvons ici pas vraiment savoir si "Melkor" fait référence à "Melkor" (le grans pas gentil) ou à un lieu le personnifiant.
+            "Amanna" est reconnu comme une personne et non pas un lieu. Les résultats plus faibles pourraient donc ici découler d'une interprétation plus libre des types d'entités présentes.
+            </p>
+
+            <h4>Texte 3 - Néo-Quenya : <em>L'évangile selon Matthieu</em></h4>
+
+            <div class="image-container", style="text-align:center">
+                <img src="img/neo_quenya_results_spacy.png" alt="NER Results for Gospel">
+            </div>
+
+            <blockquote>
+                <em><b>
+                San sinë Tarcildillon i etelehtaner cuilintar nórentava lantallo, Rómenna utúlier vë quenta ná mí Akallabeth.
+                I canonta né Elendil Halla ar yondoryat - Isildur ar Anárion - orórot Arfarazonwa ar neurot Elrossevai alalastaner Sauron ar alaohtacarer Herunúmennar. 
+                Avánier Atalanter Númenórello entë ar ilyë Tarcildi vorondar ciryainen. 
+                Sinë neri ner meletyë ar haryaner ciryar poldë ar hallë, nán raumo lantanë entennar ar amortanet nenamboinen tenna i lumbar, ar taltanentë  falassenna Endorwa vë sornor raumova.
+                </b></em>
+            </blockquote>
+
+            <blockquote>
+                <em>
+                In that time those of the Númenóreans who were saved from destruction fled eastward, 
+                as is told in the Akallabêth. The chief of these were Elendil the Tall and his sons, Isildur and Anárion. 
+                Kinsmen of the King they were, descendants of Elros, but they had been unwilling to listen to Sauron, and had refused to make war on the Lords of the West. 
+                Manning their ships with all who remained faithful they forsook the land of Númenor ere ruin came upon it. 
+                They were mighty men and their ships were strong and tall, but the tempests overtook them, and they were borne aloft on hills of water even to the clouds, and they descended upon Middle-earth like birds of the storm.
+            </blockquote>
+                </em>
+
+            <p>
+            Enfin, concernant ce texte originellement issu du Silmarillion traduit en Quenya par des fans, nous obtenons des résultats loin d'être satisfaisants. Trois entités sont reconnues mais aucune n'est classifiée correctement. "Elendil", "Sauron" et "Númenórello" sont tous les trois reconnus comme des lieux.
+            Il faut cependant noter que "Númenórello" est reconnu alors qu'il n'est pas présent dans les données d'entraînement (en tout cas, pas avec ces accents hehe woop woop). Notre modèle semble donc capable de généraliser. Bien sûre, d'autrres entités non présentes dans nos listes sont reconnues dans l'ensemble de test.
+            </p>
+
+            <p>
+            En conclusion, le modèle semble être assez performant pour reconnaître pour reconnaître les entités mais un peu moins pour les classifier. 
+            </p>
+  </div>
+  </div>
+</body>
+
+
+</html>
+

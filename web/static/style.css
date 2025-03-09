@@ -1,0 +1,158 @@
+body {
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background-image: url('background_bs.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: repeat;
+    }
+
+* {
+  box-sizing: border-box;
+}
+
+.main-content {
+    margin-left: 200px;
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-height: 0;
+    height: auto;
+}
+
+.blurred-content {
+      flex-grow: 1;
+      position: relative;
+      width: 80%;
+      height: auto;
+      margin: 50px auto;
+      background: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 20px;;
+}
+
+.navbar {
+    width: 200px;
+    background-color: #184418;
+    padding-top: 20px;
+    height: 100vh;/**/
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #417730;
+}
+
+#sentence {
+    width: 100%;
+    height: 200px;
+    resize: both;
+}
+
+label {
+    text-align: center; /* Centrer le texte du label */
+    display: block; /* Faire du label un bloc pour appliquer text-align */
+}
+
+#result {
+    flex-grow: 1;
+    position: relative;
+    height: auto;
+    margin: 20px auto;
+    width: 80%;
+    height: auto;
+    min-height: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #184418;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #184418;
+    font-family: 'Arial Narrow', sans-serif;
+}
+
+h2 {
+    color: #184418;
+    text-align: center;
+    font-family: 'Snell Roundhand', cursive;
+}
+
+p {
+    text-align: left;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.location {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.person {
+    color: indigo;
+    font-weight: bold;
+
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+table {
+    border: solid 1px #184418;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border-style: solid;
+}
+
+button {
+    background-color: #184418;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #417730;
+}
+
+.container {
+    text-align: center;
+}
+
