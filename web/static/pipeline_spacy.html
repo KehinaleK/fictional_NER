@@ -15,7 +15,7 @@
 <!-- Navbar à gauche -->
   <div class="navbar">
       <a href="quenya.html">Extraction NER</a>
-      <a href="pipeline_spacy_1.html">Pipepline Spacy</a>
+      <a href="pipeline_spacy.html">Pipepline Spacy</a>
       <a href="blstm_crf.html">BSLTM CRF</a>
       <a href="methodologie.html">Méthodologie</a>
       <a href="sources.html">Sources</a>
@@ -62,7 +62,7 @@
             <li><strong>'entities'</strong> : une liste de dictionnaires contenant le type d'entité, l'index de début et l'index de fin.</li>
         </ul>
 
-        <img src="img/spacy_input.png"/>
+        <center><img src="img/spacy_input.png"/></center>
 
         <p>
             Ce fichier JSON doit être converti en un format exploitable par Spacy à l'aide du script <code>conversion.py</code>. 
@@ -106,7 +106,7 @@
             
             <h3>Évaluation</h3>
 
-            <img src="img/training_pipeline.png"/>
+            <center><img src="img/training_pipeline.png"/></center>
             <p>
                 <p>
                     L'output de la pipeline d'entraînement permet d'avoir accès aux métriques d'évaluation calculées pour chaque epoch. 
@@ -225,88 +225,91 @@
 
             <blockquote>
                 <em><b>
-                Si Yoháno vettie ná íre i Yúrar mentaner airimóli ar Levindeli Yerúsalemello maquetien senna: 
-                “Man nalye?” Ar carampes pantave ar ua lalane, mal quente pantave: “Uan i Hristo.” Ar maquentelte senna: 
-                “Tá mana? Ma nalye Elía?” Ar eques: “Uan.” “Ma nalye i Erutercáno?” Ar hanquentes: “Lá!” Etta quentelte senna: 
-                “Man nalye? Lava men same hanquenta in mentaner me. Mana quetil pa imle?” Eques: “Nanye óma yamila i ravandasse: 
-                Cara i Héruo malle téra! – tambe Yesaia i Erutercáno quente.”
+                Eldar ataformaiti, epetai i hyarma ú ten ulca símaryassen.
+                úsië, an cé mo quernë cendelë númenna, ve senya, i hyarma tentanë Melcorello, ar cé mo formenna tentanes Amanna.
                 </b></em>
             </blockquote>
-            <blockquote>
-                <em>
-                This is the witness of John when the Jews sent some priests and Levites from Jerusalem to inquire of him: 
-                “Who are you?” And he spoke openly and did not deny [it], but said openly: “I am not the Christ.” 
-                And they asked him: “Then what? Are you Elijah?” And he said: “I am not.” “Are you the Prophet?” And he answered: 
-                “No!” Therefore they said to him: “Who are you? Let us have an answer for those who sent us. What do you say about yourself?” 
-                He said: “I am a voice crying in the desert: Make the Lord’s way straight! – as Isaiah the Prophet said.”
-                </em>
-            </blockquote>
-
-            <div class="image-container", style="text-align:center">
-                <img src="img/neo_quenya_bible_results_spacy.png" alt="NER Results for Tolkien Text">
-              </div>
-
-
-            <p>
-            Le modèle plus de mal avec les noms de lieux. "Yerúsalemello (Jérusalem)" n'est pas du tout reconnu malgré deux occurrences. 
-            Il est donc peut-être possible que le modèle ait du mal à reconnaître les noms de lieux avec cas, "Yerúsalemello" étant dérivié de "Yerúsalem" en quenya.
-            Le modèle reconnait également "Eques" comme un lieu alors qu'il s'agit d'un verbe. "Erutercáno" n'est pas reconnu comme un nom de personnage (et heureusement !), signifiant "le prophète" en quenya. "Yesaia i Erutercáno" est lui bien reconnu comme tel !
-            </p>
-
-            <h4>Texte 2 - Néo-Quenya : <em>Kelevala</em></h4>
-            <div class="image-container", style="text-align:center">
-                <img src="img/tolkien_results_spacy.png" alt="NER Results for Kelevala">
-            </div>
-
-            <blockquote>
-                <em><b>
-                Eldar ataformaiti, epetai i hyarma ú ten ulca símaryassen. 
-                úsië, an cé mo quernë cendelë númenna, ve senya, i hyarma tentanë Melcorello, ar cé mo formenna tentanes Amanna.
-                </b></em>  
-            </blockquote>
 
             <blockquote>
                 <em>
-                The Elves were ambidexters, consequently the left hand was not to them evil in their imaginations. 
+                The Elves were ambidexters, consequently the left hand was not to them evil in their imaginations.
                 On the contrary, for if one turned the face westward, as was usual, the left hand pointed away from Melkor, and if northwards, it pointed toward towards Aman.
                 </em>
             </blockquote>
 
+                        <div class="image-container", style="text-align:center">
+                <img src="img/neo_quenya_results_spacy.png" alt="NER Results for Gospel">
+            </div>
+
             <p>
-            Pour cet exemple ci, le modèle repère "Eldar", signifiant "Elfes" en quenya. Il ne s'agit ici pas d'un lieu comme le pense le modèle. "Melcorello" n'est lui pas reconnu du tout. Nous ne pouvons ici pas vraiment savoir si "Melkor" fait référence à "Melkor" (le grand pas gentil) ou à un lieu le personnifiant.
+            Pour cet exemple ci, le modèle repère "Eldar", signifiant "Elfes" en quenya. Il ne s'agit ici pas d'un lieu comme le pense le modèle. De même, si "Amanna" est bel et bien reconnu, il est classé comme une personne alors qu'il s'agit d'un lieu. "Melcorello" n'est lui pas reconnu du tout. Nous ne pouvons ici pas vraiment savoir si "Melkor" fait référence à "Melkor" (le grand pas gentil) ou à un lieu le personnifiant.
             Les résultats plus faibles pourraient donc ici découler d'une interprétation plus libre des types d'entités présentes.
             </p>
 
-            <h4>Texte 3 - Néo-Quenya : <em>L'évangile selon Matthieu</em></h4>
-
-            <div class="image-container", style="text-align:center">
-                <img src="img/neo_quenya_results_spacy.png" alt="NER Results for Gospel">
-            </div>
+            <h4>Texte 2 - Néo-Quenya : <em>Kelevala</em></h4>
 
             <blockquote>
                 <em><b>
                 San sinë Tarcildillon i etelehtaner cuilintar nórentava lantallo, Rómenna utúlier vë quenta ná mí Akallabeth.
-                I canonta né Elendil Halla ar yondoryat - Isildur ar Anárion - orórot Arfarazonwa ar neurot Elrossevai alalastaner Sauron ar alaohtacarer Herunúmennar. 
-                Avánier Atalanter Númenórello entë ar ilyë Tarcildi vorondar ciryainen. 
+                I canonta né Elendil Halla ar yondoryat - Isildur ar Anárion - orórot Arfarazonwa ar neurot Elrossevai alalastaner Sauron ar alaohtacarer Herunúmennar.
+                Avánier Atalanter Númenórello entë ar ilyë Tarcildi vorondar ciryainen.
                 Sinë neri ner meletyë ar haryaner ciryar poldë ar hallë, nán raumo lantanë entennar ar amortanet nenamboinen tenna i lumbar, ar taltanentë  falassenna Endorwa vë sornor raumova.
                 </b></em>
             </blockquote>
 
             <blockquote>
                 <em>
-                In that time those of the Númenóreans who were saved from destruction fled eastward, 
-                as is told in the Akallabêth. The chief of these were Elendil the Tall and his sons, Isildur and Anárion. 
-                Kinsmen of the King they were, descendants of Elros, but they had been unwilling to listen to Sauron, and had refused to make war on the Lords of the West. 
-                Manning their ships with all who remained faithful they forsook the land of Númenor ere ruin came upon it. 
+                In that time those of the Númenóreans who were saved from destruction fled eastward,
+                as is told in the Akallabêth. The chief of these were Elendil the Tall and his sons, Isildur and Anárion.
+                Kinsmen of the King they were, descendants of Elros, but they had been unwilling to listen to Sauron, and had refused to make war on the Lords of the West.
+                Manning their ships with all who remained faithful they forsook the land of Númenor ere ruin came upon it.
                 They were mighty men and their ships were strong and tall, but the tempests overtook them, and they were borne aloft on hills of water even to the clouds, and they descended upon Middle-earth like birds of the storm.
             </blockquote>
                 </em>
 
+            <div class="image-container", style="text-align:center">
+                <img src="img/neo_quenya_bible_results_spacy.png" alt="NER Results for Tolkien Text">
+            </div>
+
             <p>
-            "Elendil", "Sauron" et "Númenórello" sont tous les trois reconnus à tort comme des lieux.
-            Malgré tout, "Númenórello" est reconnu alors qu'il n'est pas présent dans les données d'entraînement (en tout cas, pas avec ces accents hehe woop woop). 
-            Bien sûre, d'autrres entités non présentes dans nos listes sont reconnues dans l'ensemble de test.
+            "Elendil" et "Sauron" sont tous les deux reconnus, mais classifiés à tort comme des lieux (il s'agit de personnages).
+            En revanche, "Númenórello" (ablatif de Númenor) est correctement reconnu comme un lieu, et ce alors qu'il n'est pas présent dans les données d'entraînement (en tout cas, pas avec ces accents hehe woop woop).
+            Bien sûr, d'autres entités non présentes dans nos listes sont reconnues dans l'ensemble de test.
             </p>
+
+
+
+            <h4>Texte 3 - Néo-Quenya : <em>L'évangile selon Matthieu</em></h4>
+
+             <blockquote>
+                <em><b>
+                Si Yoháno vettie ná íre i Yúrar mentaner airimóli ar Levindeli Yerúsalemello maquetien senna:
+                “Man nalye?” Ar carampes pantave ar ua lalane, mal quente pantave: “Uan i Hristo.” Ar maquentelte senna:
+                “Tá mana? Ma nalye Elía?” Ar eques: “Uan.” “Ma nalye i Erutercáno?” Ar hanquentes: “Lá!” Etta quentelte senna:
+                “Man nalye? Lava men same hanquenta in mentaner me. Mana quetil pa imle?” Eques: “Nanye óma yamila i ravandasse:
+                Cara i Héruo malle téra! – tambe Yesaia i Erutercáno quente.”
+                </b></em>
+            </blockquote>
+            <blockquote>
+                <em>
+                This is the witness of John when the Jews sent some priests and Levites from Jerusalem to inquire of him:
+                “Who are you?” And he spoke openly and did not deny [it], but said openly: “I am not the Christ.”
+                And they asked him: “Then what? Are you Elijah?” And he said: “I am not.” “Are you the Prophet?” And he answered:
+                “No!” Therefore they said to him: “Who are you? Let us have an answer for those who sent us. What do you say about yourself?”
+                He said: “I am a voice crying in the desert: Make the Lord’s way straight! – as Isaiah the Prophet said.”
+                </em>
+            </blockquote>
+
+            <div class="image-container", style="text-align:center">
+                <img src="img/tolkien_results_spacy.png" alt="NER Results for Kelevala">
+            </div>
+
+            <p>
+            "Hristo"(nominatif), "Yoháno"(nominatif) et "Héruo"(génitif) sont correctement reconnus comme des personnes. "Erutercáno" n'est pas reconnu comme un nom de personnage (et heureusement !), signifiant "le prophète" en quenya. "Yesaia i Erutercáno" est lui bien reconnu comme tel !
+            Le modèle a plus de mal avec les noms de lieux. "Yerúsalemello (Jérusalem)" n'est pas du tout reconnu malgré deux occurrences.
+            Il est donc peut-être possible que le modèle ait du mal à reconnaître les noms de lieux avec cas, "Yerúsalemello" étant la forme ablatif de "Yerúsalem" en quenya.
+            </p>
+
 
 
             <p>
