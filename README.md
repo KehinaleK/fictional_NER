@@ -163,7 +163,9 @@ or simpy one model given in argument. It will store the results in the `spacy/sp
 
 ### 5 - Illustration
 
-Finally, in you'll find 3 TXT files in the `spacy/illustration` directory. These texts are used in the `illustration.py` script in the `spacy/scripts` directory
+Finally, in you'll find 3 TXT files in the `spacy/illustration` directory. These texts are used in the `illustration.py` script in the `spacy/illustration` directory
 to showcase the best model performance on unseen data. Those texts were not part of any train, test, or dev test. 
+
+```python3 illustration.py --text tolkien```
 
 # BLSTM CRF
