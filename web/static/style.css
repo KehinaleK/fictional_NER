@@ -38,10 +38,10 @@ body {
 }
 
 .navbar {
-    width: 200px;
+    width: 250px;
     background-color: #184418;
     padding-top: 20px;
-    height: 100vh;/**/
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -70,8 +70,8 @@ body {
 }
 
 label {
-    text-align: center; /* Centrer le texte du label */
-    display: block; /* Faire du label un bloc pour appliquer text-align */
+    text-align: center;
+    display: block;
 }
 
 #result {

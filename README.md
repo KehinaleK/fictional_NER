@@ -4,6 +4,16 @@ This repository aims to provide a Named Entity Recognition model for Quenya, or 
 This language was created by Tolkien and is one of the multiple fictional languages that can be found in his work.
 For more information about the language, the corpus, and the models, we encourage you to look at the pages found in the `web` folder.
 
+# Use the web interface :
+
+The script used to launch the web interface can be found directly at the root of the repository. You will need uvicorn to use it.
+Running the script :
+
+```python3 API_NER_quenya:app```
+
+You will then access the html interface at http://localhost:8000/front/quenya.html
+
+
 Now onto, how to use each model if you wish to test or improve them.
 
 # Spacy
@@ -64,3 +74,11 @@ or simpy one model given in argument. It will store the results in the `spacy/sp
 Finally, in you'll find 3 TXT files in the `spacy/illustration` directory. These texts are used in the `illustration.py` script in the `spacy/scripts` directory
 to showcase the best model performance on unseen data. Those texts were not part of any train, test, or dev test. 
 
+
+# Get cases from a txt file containing nominative forms:
+
+Should you want to do it, you may run the script found in the `scripts/` directory :
+
+```python3 get_cases.py [input_file]```
+
+input_file must be a a txt file where each line corresponds to a nominative form. The output file will be found in the input_file folder under "input_file_all_cases.txt".
