@@ -62,8 +62,6 @@
         Le premier obstacle du projet a été la constitution du corpus. Après de rapide recherches sur hugginface et kaggle, nous n'avons trouvé aucun corpus authentiques (et les corpus annoncés comme générés par IA étaient souvent vides.). Il a donc fallut constituer notre propre corpus de zéro. Heureusement pour nous,la communauté de fan du seigneur des anneaux est active sur internet. Nous avons pu assez rapidement trouver les principaux textes de quenya écrits par Tolkien.
         </p>
 
-        <p>LES MENTIONS LEGALLLEEEEEEEES</p>
-
         <p>
         Une fois ces textes réunis, nous avons été confrontées à un second problème : le corpus obtenu était très petit (et probablement <i>trop</i> petit pour un entrainement avec réseaux de neurones). De plus, un texte en quenya pouvait très bien ne pas contenir d'entité nommée. Il s'agissait donc de trouver des sources supplémentaires ou d'augmenter les données. Le corpus étant vraiment minuscule, l'augmentation des données nous a parus compliquée. Nous avons donc opté en priorité pour ajouter de nouveaux textes en quenya. Ces textes n'ont pas été écrits par Tolkien, et sont parfois considérés comme du "néo-quenya" : des textes en quenya, suivant au plus près les règles définies par Tolkien, n'ayant pas été écrits par Tolkien. Les textes ajoutés sont un mélange de textes écrits directement en quenya et de traductions de textes anglais vers le quenya (Silmarillion, Bible). Cette décision a permis d'augmenter considérablement la taille du corpus, mais reste un pari : aucun auteur n'était <i>natif</i> du quenya, il est probable que ces nouveaux textes ont ajouté de la variation qui n'était potentiellement pas présente dans la langue telle qu'imaginée par Tolkien.
         </p>
@@ -79,7 +77,22 @@
             <li>40 textes de néo-quenya non bibliques</li>
             <li>123 textes de néo-quenya issus de la traduction de la bible (13 premiers chapitres de l'évangile de Matthieu. Ces textes ont été divisés en suivant les retours à la ligne afin d'éviter d'avoir 13 textes beaucoup plus longs que tous les autres.)</li>
           </ul>
-        </p>.
+        </p>
+
+        <u>Mentions légales :</u>
+
+        <p>
+        Les textes en néo-quenya utilisés pour l'entraînement et l'évaluation des modèles sont protégés par les droits d'auteur de leurs créateurs, à l'exception de ceux dont les œuvres sont tombées dans le domaine public. Les œuvres de John Ronald Reuel Tolkien et de Christopher Tolkien sont soumises aux droits d'auteur de leurs auteurs et/ou des détenteurs de droits actuels, y compris leurs éditeurs et le Tolkien Estate.
+        </p>
+        <p>
+        Certains auteurs, comme Helge Kåre Fauskanger, qui a traduit des extraits de la Bible en néo-quenya, autorisent explicitement l'utilisation de leurs œuvres à des fins de recherche, à condition d'être cités dans les travaux qui utilisent leurs traductions.
+        <p>
+        <p>
+        Les textes et contenus présents sur les sites Tolkien Gateway et Fandom: Lord of the Rings sont régis par la licence Creative Commons Attribution-ShareAlike, qui permet la copie et la reproduction sous certaines conditions : il est nécessaire de fournir un lien vers la licence et d'indiquer toute modification apportée aux données. Si les données sont modifiées ou si un projet en découle, les contributions doivent être distribuées sous la même licence que les sources originales.
+        </p>
+        <p>
+        Les modèles entraînés et l'outil développé à cette occasion ne sont pas destinés à un usage commercial.
+        </p>
 
       <h2> Etape 2 : Annoter le corpus </h2>
 
