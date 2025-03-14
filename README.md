@@ -6,6 +6,8 @@ For more information about the language, the corpus, and the models, we encourag
 
 # Repository structure
 
+Here is how the repository is organized.
+
 ```
 │   README.md
 │   API_NER_quenya.py  
