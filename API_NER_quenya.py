@@ -1,5 +1,4 @@
-# %load apis/spacy_html_api.py
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
@@ -7,7 +6,7 @@ from fastapi.responses import HTMLResponse
 import spacy
 
 """
-Pour le rendu, aller dans le dossier apis qui accompagne ce notebook, lancer l'API dans Uvicorn :
+Lancer l'API dans Uvicorn : 
 
 uvicorn API_NER_quenya:app
 
@@ -16,8 +15,7 @@ puis aller à http://localhost:8000/front/quenya.html
 
 app = FastAPI()
 
-# Voir <https://fastapi.tiangolo.com/tutorial/cors> pour une explication de pourquoi il faut faire
-# ça
+# Gestion des pages locales
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -37,11 +35,11 @@ class InputData(BaseModel):
     sentence: str
 
 
-@app.post("/postag")
+@app.post("/ner_quenya")
 async def postag(inpt: InputData, model="spacy/models/balanced_fin_false_0.01_1000/model-best"):
     nlp = spacy.load(model)
     doc = nlp(inpt.sentence)
-    #lst = "\n".join([f"<li>{w.text}: {w.pos_}</li>" for w in doc])
+
     lst = "\n".join([f"<li>{entity.text}: {entity.label_}</li>" for entity in doc.ents])
     starts = [entity.start_char for entity in doc.ents]
     ends = [entity.end_char for entity in doc.ents]
@@ -62,8 +60,3 @@ async def postag(inpt: InputData, model="spacy/models/balanced_fin_false_0.01_10
 
     html_content = f"<h1>RESULTATS:</h1>\n<ol>\n{lst}</ol> \n {txt}"
     return HTMLResponse(content=html_content, status_code=200)
-
-
-@app.get("/list")
-async def list_models():
-    return {"models": spacy.util.get_installed_models()}
