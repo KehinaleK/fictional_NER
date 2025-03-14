@@ -69,6 +69,7 @@ def get_accusatif(nominatif:str, char:dict)-> str:
         accusatif = nominatif[:-1] + char[nominatif[-1]]
     return accusatif
 
+
 def get_instrumental(nominatif:str, char:dict)-> str:
     """take the nominative case (str) and return the instrumental case as a string"""
     instrumental = get_datif(nominatif, char) + "en"
