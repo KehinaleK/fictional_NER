@@ -31,7 +31,7 @@
         Cette page recense les étapes du projet et les interrogations qu'elles ont pu soulever, ainsi que les solutions ou arbitrages que nous avons appliqués.
         </p>
 
-        <h2> Etape 0 : le sujet </h2>
+        <h2> Étape 0 : le sujet </h2>
 
         <p>
         <b>Pourquoi, mais pourquoi le Quenya ?!</b> La question est légitime. La réponse peut se résumer en trois arguments :
@@ -142,8 +142,10 @@
         </p>
 
         <p>
-        Les textes non-bibliques et bibliques ont donc bien été annotés (automatiquement et manuellement respecitvement) avec les entités nommées déclinées.
+        <b>En conclusion,</b> les textes non-bibliques et bibliques ont bien été annotés (automatiquement et manuellement respecitvement) avec les entités nommées déclinées.
         Des problèmes demeurent cependant : si nous avons fait au mieux pour "coller" aux principales règles, certaines règles phonétiques ont été difficiles à mettre en place (certaines voyelles courtes peuvent par exemple devenir des voyelles longues dans certaines conditions compliquées à modéliser). De même, il est impossible de prédire les exceptions qui peuvent exister (le quenya n'est pas complètement régulier, Tolkien a lui même indiqué des exceptions).
+        Enfin, si nous avons recolté des listes d'entités de type "date" et "langage", obtenus en explorant des dictionnaires quenya, nous ne les avons pas inclues dans l'annotation par manque d'occurences dans le corpus.
+        <b>Le corpus recueilli semble être un des plus complets sur internet, le seul annoté pour cette tâche, et pourrait donc servir pour d'autres applications linguistiques !</b>
         </p>
 
       <h2> Etape 3 : L'entrainement et la pipeline SpaCy </h2>
@@ -206,7 +208,7 @@
         </table>
 
         <p>
-        On peut voir nottament que les textes bibliques ont écrasés les autres en termes de nombre d'entités nommées présentes :
+        On peut voir notamment que les textes bibliques ont écrasés les autres en termes de nombre d'entités nommées présentes :
         </p>
         <img src="img/train_entities.png" style="max-width: 100%; height: auto;"/>
         <center><img src="img/test_entities.png"/></center>
