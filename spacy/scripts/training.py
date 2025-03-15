@@ -101,9 +101,8 @@ def store_hyperparameters():
 
     hyperparameters = {
         "use_upper": ["true", "false"],
-        "learn_rate": [0.001, 0.01],
+        "learn_rate": [0.1],
         "batch_size": [100, 500, 1000],
-        "dropout": [0.1, 0.01, 0.001],
     #     # Batch size is used for batcher size and rate (same value)
     #     # We chose to use a constant batch size for the training and evaluation, but you can change it if you want
 
@@ -142,7 +141,7 @@ def main():
         # You can change the output directory name if you want.
         # We chose fin here to indicate that we used the finnish model. 
         # You can do that automatically by using the hyperparameters_combination list if needed !
-            output_dir = "balanced_fin_cacacaca" + "_".join([str(hyperparameter) for hyperparameter in hyperparameters_combination])
+            output_dir = "balanced_fin" + "_".join([str(hyperparameter) for hyperparameter in hyperparameters_combination])
             modify_config_file(config, hyperparameters_combination)
             print("Running command with hyperparameters: ", hyperparameters_combination)
             run_command(output_dir)
