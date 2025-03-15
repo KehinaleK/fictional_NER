@@ -28,7 +28,7 @@ app.add_middleware(
 )
 
 
-app.mount("/front", StaticFiles(directory="web/static"), name="front")
+app.mount("/front", StaticFiles(directory="web"), name="front")
 
 
 class InputData(BaseModel):
