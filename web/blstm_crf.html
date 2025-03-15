@@ -1,5 +1,7 @@
 <!-- GNU TERRY PRATCHETT -->
 
+<!-- GNU TERRY PRATCHETT -->
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -22,8 +24,90 @@
 <!--Conteneur principal -->
   <div class="main-content">
   <div class="blurred-content">
-  <h1 border= 5px solid #3498db >BLSTM CRF</h1>
-  <h2> Be the nerd you want to see in the world </h2>
+  <h1 border= 5px solid #3498db >Bi-directional LSTM CRF</h1>
+  <p>
+  La seconde méthode utilisée pour la création d'un outil de reconnaissanced d'entités nommées pour le Quenya a été trouvé dans un  <a href="https://aclanthology.org/P16-1101/">article</a>.</p> <p>Un <a href=" https://github.com/TheAnig/NER-LSTM-CNN-Pytorch/blob/master/Named_Entity_Recognition-LSTM-CNN-CRF-Tutorial.ipynb">tutoriel</a> sur l'architecture de ce modèle va de paire avec l'article.
+  </p>
+
+  <h2> Format des données d'entrées </h2>
+    <p> <b> Corpus d'entrée</b> </p>
+  <p>
+    Le modèle attend trois fichiers (test, train, dev) au format tsv avec trois colonnes (le mot et deux colonnes avec les tags). Les documents sont séparés par des lignes : </p>
+  <p> -DOCSTART- 0 NA </p>
+   <p> Les phrases sont ensuite séparées avec des lignes vides.  </p>
+
+
+<h2> Création des embeddings </h2>
+<p> <b> Embeddings Complexes </b> </p>
+<p> Les Tensors qui sont utilisés dans le model sont composés de représentations numériques (ID) uniques représentant chacun des mots, des tags et des characters. </p>
+
+  <p> <b> Embeddings Glove </b> </p>
+  <p>
+    Pour completer les ID unique des mots, nous ajoutons des embeddings qui porteront plus d'informations.
+    Dans l'article, les auteurs ont utilisé des embeddings pré-entrainés de Glove (6B.100d). Dans notre cas, nous avons pré-entrainé des embeddings glove avec la totalité de notre corpus sous le même format 100 dimensions.
+  </p>
+
+    <h2> Architecture du modèle </h2>
+
+  <p> Ce modèle combine plusieurs processus afin de caputer des informations au niveau des caractères, des mots et des suites d'étiquettes. </p>
+
+<p> <b>1. CNN (Caractéristiques au niveau des caractères) :</b> </p>
+<p>
+Un réseau de neurones convolutionnel (CNN) repère des caractéristiques morphologiques à partir des embeddings de caractères de chaque mot, prévenant les mots hors-vocabulaire et les structures morphologiques.
+</p>
+
+<p> <b> 2. Bi-LSTM (Représentations contextuelles au niveau des mots) : </b> </p>
+<p> Un réseau Long Short-Term Memory bidirectionnel (Bi-LSTM) traite les embeddings de mots (allant de paires avec les représentations des caractères) dans les deux directions, capturant ainsi les dépendances à plus long terme dans la phrase.</p>
+
+
+<p> <b> 3. CRF (relations entre un label et une chaîne) : </b> </p>
+<p> La couche de Conditional Random Field (CRF) prend en compte les relations entre les étiquettes de sortie. Ce qui améliore la cohérence entre des séquences de labels prédites.</p>
+
+<h2> Résultats du modèle </h2>
+<p>Les paramètres que nous avons modifiés sont: </p>
+<ul>
+<li>Le retrait ou non des majuscules,</li>
+<li>Les dimensions des embeddings des caractères. </li>
+</ul>
+
+<p>Nous utiliserons uniquement les embeddings glove que nous avons entrainé sur notre corpus. </p>
+<p>Une fonction de ce programme permet de remplacer tous les chiffres en 0 mais nous n'en avons pas eu besoin.</p>
+<p>Nous aurions pu modifiés de nombreux autres paramètres ou hyper-paramètres comme le nombre de <i> hidden units</i> dans chaque couche du LSTM <code>parameters['word_lstm_dim'] = 200</code>.</p>
+
+<p></p>
+
+<p><b>Modèle 1 :</b> </p>
+<p> Le plus similaire à celui qui est dans l'article. </p>
+<p>
+<ul>
+<li><b>Case :</b> <code>parameters['lower']  = True</code> </li>
+<li><b>Caractères embeddings :</b> <code> parameters['char_dim'] = 30 </code> </li>
+<li><b>Epochs :</b> <code>parameters['epoch'] = 50 </code> </li>
+</ul>
+</p>
+<p>La mesure de ce premier modèle est de <b>0.6666666666666667 </b>. </p>
+
+<p><b>Modèle 2 :</b> </p>
+<p><ul>
+<li><b>Case :</b> <code>parameters['lower']  = True</code> </li>
+<li><b> Caractères embeddings :</b> <code> parameters['char_dim'] = 40 </code> </li>
+<li><b>Epochs : </b><code>parameters['epoch'] = 50 </code> </li>
+</ul></p>
+<p>La mesure de ce deuxième modèle est de <b>0.8224299065420562</b>. </p>
+
+<p><b>Modèle 3 :</b> </p>
+<p><ul>
+<li><b>Case :</b> <code>parameters['lower']  = False</code> </li>
+<li><b> Caractères embeddings :</b> <code> parameters['char_dim'] = 40 </code> </li>
+<li><b>Epochs : </b><code>parameters['epoch'] = 50 </code> </li>
+</ul></p>
+<p>La mesure de ce premier modèle est de <b>0.7766990291262136</b>. </p>
+
+<h2> Résultats</h2>
+<p>Comme dans le modèle entrainé avec spacy, nous avons de meilleurs résultats quand la la casse n'est pas prise en compte.</p>
+<p>Nous pouvons également observer qu'il est plus intéréssant pour nous d'avoir des embeddings de caractères plus grands. Le modèle utilisé comme modèle étant utilisé sur de l'anglais (une langue avec peu ou pas de diacritiques), une langue comme le Quenya aura beosin de plus de place pour représenter les caractères.</p>
+<p>Pour ce qui est des entités, comme avec spacy la catégorie minoritaire des Lieux est moins bien reconnue.</p>
+
   </div>
   </div>
 </body>
