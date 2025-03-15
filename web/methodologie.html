@@ -1,0 +1,233 @@
+<!-- GNU TERRY PRATCHETT -->
+
+<!-- GNU TERRY PRATCHETT -->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>NER-Annotateur-Quenya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Navbar à gauche -->
+  <div class="navbar">
+      <a href="quenya.html">Extraction NER</a>
+      <a href="pipeline_spacy.html">Pipepline Spacy</a>
+      <a href="blstm_crf.html">BSLTM CRF</a>
+      <a href="methodologie.html">Méthodologie</a>
+      <a href="sources.html">Sources</a>
+  </div>
+
+<!--Conteneur principal -->
+  <div class="main-content">
+    <div class="blurred-content">
+
+      <h1 border= 5px solid #3498db >Methodologie</h1>
+
+        <p>
+        Cette page recense les étapes du projet et les interrogations qu'elles ont pu soulever, ainsi que les solutions ou arbitrages que nous avons appliqués.
+        </p>
+
+        <h2> Etape 0 : le sujet </h2>
+
+        <p>
+        Pourquoi mais pourquoi le Quenya ? La question est légitime. La réponse peut se résumer en trois arguments :
+          <ul>
+            <li> Pourquoi pas ? </li>
+            <li> "C'est bien plus beau lorsque c'est inutile" (Cyrano de Bergenac)</li>
+            <li> Dans les mots du traducteur de la bible en Quenya à qui ce projet doit beaucoup (Helge Fauskanger), le désir de contribuer à <i>"the ultimate literary monument of Nerddom"</i></li>
+          </ul>
+        </p>
+        </p>
+        Pourquoi la reconnaissance d'entités nommées ?
+        <ul><li>Par curiosité pure, c'est une tâche que nous n'avions pas encore eu l'occasion d'effectuer.</li></ul>
+        </p>
+
+        <p>Nous avions envisagé trois pistes :
+        <ul><li>utiliser la pipeline spacy pour NER</li>
+        <li>reproduire la démarche NER avec un BLSTM CRF présenté dans <a href="https://aclanthology.org/P16-1101/">cet article</a></li>
+        <li>utliser un transformer (nous avons renoncé à cette 3ème approche par manque de temps)</li>
+        </ul>
+
+      <h2> Etape 1 : Constitution du corpus </h2>
+
+        <p>
+        Le quenya dispose de ses propres caractères : le <i>Tengwar</i>. Cependant, pour des soucis de simplicité, nous nous sommes concentrées sur les textes en quenya en écriture latinisée, qui comprends les 26 lettres de l'alphabet latin et deux diacritiques par voyelles (ë, é).
+        </p>
+
+        <p>
+        Le premier obstacle du projet a été la constitution du corpus. Après de rapide recherches sur hugginface et kaggle, nous n'avons trouvé aucun corpus authentiques (et les corpus annoncés comme générés par IA étaient souvent vides.). Il a donc fallut constituer notre propre corpus de zéro. Heureusement pour nous,la communauté de fan du seigneur des anneaux est active sur internet. Nous avons pu assez rapidement trouver les principaux textes de quenya écrits par Tolkien.
+        </p>
+
+        <p>
+        Une fois ces textes réunis, nous avons été confrontées à un second problème : le corpus obtenu était très petit (et probablement <i>trop</i> petit pour un entrainement avec réseaux de neurones). De plus, un texte en quenya pouvait très bien ne pas contenir d'entité nommée. Il s'agissait donc de trouver des sources supplémentaires ou d'augmenter les données. Le corpus étant vraiment minuscule, l'augmentation des données nous a parus compliquée. Nous avons donc opté en priorité pour ajouter de nouveaux textes en quenya. Ces textes n'ont pas été écrits par Tolkien, et sont parfois considérés comme du "néo-quenya" : des textes en quenya, suivant au plus près les règles définies par Tolkien, n'ayant pas été écrits par Tolkien. Les textes ajoutés sont un mélange de textes écrits directement en quenya et de traductions de textes anglais vers le quenya (Silmarillion, Bible). Cette décision a permis d'augmenter considérablement la taille du corpus, mais reste un pari : aucun auteur n'était <i>natif</i> du quenya, il est probable que ces nouveaux textes ont ajouté de la variation qui n'était potentiellement pas présente dans la langue telle qu'imaginée par Tolkien.
+        </p>
+
+        <p>
+        Une autre source de variation au sein du corpus est la diversité des genres des textes rassemblés : la poésie versifiée cohabite avec la prose et les traductions de textes dont la syntaxe n'est pas contemporaine (traduction des textes bibliques). On observe nottament des différences importantes entre les textes en termes de taille et de ponctuation.
+        </p>
+
+        <p>
+        En definitive, le corpus total représente 13166 tokens dans 185 textes :
+          <ul>
+            <li>22 textes écrits par Tolkien</li>
+            <li>40 textes de néo-quenya non bibliques</li>
+            <li>123 textes de néo-quenya issus de la traduction de la bible (13 premiers chapitres de l'évangile de Matthieu. Ces textes ont été divisés en suivant les retours à la ligne afin d'éviter d'avoir 13 textes beaucoup plus longs que tous les autres.)</li>
+          </ul>
+        </p>
+
+        <u>Mentions légales :</u>
+
+        <p>
+        Les textes en néo-quenya utilisés pour l'entraînement et l'évaluation des modèles sont protégés par les droits d'auteur de leurs créateurs, à l'exception de ceux dont les œuvres sont tombées dans le domaine public. Les œuvres de John Ronald Reuel Tolkien et de Christopher Tolkien sont soumises aux droits d'auteur de leurs auteurs et/ou des détenteurs de droits actuels, y compris leurs éditeurs et le Tolkien Estate.
+        </p>
+        <p>
+        Certains auteurs, comme Helge Kåre Fauskanger, qui a traduit des extraits de la Bible en néo-quenya, autorisent explicitement l'utilisation de leurs œuvres à des fins de recherche, à condition d'être cités dans les travaux qui utilisent leurs traductions.
+        <p>
+        <p>
+        Les textes et contenus présents sur les sites Tolkien Gateway et Fandom: Lord of the Rings sont régis par la licence Creative Commons Attribution-ShareAlike, qui permet la copie et la reproduction sous certaines conditions : il est nécessaire de fournir un lien vers la licence et d'indiquer toute modification apportée aux données. Si les données sont modifiées ou si un projet en découle, les contributions doivent être distribuées sous la même licence que les sources originales.
+        </p>
+        <p>
+        Les modèles entraînés et l'outil développé à cette occasion ne sont pas destinés à un usage commercial.
+        </p>
+
+      <h2> Etape 2 : Annoter le corpus </h2>
+
+        <p>
+        La tâche de reconnaissance des entités nommées nécessite un entrainement sur un corpus annoté. Il a donc fallut annoter les entités nommées. En raison de la lourdeur de la tâche, nous avons décidé d'annoter uniquement deux grandes catégories : les personnes et les lieux.
+        </p>
+
+        <p>
+        Cette annotation a été automatisée lorsque cela a été possible, mais il a dans certains cas fallut procéder à l'intervention humaine. Nous avons cherché à constituer une liste des entités présente. Cela a été fait de 2 façons :
+          <ul>
+            <li>Nous avons scrapé lorsque cela était possible les sites de fan qui recensaient les personnages et les lieux de l'univers de Tolkien en quenya. Pour certains sites cela a cependant été impossible en raison de sécurités antiscrapping (et ce même en passant par des proxis et des agents).</li>
+            <li>Pour les textes bibliques (seuls textes ne faisant pas partie de l'univers de Tolkien), il a fallut relever à la main les formes nominatives des personnes et des lieux en s'appuyant sur la comparaison avec le texte anglais et la segmentation fournie par l'existence des versets.</li>
+          </ul>
+        </p>
+
+        <p>
+        Une fois les entités récupérées, il a fallut générer l'ensemble des cas possibles pour chacune d'entre elles. En effet, le quenya est une langue flexionnelle présentant entre 8 (late quenya) et 9 (early quenya) cas marqués au singulier : Nominatif, (Accusatif - identique au Nominatif en late quenya, et identique pour les noms se terminant par une consonne), datif, génitif, possessif, allatif, ablatif, locatif et instrumental. La langue présente également des désinences pour le duel et le pluriel (plus de 2), cependant celle-ci ne sont pas nécessaires pour les entités nommées qui sont en écrasante majorité des noms propres singuliers. En nous basant sur deux grammaires :
+          <ul>
+            <li>le haut elfique pour les débutants, Edouard Kloczko, POCKET, 2015</li>
+            <li>le <i>Quenya Course</i> (https://folk.uib.no/hnohf/qcourse.htm) </li>
+          </ul>
+        </p>
+
+        <p>
+        Le <i>Quenya Course</i> constitue une grammaire sous forme de réorganisation des écrits de Tolkien en quenya et sur le quenya. Il a également été traduit dans plusieurs langues et semble s'imposer comme la référence mise en avant sur la plupart des sites de fans. Lorsque les deux grammaires étaient en désaccord, nous avons préféré nous appuyer sur cette dernière puisqu'elle semblait être la source la plus répendue et que sont auteur, traducteur de la bible en quenya, était responsable d'une partie non négligeable de notre corpus.
+        </p>
+
+        <p>
+        En nous appuyant sur les cas décrits dans les deux grammaires, nous avons pour chaque entité procédé à la génération de tous les cas potentiels, et utilisé cette liste des entités déclinées comme base pour annoter notre corpus.
+        </p>
+
+        <p>
+        Pour exemple, le nominatif du lieu <i>Númenor</i> a été décliné de la façon suivante :
+          <ul>
+            <li><b>Nominatif/Accusatif</b> : Númenor</li>
+            <li><b>Datif</b> : Númenoren</li>
+            <li><b>Génitif</b> : Númenoro</li>
+            <li><b>Possessif</b> : Númenorwa</li>
+            <li><b>Ablatif</b> : Númenorello</li>
+            <li><b>Instrumental</b> : Númenorenen</li>
+            <li><b>Allatif</b> : Númenorenna</li>
+            <li><b>Locatif</b> : Númenoresse/Númenoressë (<i>The Quenya Course</i> note que Tolkien était assez cohérent dans son habitude de préférer "ë" à "e" en position finale, faisant l'hypothèse qu'il s'agissait d'indiquer à des locuteurs anglophone une voyelle non muette. Cependant, "esse" apparaît également. Il a paru plus prudent de générer "trop" de cas que pas assez)</li>
+          </ul>
+        </p>
+
+        <p>
+        Des problèmes demeurent cependant : si nous avons fait au mieux pour "coller" aux principales règles, certaines règles phonétiques ont été difficiles à mettre en place (certaines voyelles courtes peuvent par exemple devenir des voyelles longues dans certaines conditions compliquées à modéliser). De même, il est impossible de prédire les exceptions qui peuvent exister (le quenya n'est pas complètement régulier, Tolkien a lui même indiqué des exceptions).
+        </p>
+
+      <h2> Etape 3 : L'entrainement et la pipeline SpaCy </h2>
+
+        <p>
+        L'entrainement de la pipeline SpaCy est étudiée en détails à l'onglet <a href="pipeline_spacy.html">Pipepline Spacy</a>. Nous n'allons ici qu'explorer brièvement les différents problèmes que nous avons du essayer de résoudre.
+        </p>
+
+        <p>
+        Le premier questionnement que nous avons rencontré est celui des embeddings à utiliser dans la pipeline. Spacy ne dispose pas d'embeddings pour le quenya, il a donc fallut trouver une solution. Nous avons expérimenté avec deux modèles.
+        <ul>
+        <li><b>Le modèle multilingue de SpaCy</b> : le quenya étant inspiré de plusieurs langues européeenes (le finnois, le latin, le grec, le vieil anglais, le gallois et le gotique ...) il pouvait faire sens d'utiliser un modèle global.</li>
+        <li><b>Le modèle finnois de SpaCy</b> : plus encore que les autres langues, le finnois est mis en avant comme l'influence principale de Tolkien pour le quenya. Des emprunts direct de vocabulaires ont même existés jusqu'à ce qu'il ne décide de les supprimer. De plus, <a href="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/custom/15811193.pdf">Cet article</a>, qui décrit un traducteur anglais-quenya ayant de bon résultats en s'appuyant sur un modèle de traduction anglais-finnois entrainé sur le corpus europarl.</li>
+        <li><b>Le modèle maison</b> : pour le BLSTM CRF, nous avons tenté de faire nos propres embeddings pour le quenya en utilisant GloVe </li>
+        </ul>
+        </p>
+        <p>
+
+        <p>
+        Un autre problème que nous avons rencontré lors de l'entrainement a été la question du partitionnement. Nous avons voulu appliquer une partition "classique" (70% train, 10% dev, 20% test), mais les variations dans notre corpus a rendu ce partitionnement difficile à équilibrer. En définitive, nous avons choisi de l'équilibrer basé sur les types de textes (écrits par Tolkien, néo-quenya, traduction de la bible), en répartissant les quelques textes longs dans les différentes partitions.
+        </p>
+
+        <table>
+            <title>Répartition des textes dans les partitions</title>
+            <tr>
+                <th>Partition</th>
+                <th>Nb tokens</th>
+                <th>Nb textes Tolkien</th>
+                <th>Nb textes Neo-quenya</th>
+                <th>Nb textes Bible</th>
+                <th>Nb PERSON</th>
+                <th>Nb LOC</th>
+            </tr>
+            <tr>
+                <td>Train</td>
+                <td>8814</td>
+                <td>16</td>
+                <td>28</td>
+                <td>86</td>
+                <td>372</td>
+                <td>152</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>3249</td>
+                <td>4</td>
+                <td>8</td>
+                <td>25</td>
+                <td>62</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Dev</td>
+                <td>1103</td>
+                <td>2</td>
+                <td>4</td>
+                <td>12</td>
+                <td>21</td>
+                <td>4</td>
+        </table>
+
+        <p>
+        On peut voir nottament que les textes bibliques ont écrasés les autres en termes de nombre d'entités nommées présentes :
+        </p>
+        <img src="img/train_entities.png" style="max-width: 100%; height: auto;"/>
+        <center><img src="img/test_entities.png"/></center>
+        <center><img src="img/dev_entities.png"/></center>
+
+        <h2> Etape 4 : les perspectives futures </h2>
+
+        un plus grand corpus (touuuute les bible) et de l'augmentation de données (IA générative ?)
+        utliliser la pipeline spacy complète (entrainer un tokeniser etc)
+
+        <h2> Etape ? : Qui fait quoi ? </h2>
+
+          <p> Nous avons beaucoup travaillé dans la même pièce, nous avons donc participé à toutes les étapes. Les parties analyses, recherches et récupération des textes ont par exemple été faits de concert. Cependant, chacune a pris en charge majoritairement certaines parties du projet</p>
+            <ul>
+              <li><b>Alix</b> : BLSTM CRF</li>
+              <li><b>Kehina</b> : Pipeline SpaCy</li>
+              <li><b>Pauline</b> : génération des cas, annotation de la bible, interface (API/CSS)</li>
+            </ul>
+          </p>
+
+
+  </div>
+  </div>
+</body>
+
+
+</html>
+
