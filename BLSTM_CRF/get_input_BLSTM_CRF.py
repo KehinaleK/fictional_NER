@@ -115,14 +115,14 @@ def get_input(texts, loc, char):
 
 def main():
     
-    df_train = load_corpus("../data/elvish/corpus/train.csv")
-    df_test = load_corpus("../data/elvish/corpus/test.csv")
-    df_dev = load_corpus("../data/elvish/corpus/dev.csv")
+    df_train = load_corpus("../data/corpus/train.csv")
+    df_test = load_corpus("../data/corpus/test.csv")
+    df_dev = load_corpus("../data/corpus/dev.csv")
 
     # print(df_train.head(50))
 
-    loc = load_entities("../data/elvish/entities/loc.txt")
-    char = load_entities("../data/elvish/entities/person.txt")
+    loc = load_entities("../data/entities/loc.txt")
+    char = load_entities("../data/entities/person.txt")
 
     # Process train
     text_train = get_texts(df_train)
