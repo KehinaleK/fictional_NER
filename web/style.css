@@ -110,6 +110,10 @@ p {
     margin: 20px 0;
 }
 
+blockquote {
+    text-align: justify;
+}
+
 .location {
     color: darkgreen;
     font-weight: bold;
