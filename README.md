@@ -59,6 +59,22 @@ Here is how the repository is organized.
 |       |   illustration.py
 │
 |
+└───BLSTM_CRF
+│   │   get_input_BLSTM_CRF.py
+|   |   BLSTM_creation.ipynb
+|   └───input
+|   |   |   train_input_BLSTM_CRF.tsv
+|   |   |   test_input_BLSTM_CRF.tsv
+|   |   |   dev_input_BLSTM_CRF.tsv
+|   |   |   mapping.pkl
+|   └───embedding
+|   |   |   vectors_100d_glove_elvish.txt
+|   └───model
+|   |   |    └───model_1
+|   |   |    └───model_2
+|   |   |    └───model_3
+|
+│
 └───web
 │   │   style.css
 │   │   quenya.html
