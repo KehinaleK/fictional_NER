@@ -75,7 +75,7 @@ Here is how the repository is organized.
 
 All required modules and libraries can be installed using the ```requirements.txt``` file.
 
-# Use the web interface :
+# Using the web interface :
 
 The script used to launch the web interface can be found directly at the root of the repository. You will need uvicorn to use it.
 
