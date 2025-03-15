@@ -25,7 +25,7 @@
   <div class="main-content">
     <div class="blurred-content">
 
-      <h1 border= 5px solid #3498db >Methodologie</h1>
+      <h1 border= 5px solid #3498db >Méthodologie</h1>
 
         <p>
         Cette page recense les étapes du projet et les interrogations qu'elles ont pu soulever, ainsi que les solutions ou arbitrages que nous avons appliqués.
@@ -34,44 +34,47 @@
         <h2> Etape 0 : le sujet </h2>
 
         <p>
-        Pourquoi mais pourquoi le Quenya ? La question est légitime. La réponse peut se résumer en trois arguments :
+        <b>Pourquoi, mais pourquoi le Quenya ?!</b> La question est légitime. La réponse peut se résumer en trois arguments :
           <ul>
-            <li> Pourquoi pas ? </li>
-            <li> "C'est bien plus beau lorsque c'est inutile" (Cyrano de Bergenac)</li>
+            <li> Pourquoi pas ? 😎 </li>
+            <li> <i>"C'est bien plus beau lorsque c'est inutile"</i> (Cyrano de Bergenac)</li>
             <li> Dans les mots du traducteur de la bible en Quenya à qui ce projet doit beaucoup (Helge Fauskanger), le désir de contribuer à <i>"the ultimate literary monument of Nerddom"</i></li>
           </ul>
         </p>
+
+        Nous voulions de plus travailler ensemble sur un projet car notre dernière collaboration remontait au M1. Notre séparation (Pauline en Alternance et Alix et Kehina en R&D) était déchirante et nous voulions nous retrouver. 
+        Pauline a proposé de travailler sur une langue fictive, Kehina l'a soutenue et Alix a suivi. Nos appels pour constituer le corpus consistaient en Kehina entrain d'essayer de scrapper TolkienGetaway, Alix qui essayait de comprendre ce qu'était le Silmarillio et Pauline qui sortait sa grammaire en elfique.
+
         </p>
-        Pourquoi la reconnaissance d'entités nommées ?
+        <b>Pourquoi la reconnaissance d'entités nommées ?</b>
         <ul><li>Par curiosité pure, c'est une tâche que nous n'avions pas encore eu l'occasion d'effectuer.</li></ul>
         </p>
 
         <p>Nous avions envisagé trois pistes :
-        <ul><li>utiliser la pipeline spacy pour NER</li>
-        <li>reproduire la démarche NER avec un BLSTM CRF présenté dans <a href="https://aclanthology.org/P16-1101/">cet article</a></li>
-        <li>utliser un transformer (nous avons renoncé à cette 3ème approche par manque de temps)</li>
+        <ul><li>Utiliser la pipeline spacy pour NER</li>
+        <li>Reproduire la démarche NER avec un BLSTM CRF présentée dans <a href="https://aclanthology.org/P16-1101/">cet article</a></li>
         </ul>
 
-      <h2> Etape 1 : Constitution du corpus </h2>
+      <h2> Étape 1 : Constitution du corpus </h2>
 
         <p>
-        Le quenya dispose de ses propres caractères : le <i>Tengwar</i>. Cependant, pour des soucis de simplicité, nous nous sommes concentrées sur les textes en quenya en écriture latinisée, qui comprends les 26 lettres de l'alphabet latin et deux diacritiques par voyelles (ë, é).
+        Le quenya dispose de son propre alphabet : le <i>Tengwar</i>. Cependant, pour des soucis de simplicité, nous nous sommes concentrées sur les textes en quenya en écriture latinisée, qui comprends les 26 lettres de l'alphabet latin et deux diacritiques par voyelles (ë, é).
         </p>
 
         <p>
-        Le premier obstacle du projet a été la constitution du corpus. Après de rapide recherches sur hugginface et kaggle, nous n'avons trouvé aucun corpus authentiques (et les corpus annoncés comme générés par IA étaient souvent vides.). Il a donc fallut constituer notre propre corpus de zéro. Heureusement pour nous,la communauté de fan du seigneur des anneaux est active sur internet. Nous avons pu assez rapidement trouver les principaux textes de quenya écrits par Tolkien.
+        Le premier obstacle du projet a été la constitution du corpus. Après de rapide recherches sur <i>Huggingface</i> et <i>Kaggle</i>, nous n'avons trouvé aucun corpus authentique (et les corpus annoncés comme générés par IA étaient souvent vides.). Il a donc fallu <b>constituer notre propre corpus de zéro</b>. Heureusement pour nous, la communauté de fan du Seigneur des Anneaux est active sur internet. Nous avons pu assez rapidement trouver les principaux textes de quenya écrits par Tolkien.
         </p>
 
         <p>
-        Une fois ces textes réunis, nous avons été confrontées à un second problème : le corpus obtenu était très petit (et probablement <i>trop</i> petit pour un entrainement avec réseaux de neurones). De plus, un texte en quenya pouvait très bien ne pas contenir d'entité nommée. Il s'agissait donc de trouver des sources supplémentaires ou d'augmenter les données. Le corpus étant vraiment minuscule, l'augmentation des données nous a parus compliquée. Nous avons donc opté en priorité pour ajouter de nouveaux textes en quenya. Ces textes n'ont pas été écrits par Tolkien, et sont parfois considérés comme du "néo-quenya" : des textes en quenya, suivant au plus près les règles définies par Tolkien, n'ayant pas été écrits par Tolkien. Les textes ajoutés sont un mélange de textes écrits directement en quenya et de traductions de textes anglais vers le quenya (Silmarillion, Bible). Cette décision a permis d'augmenter considérablement la taille du corpus, mais reste un pari : aucun auteur n'était <i>natif</i> du quenya, il est probable que ces nouveaux textes ont ajouté de la variation qui n'était potentiellement pas présente dans la langue telle qu'imaginée par Tolkien.
+        Une fois ces textes réunis, nous avons été confrontées à un second problème : le corpus obtenu était très petit (et probablement <i>trop</i> petit pour un entrainement avec réseaux de neurones). De plus, un texte en quenya pouvait très bien ne pas contenir d'entités nommées. Il s'agissait donc de trouver des sources supplémentaires ou d'augmenter les données. Nous avons donc opté en priorité pour ajouter de nouveaux textes. Ces textes n'ont pas été écrits par Tolkien, et sont parfois considérés comme du "néo-quenya" : des textes en quenya, suivant au plus près les règles définies par Tolkien, n'ayant pas été écrits par Tolkien. Les textes ajoutés sont un mélange de textes écrits directement en quenya et de traductions de textes anglais vers le quenya (Silmarillion, Bible). Cette décision a permis d'augmenter considérablement la taille du corpus, mais reste un pari : aucun auteur n'était <i>"natif"</i> du quenya, il est probable que ces nouveaux textes ont ajouté de la variation qui n'était potentiellement pas présente dans la langue telle qu'imaginée par Tolkien.
         </p>
 
         <p>
-        Une autre source de variation au sein du corpus est la diversité des genres des textes rassemblés : la poésie versifiée cohabite avec la prose et les traductions de textes dont la syntaxe n'est pas contemporaine (traduction des textes bibliques). On observe nottament des différences importantes entre les textes en termes de taille et de ponctuation.
+        Une autre source de variation au sein du corpus est la diversité des genres des textes rassemblés : la poésie versifiée cohabite avec la prose et les traductions de textes dont la syntaxe n'est pas contemporaine (traduction des textes bibliques). On observe notamment des différences importantes entre les textes en termes de taille et de ponctuation.
         </p>
 
         <p>
-        En definitive, le corpus total représente 13166 tokens dans 185 textes :
+        En definitive, le corpus total représente 13 166 tokens dans 185 textes :
           <ul>
             <li>22 textes écrits par Tolkien</li>
             <li>40 textes de néo-quenya non bibliques</li>
@@ -101,23 +104,23 @@
         </p>
 
         <p>
-        Cette annotation a été automatisée lorsque cela a été possible, mais il a dans certains cas fallut procéder à l'intervention humaine. Nous avons cherché à constituer une liste des entités présente. Cela a été fait de 2 façons :
+        Cette annotation a été automatisée lorsque cela a été possible, mais il a dans certains cas fallu procéder à l'intervention humaine. Nous avons cherché à constituer une liste des entités présente. Cela a été fait de 2 façons :
           <ul>
-            <li>Nous avons scrapé lorsque cela était possible les sites de fan qui recensaient les personnages et les lieux de l'univers de Tolkien en quenya. Pour certains sites cela a cependant été impossible en raison de sécurités antiscrapping (et ce même en passant par des proxis et des agents).</li>
-            <li>Pour les textes bibliques (seuls textes ne faisant pas partie de l'univers de Tolkien), il a fallut relever à la main les formes nominatives des personnes et des lieux en s'appuyant sur la comparaison avec le texte anglais et la segmentation fournie par l'existence des versets.</li>
+            <li>Nous avons scrapé lorsque cela était possible les sites de fan qui recensaient les personnages et les lieux de l'univers de Tolkien en quenya. Pour certains sites, cela a cependant été impossible en raison de sécurités antiscrapping (et ce même en passant par des proxis et des agents).</li>
+            <li>Pour les textes bibliques (seuls textes ne faisant pas partie de l'univers de Tolkien), il a fallu relever à la main les formes nominatives des personnes et des lieux en s'appuyant sur la comparaison avec le texte anglais et la segmentation fournie par l'existence des versets.</li>
           </ul>
         </p>
 
         <p>
-        Une fois les entités récupérées, il a fallut générer l'ensemble des cas possibles pour chacune d'entre elles. En effet, le quenya est une langue flexionnelle présentant entre 8 (late quenya) et 9 (early quenya) cas marqués au singulier : Nominatif, (Accusatif - identique au Nominatif en late quenya, et identique pour les noms se terminant par une consonne), datif, génitif, possessif, allatif, ablatif, locatif et instrumental. La langue présente également des désinences pour le duel et le pluriel (plus de 2), cependant celle-ci ne sont pas nécessaires pour les entités nommées qui sont en écrasante majorité des noms propres singuliers. En nous basant sur deux grammaires :
+        Une fois les entités récupérées, il a fallu générer l'ensemble des cas possibles pour chacune d'entre elles. En effet, le quenya est une langue flexionnelle présentant entre 8 (late quenya) et 9 (early quenya) cas marqués au singulier : Nominatif, (Accusatif - identique au Nominatif en late quenya, et identique pour les noms se terminant par une consonne), datif, génitif, possessif, allatif, ablatif, locatif et instrumental. La langue présente également des désinences pour le duel et le pluriel (plus de 2), cependant celles-ci ne sont pas nécessaires pour les entités nommées qui sont en écrasante majorité des noms propres singuliers. En nous basant sur deux grammaires :
           <ul>
-            <li>le haut elfique pour les débutants, Edouard Kloczko, POCKET, 2015</li>
-            <li>le <i>Quenya Course</i> (https://folk.uib.no/hnohf/qcourse.htm) </li>
+            <li>Le haut elfique pour les débutants, Edouard Kloczko, POCKET, 2015</li>
+            <li>Le <i>Quenya Course</i> (https://folk.uib.no/hnohf/qcourse.htm) </li>
           </ul>
         </p>
 
         <p>
-        Le <i>Quenya Course</i> constitue une grammaire sous forme de réorganisation des écrits de Tolkien en quenya et sur le quenya. Il a également été traduit dans plusieurs langues et semble s'imposer comme la référence mise en avant sur la plupart des sites de fans. Lorsque les deux grammaires étaient en désaccord, nous avons préféré nous appuyer sur cette dernière puisqu'elle semblait être la source la plus répendue et que sont auteur, traducteur de la bible en quenya, était responsable d'une partie non négligeable de notre corpus.
+        Le <i>Quenya Course</i> constitue une grammaire sous forme de réorganisation des écrits de Tolkien en quenya et sur le quenya. Il a également été traduit dans plusieurs langues et semble s'imposer comme la référence mise en avant sur la plupart des sites de fans. Lorsque les deux grammaires étaient en désaccord, nous avons préféré nous appuyer sur cette dernière puisqu'elle semblait être la source la plus répandue et que son auteur, traducteur de la bible en quenya, était responsable d'une partie non négligeable de notre corpus.
         </p>
 
         <p>
@@ -139,6 +142,7 @@
         </p>
 
         <p>
+        Les textes non-bibliques et bibliques ont donc bien été annotés (automatiquement et manuellement respecitvement) avec les entités nommées déclinées.
         Des problèmes demeurent cependant : si nous avons fait au mieux pour "coller" aux principales règles, certaines règles phonétiques ont été difficiles à mettre en place (certaines voyelles courtes peuvent par exemple devenir des voyelles longues dans certaines conditions compliquées à modéliser). De même, il est impossible de prédire les exceptions qui peuvent exister (le quenya n'est pas complètement régulier, Tolkien a lui même indiqué des exceptions).
         </p>
 
@@ -149,11 +153,11 @@
         </p>
 
         <p>
-        Le premier questionnement que nous avons rencontré est celui des embeddings à utiliser dans la pipeline. Spacy ne dispose pas d'embeddings pour le quenya, il a donc fallut trouver une solution. Nous avons expérimenté avec deux modèles.
+        Le premier questionnement que nous avons rencontré est celui des embeddings à utiliser dans la pipeline. Spacy ne dispose pas d'embeddings pour le quenya, il a donc fallu trouver une solution. Nous avons expérimenté avec deux modèles.
         <ul>
         <li><b>Le modèle multilingue de SpaCy</b> : le quenya étant inspiré de plusieurs langues européeenes (le finnois, le latin, le grec, le vieil anglais, le gallois et le gotique ...) il pouvait faire sens d'utiliser un modèle global.</li>
-        <li><b>Le modèle finnois de SpaCy</b> : plus encore que les autres langues, le finnois est mis en avant comme l'influence principale de Tolkien pour le quenya. Des emprunts direct de vocabulaires ont même existés jusqu'à ce qu'il ne décide de les supprimer. De plus, <a href="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/custom/15811193.pdf">Cet article</a>, qui décrit un traducteur anglais-quenya ayant de bon résultats en s'appuyant sur un modèle de traduction anglais-finnois entrainé sur le corpus europarl.</li>
-        <li><b>Le modèle maison</b> : pour le BLSTM CRF, nous avons tenté de faire nos propres embeddings pour le quenya en utilisant GloVe </li>
+        <li><b>Le modèle finnois de SpaCy</b> : plus encore que les autres langues, le finnois est mis en avant comme l'influence principale de Tolkien pour le quenya. Des emprunts direct de vocabulaires ont même existés jusqu'à ce qu'il ne décide de les supprimer. De plus, <a href="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/custom/15811193.pdf">cet article</a>, qui décrit un traducteur anglais-quenya dispose de bon résultats en s'appuyant sur un modèle de traduction anglais-finnois entrainé sur le corpus europarl.</li>
+        <li><b>Le modèle maison</b> : pour le BLSTM CRF, nous avons tenté de faire nos propres embeddings pour le quenya en utilisant GloVe. </li>
         </ul>
         </p>
         <p>
@@ -207,15 +211,29 @@
         <img src="img/train_entities.png" style="max-width: 100%; height: auto;"/>
         <center><img src="img/test_entities.png"/></center>
         <center><img src="img/dev_entities.png"/></center>
-
+        
+        <p>Enfin, comme indiqué plus haut, nous avons nous-mêmes divisé des textes longs en plus petits paragraphes pour garder une fenêtre de contexte tout en évitant d'avoir une variation trop grande de longueur de textes.
+          En effet, certains textes écrits par Tolkien sont très courts (quelques mots) tandis que d'autres (comme pour la bible) sont composés de plusieurs paragraphes.
+        </p>
         <h2> Etape 4 : les perspectives futures </h2>
 
-        un plus grand corpus (touuuute les bible) et de l'augmentation de données (IA générative ?)
-        utliliser la pipeline spacy complète (entrainer un tokeniser etc)
-
+        <ul>
+          <li><b>Augmentation et annotation des données :</b> au vu des résultats obtenus à partir des deux architectures testées, nous pensons que la piste d'amélioration
+            la plus pertinente serait celle de l'augmentation des données. En effet, nous pensons avoir recueilli toutes les données en Quenya écrites par Tolkien ainsi qu'une très grande partie
+            des textes écrits par des fans en néo-quenya. La prochaine grande étape serait notamment d'annoter le reste de la bible en néo-quenya, mais il faudrait pour ça beaucoup de temps ainsi qu'un annotateur 
+            quenya-capable (comme Poline, je suis in-love 😍). Nous pourrions cependant là aussi faire face à un problème de non-diversité des sources.
+            Pour contrer ça, la solution serait : des corpus générés par l'intelligence artificiel ! (one of those solutions might be this.)
+            Mais là aussi, nous pourrions faire face à un soucis d'authenticité et les traductions faites par les nerds seraient toujours mieux. Il serait donc aussi intéressant d'utiliser les traducteurs anglais-quenya
+            disponibles sur internet.
+          </li>
+          <li><b>Pipeline Spacy : </b> concernant la pipeline Spacy, nous avons pu voir que l'utilisation des modèles pré-entrainés en Finnois permettaient d'obtenir dee=s résultats plus que satisfaisants sur le quenya.
+            En utilisant là encore les modèles et pipelines proposés par Spacy, nous pourrions entraîner nous mêmes un Tokenizer ainsi qu'un modèle pour vectoriser des données en elfique. Si très intéressante, cette piste pourrait
+            également expliciter le manque de données disponibles.
+        </ul>
+   
         <h2> Etape ? : Qui fait quoi ? </h2>
 
-          <p> Nous avons beaucoup travaillé dans la même pièce, nous avons donc participé à toutes les étapes. Les parties analyses, recherches et récupération des textes ont par exemple été faits de concert. Cependant, chacune a pris en charge majoritairement certaines parties du projet</p>
+          <p> Nous avons beaucoup travaillé (et crié) dans la même pièce, nous avons donc participé à toutes les étapes. Les parties analyses, recherches et récupération des textes ont par exemple été faits de concert. Cependant, chacune a pris en charge majoritairement certaines parties du projet.</p>
             <ul>
               <li><b>Alix</b> : BLSTM CRF</li>
               <li><b>Kehina</b> : Pipeline SpaCy</li>
