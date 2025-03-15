@@ -24,53 +24,53 @@
   <div class="blurred-content">
   <h1 border= 5px solid #3498db >Bi-directional LSTM CRF</h1>
   <p>
-  La seconde méthode utilisée pour la création d'un outil de reconnaissanced d'entités nommées pour le Quenya a été trouvé dans un  <a href="https://aclanthology.org/P16-1101/">article</a>.</p> <p>Un <a href=" https://github.com/TheAnig/NER-LSTM-CNN-Pytorch/blob/master/Named_Entity_Recognition-LSTM-CNN-CRF-Tutorial.ipynb">tutoriel</a> sur l'architecture de ce modèle va de paire avec l'article.
+  La seconde méthode utilisée pour la création d'un outil de reconnaissance d'entités nommées pour le Quenya a été trouvé dans un  <a href="https://aclanthology.org/P16-1101/">article</a>.</p> <p>Un <a href=" https://github.com/TheAnig/NER-LSTM-CNN-Pytorch/blob/master/Named_Entity_Recognition-LSTM-CNN-CRF-Tutorial.ipynb">tutoriel</a> sur l'architecture de ce modèle va de paire avec l'article.
   </p>
 
-  <h2> Format des données d'entrées </h2>
-    <p> <b> Corpus d'entrée</b> </p>
+  <h2>Format des données d'entrée </h2>
+    <p> <b>Corpus d'entrée</b> </p>
   <p>
     Le modèle attend trois fichiers (test, train, dev) au format tsv avec trois colonnes (le mot et deux colonnes avec les tags). Les documents sont séparés par des lignes : </p>
   <p> -DOCSTART- 0 NA </p>
-   <p> Les phrases sont ensuite séparées avec des lignes vides.  </p>
+   <p>Les phrases sont ensuite séparées avec des lignes vides.  </p>
 
 
-<h2> Création des embeddings </h2>
-<p> <b> Embeddings Complexes </b> </p>
-<p> Les Tensors qui sont utilisés dans le model sont composés de représentations numériques (ID) uniques représentant chacun des mots, des tags et des characters. </p>
+<h2>Création des embeddings </h2>
+<p><b>Embeddings Complexes </b> </p>
+<p>Les Tensors qui sont utilisés dans le modèle sont composés de représentations numériques (ID) uniques représentant chacun des mots, des tags et des caractères. </p>
 
   <p> <b> Embeddings Glove </b> </p>
   <p>
-    Pour completer les ID unique des mots, nous ajoutons des embeddings qui porteront plus d'informations.
+    Pour compléter les ID uniques des mots, nous ajoutons des embeddings qui porteront plus d'informations.
     Dans l'article, les auteurs ont utilisé des embeddings pré-entrainés de Glove (6B.100d). Dans notre cas, nous avons pré-entrainé des embeddings glove avec la totalité de notre corpus sous le même format 100 dimensions.
   </p>
 
-    <h2> Architecture du modèle </h2>
+    <h2>Architecture du modèle </h2>
 
-  <p> Ce modèle combine plusieurs processus afin de caputer des informations au niveau des caractères, des mots et des suites d'étiquettes. </p>
+  <p>Ce modèle combine plusieurs processus afin de capturer des informations au niveau des caractères, des mots et des suites d'étiquettes. </p>
 
-<p> <b>1. CNN (Caractéristiques au niveau des caractères) :</b> </p>
+<p><b>1. CNN (Caractéristiques au niveau des caractères) :</b> </p>
 <p>
 Un réseau de neurones convolutionnel (CNN) repère des caractéristiques morphologiques à partir des embeddings de caractères de chaque mot, prévenant les mots hors-vocabulaire et les structures morphologiques.
 </p>
 
-<p> <b> 2. Bi-LSTM (Représentations contextuelles au niveau des mots) : </b> </p>
-<p> Un réseau Long Short-Term Memory bidirectionnel (Bi-LSTM) traite les embeddings de mots (allant de paires avec les représentations des caractères) dans les deux directions, capturant ainsi les dépendances à plus long terme dans la phrase.</p>
+<p><b>2. Bi-LSTM (Représentations contextuelles au niveau des mots) : </b> </p>
+<p>Un réseau Long Short-Term Memory bidirectionnel (Bi-LSTM) traite les embeddings de mots (allant de paire avec les représentations des caractères) dans les deux directions, capturant ainsi les dépendances à plus long terme dans la phrase.</p>
 
 
-<p> <b> 3. CRF (relations entre un label et une chaîne) : </b> </p>
-<p> La couche de Conditional Random Field (CRF) prend en compte les relations entre les étiquettes de sortie. Ce qui améliore la cohérence entre des séquences de labels prédites.</p>
+<p><b>3. CRF (relations entre un label et une chaîne) : </b> </p>
+<p>La couche de Conditional Random Field (CRF) prend en compte les relations entre les étiquettes de sortie. Ce qui améliore la cohérence entre des séquences de labels prédites.</p>
 
-<h2> Résultats du modèle </h2>
+<h2>Résultats du modèle</h2>
 <p>Les paramètres que nous avons modifiés sont: </p>
 <ul>
-<li>Le retrait ou non des majuscules,</li>
+<li>Le retrait ou non des majuscules.</li>
 <li>Les dimensions des embeddings des caractères. </li>
 </ul>
 
 <p>Nous utiliserons uniquement les embeddings glove que nous avons entrainé sur notre corpus. </p>
 <p>Une fonction de ce programme permet de remplacer tous les chiffres en 0 mais nous n'en avons pas eu besoin.</p>
-<p>Nous aurions pu modifiés de nombreux autres paramètres ou hyper-paramètres comme le nombre de <i> hidden units</i> dans chaque couche du LSTM <code>parameters['word_lstm_dim'] = 200</code>.</p>
+<p>Nous aurions pu modifié de nombreux autres paramètres ou hyper-paramètres comme le nombre de <i> hidden units</i> dans chaque couche du LSTM <code>parameters['word_lstm_dim'] = 200</code>.</p>
 
 <p></p>
 
@@ -103,9 +103,12 @@ Un réseau de neurones convolutionnel (CNN) repère des caractéristiques morpho
 
 <h2>Résultats</h2>
 
-<p>Comme dans le modèle entrainé avec spacy, nous avons de meilleurs résultats quand la la casse n'est pas prise en compte.</p>
-<p>Nous pouvons également observer qu'il est plus intéréssant pour nous d'avoir des embeddings de caractères plus grands. Le modèle utilisé comme modèle étant utilisé sur de l'anglais (une langue avec peu ou pas de diacritiques), une langue comme le Quenya aura beosin de plus de place pour représenter les caractères.</p>
-<p>Pour ce qui est des entités, comme avec spacy la catégorie minoritaire des Lieux est moins bien reconnue.</p>
+<p>Comme dans le modèle entrainé avec spacy, nous avons de meilleurs résultats quand la casse n'est pas prise en compte.</p>
+<p>Nous pouvons également observer qu'il est plus intéréssant pour nous d'avoir des embeddings de caractères plus grands. Le modèle utilisé étant utilisé sur de l'anglais (une langue avec peu ou pas de diacritiques), une langue comme le Quenya aura beosin de plus de place pour représenter les caractères.</p>
+<p>Pour ce qui est des entités, comme avec spacy, la catégorie minoritaire "Lieu" est moins bien reconnue.</p>
+<p>Ci-dessous, vous trouverez des exemples de textes annotés à partir du meilleur modèle. Cependant, il est important de noter que les modèles présentent des variabilités dans les résultats, et ce même avec une partition constante du corpus. Le modèle 2, considéré comme le plus performant peut par exemple donner 
+  une F-mesure proche du modèle trois dans certains cas. Les résultats présentés ci-dessus ont été obtenus à partir du modèle 2 avec une F-Mesure de 0.774.</p>
+<p>Cette variabilité moins visible pour les modèles Spacy participe à l'évaluation des performances du modèles et semble donc montrer une stabilité moins élevée pour l'architecture BLSTM peut-être trop complexe au vu de notre corpus peu volumineux.</p>
 
 <h3>Texte 1 - Tolkien : <em>Eldar ataformaiti</em></h3>
 
@@ -176,6 +179,17 @@ Le modèle ne relève aucune entité nommée dans cet exemple...
             <div class="image-container", style="text-align:center">
                 <img src="img/blstm_texte3.png" alt="NER Results for Kelevala">
             </div>
+
+        <p>
+        Les résultats obtenus sur les trois textes de test à l'aide de cette architecture sont quelque peu déconcertants. 
+        Dans le premier texte, comme indiqué, aucune entité n'a été reconnue.
+        Pour les deux autres textes, le modèle reconnait globalement plus d'entités que les modèles obtenus avec Spacy. Tout comme ce dernier d'ailleurs,
+        il semblerait que le modèle ait plus de mal à classifier les entités que les reconnaître.
+        Il est compliqué d'analyser les résultats obtenus. Par exemple, il semble étrange que le modèle n'ait pas réussi à reconnaîre "Héruo", une des déclinaisons de "Heru" (Lord), ainsi que "Hristo", malgré leur prévalence dans le corpus.
+        Dans le cas des noms composés non reconnus ("Yesaia i Erutercáno"), il se pourrait que le format de l'input demandé (un mot, donc entité par ligne) ne permette pas au modèle de reconnaître des entités composées de plusieurs mots ou avec des tirets.
+        Il semblerait également que le modèle n'arrive pas à identifier les entités n'étant pas au nominatif, à part pour "Yérusalemello" bien reconnu comme un lieu. Les modèles Spacy semblaient plus stables pour reconnaitre les déclinaisons.
+        Cette stabilité explique notre choix d'utiliser Spacy pour l'API.
+        </p>
   </div>
   </div>
 </body>
