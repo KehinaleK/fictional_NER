@@ -128,7 +128,7 @@ def main():
     text_train = get_texts(df_train)
     
     train = get_input(text_train, loc, char)
-    print(len(text_train))
+    # print(len(text_train))
     # print(train.head(50))
     train.to_csv("./input/train_input_BLSTM_CRF.tsv", index=False, header=False, sep="\t")
 
