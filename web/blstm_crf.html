@@ -1,7 +1,5 @@
 <!-- GNU TERRY PRATCHETT -->
 
-<!-- GNU TERRY PRATCHETT -->
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -103,7 +101,78 @@ Un réseau de neurones convolutionnel (CNN) repère des caractéristiques morpho
 </ul></p>
 <p>La mesure de ce premier modèle est de <b>0.7766990291262136</b>. </p>
 
-<h2> Résultats</h2>
+<h2>Résultats</h2>
+
+<h3>Texte 1 - Tolkien : <em>Eldar ataformaiti</em></h3>
+
+    <p> <span class="person">PERSON</span> &nbsp;&nbsp;&nbsp;&nbsp; <span class="location">LOC</span></p>
+
+    <blockquote>
+                <em><b>
+                Eldar ataformaiti, epetai i hyarma ú ten ulca símaryassen.
+                úsië, an cé mo quernë cendelë númenna, ve senya, i hyarma tentanë <span class="person">Melcorello</span>, ar cé mo formenna tentanes <span class="location">Amanna</span>.
+                </b></em>
+            </blockquote>
+
+            <blockquote>
+                <em>
+                The Elves were ambidexters, consequently the left hand was not to them evil in their imaginations.
+                On the contrary, for if one turned the face westward, as was usual, the left hand pointed away from Melkor, and if northwards, it pointed toward towards Aman.
+                </em>
+    </blockquote>
+
+Le modèle ne relève aucune entité nommée dans cet exemple...
+
+<h3>Texte 2 - Néo-Quenya : <em>Kelevala</em></h3>
+
+            <blockquote>
+                <em><b>
+                San sinë Tarcildillon i etelehtaner cuilintar nórentava lantallo, Rómenna utúlier vë quenta ná mí Akallabeth.
+                I canonta né <span class="person">Elendil Halla</span> ar yondoryat - <span class="person">Isildur</span> ar <span class="person">Anárion</span> - orórot Arfarazonwa ar neurot Elrossevai alalastaner <span class="person">Sauron</span> ar alaohtacarer Herunúmennar.
+                Avánier Atalanter <span class="location">Númenórello</span> entë ar ilyë Tarcildi vorondar ciryainen.
+                Sinë neri ner meletyë ar haryaner ciryar poldë ar hallë, nán raumo lantanë entennar ar amortanet nenamboinen tenna i lumbar, ar taltanentë  falassenna Endorwa vë sornor raumova.
+                </b></em>
+            </blockquote>
+
+            <blockquote>
+                <em>
+                In that time those of the Númenóreans who were saved from destruction fled eastward,
+                as is told in the Akallabêth. The chief of these were Elendil the Tall and his sons, Isildur and Anárion.
+                Kinsmen of the King they were, descendants of Elros, but they had been unwilling to listen to Sauron, and had refused to make war on the Lords of the West.
+                Manning their ships with all who remained faithful they forsook the land of Númenor ere ruin came upon it.
+                They were mighty men and their ships were strong and tall, but the tempests overtook them, and they were borne aloft on hills of water even to the clouds, and they descended upon Middle-earth like birds of the storm.
+            </blockquote>
+                </em>
+
+<div class="image-container", style="text-align:center">
+                <img src="img/blstm_texte2.png" alt="NER Results for Tolkien Text">
+            </div>
+
+            <h3>Texte 3 - Néo-Quenya : <em>L'évangile selon Matthieu</em></h3>
+
+             <blockquote>
+                <em><b>
+                Si <span class="person">Yoháno</span> vettie ná íre i Yúrar mentaner airimóli ar Levindeli <span class="location">Yerúsalemello</span> maquetien senna:
+                “Man nalye?” Ar carampes pantave ar ua lalane, mal quente pantave: “Uan i <span class="person">Hristo</span>.” Ar maquentelte senna:
+                “Tá mana? Ma nalye <span class="person">Elía</span>?” Ar eques: “Uan.” “Ma nalye i Erutercáno?” Ar hanquentes: “Lá!” Etta quentelte senna:
+                “Man nalye? Lava men same hanquenta in mentaner me. Mana quetil pa imle?” Eques: “Nanye óma yamila i ravandasse:
+                Cara i <span class="person">Héruo</span> malle téra! – tambe <span class="person">Yesaia i Erutercáno</span> quente.”
+                </b></em>
+            </blockquote>
+            <blockquote>
+                <em>
+                This is the witness of John when the Jews sent some priests and Levites from Jerusalem to inquire of him:
+                “Who are you?” And he spoke openly and did not deny [it], but said openly: “I am not the Christ.”
+                And they asked him: “Then what? Are you Elijah?” And he said: “I am not.” “Are you the Prophet?” And he answered:
+                “No!” Therefore they said to him: “Who are you? Let us have an answer for those who sent us. What do you say about yourself?”
+                He said: “I am a voice crying in the desert: Make the Lord’s way straight! – as Isaiah the Prophet said.”
+                </em>
+            </blockquote>
+
+            <div class="image-container", style="text-align:center">
+                <img src="img/blstm_texte3.png" alt="NER Results for Kelevala">
+            </div>
+
 <p>Comme dans le modèle entrainé avec spacy, nous avons de meilleurs résultats quand la la casse n'est pas prise en compte.</p>
 <p>Nous pouvons également observer qu'il est plus intéréssant pour nous d'avoir des embeddings de caractères plus grands. Le modèle utilisé comme modèle étant utilisé sur de l'anglais (une langue avec peu ou pas de diacritiques), une langue comme le Quenya aura beosin de plus de place pour représenter les caractères.</p>
 <p>Pour ce qui est des entités, comme avec spacy la catégorie minoritaire des Lieux est moins bien reconnue.</p>
