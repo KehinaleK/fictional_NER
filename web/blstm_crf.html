@@ -103,6 +103,10 @@ Un réseau de neurones convolutionnel (CNN) repère des caractéristiques morpho
 
 <h2>Résultats</h2>
 
+<p>Comme dans le modèle entrainé avec spacy, nous avons de meilleurs résultats quand la la casse n'est pas prise en compte.</p>
+<p>Nous pouvons également observer qu'il est plus intéréssant pour nous d'avoir des embeddings de caractères plus grands. Le modèle utilisé comme modèle étant utilisé sur de l'anglais (une langue avec peu ou pas de diacritiques), une langue comme le Quenya aura beosin de plus de place pour représenter les caractères.</p>
+<p>Pour ce qui est des entités, comme avec spacy la catégorie minoritaire des Lieux est moins bien reconnue.</p>
+
 <h3>Texte 1 - Tolkien : <em>Eldar ataformaiti</em></h3>
 
     <p> <span class="person">PERSON</span> &nbsp;&nbsp;&nbsp;&nbsp; <span class="location">LOC</span></p>
@@ -172,11 +176,6 @@ Le modèle ne relève aucune entité nommée dans cet exemple...
             <div class="image-container", style="text-align:center">
                 <img src="img/blstm_texte3.png" alt="NER Results for Kelevala">
             </div>
-
-<p>Comme dans le modèle entrainé avec spacy, nous avons de meilleurs résultats quand la la casse n'est pas prise en compte.</p>
-<p>Nous pouvons également observer qu'il est plus intéréssant pour nous d'avoir des embeddings de caractères plus grands. Le modèle utilisé comme modèle étant utilisé sur de l'anglais (une langue avec peu ou pas de diacritiques), une langue comme le Quenya aura beosin de plus de place pour représenter les caractères.</p>
-<p>Pour ce qui est des entités, comme avec spacy la catégorie minoritaire des Lieux est moins bien reconnue.</p>
-
   </div>
   </div>
 </body>
