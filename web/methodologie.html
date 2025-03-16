@@ -43,22 +43,22 @@
         </p>
 
         Nous voulions de plus travailler ensemble sur un projet car notre dernière collaboration remontait au M1. Notre séparation (Pauline en Alternance et Alix et Kehina en R&D) était déchirante et nous voulions nous retrouver. 
-        Poline a proposé de travailler sur une langue fictive, Kehina l'a soutenue et Alix a suivi. Nos appels pour constituer le corpus consistaient en Kehina entrain d'essayer de scrapper TolkienGetaway, Alix qui essayait de comprendre ce qu'était le Silmarillio et Peauline qui sortait sa grammaire en elfique.
+        Poline a proposé de travailler sur une langue fictive, Kehina l'a soutenue et Alix a suivi. Nos appels pour constituer le corpus consistaient en Kehina entrain d'essayer de scrapper TolkienGetaway, Alix qui essayait de comprendre ce qu'était le Silmarillion et Peauline qui sortait sa grammaire en elfique.
 
         </p>
         <b>Pourquoi la reconnaissance d'entités nommées ?</b>
         <ul><li>Par curiosité pure, c'est une tâche que nous n'avions pas encore eu l'occasion d'effectuer.</li></ul>
         </p>
 
-        <p>Nous avions envisagé trois pistes :
-        <ul><li>Utiliser la pipeline spacy pour NER</li>
-        <li>Reproduire la démarche NER avec un BLSTM CRF présentée dans <a href="https://aclanthology.org/P16-1101/">cet article</a></li>
+        <p><b>Nous avions envisagé deux pistes :</b>
+        <ul><li>Utiliser la pipeline spacy pour NER.</li>
+        <li>Reproduire la démarche NER avec un BLSTM CRF présentée dans <a href="https://aclanthology.org/P16-1101/">cet article</a>.</li>
         </ul>
 
       <h2> Étape 1 : Constitution du corpus </h2>
 
         <p>
-        Le quenya dispose de son propre alphabet : le <i>Tengwar</i>. Cependant, pour des soucis de simplicité, nous nous sommes concentrées sur les textes en quenya en écriture latinisée, qui comprends les 26 lettres de l'alphabet latin et deux diacritiques par voyelles (ë, é).
+        Le quenya dispose de son propre alphabet : le <i>Tengwar</i>. Cependant, pour des soucis de simplicité, nous nous sommes concentrées sur les textes en quenya en écriture latinisée, qui comprends les 26 lettres de l'alphabet latin et deux diacritiques par voyelle (ë, é).
         </p>
 
         <p>
@@ -74,7 +74,7 @@
         </p>
 
         <p>
-        En definitive, le corpus total représente 13 166 tokens dans 185 textes :
+        <b>En definitive, le corpus total représente 13 166 tokens dans 185 textes :</b>
           <ul>
             <li>22 textes écrits par Tolkien</li>
             <li>40 textes de néo-quenya non bibliques</li>
@@ -82,7 +82,7 @@
           </ul>
         </p>
 
-        <u>Mentions légales :</u>
+        <u><b>Mentions légales :</b></u>
 
         <p>
         Les textes en néo-quenya utilisés pour l'entraînement et l'évaluation des modèles sont protégés par les droits d'auteur de leurs créateurs, à l'exception de ceux dont les œuvres sont tombées dans le domaine public. Les œuvres de John Ronald Reuel Tolkien et de Christopher Tolkien sont soumises aux droits d'auteur de leurs auteurs et/ou des détenteurs de droits actuels, y compris leurs éditeurs et le Tolkien Estate.
@@ -97,10 +97,10 @@
         Les modèles entraînés et l'outil développé à cette occasion ne sont pas destinés à un usage commercial.
         </p>
 
-      <h2> Etape 2 : Annoter le corpus </h2>
+      <h2> Étape 2 : Annoter le corpus </h2>
 
         <p>
-        La tâche de reconnaissance des entités nommées nécessite un entrainement sur un corpus annoté. Il a donc fallut annoter les entités nommées. En raison de la lourdeur de la tâche, nous avons décidé d'annoter uniquement deux grandes catégories : les personnes et les lieux.
+        La tâche de reconnaissance des entités nommées nécessite un entrainement sur un corpus annoté. Il a donc fallu annoter les entités nommées. En raison de la lourdeur de la tâche, nous avons décidé d'annoter uniquement deux grandes catégories : les personnes et les lieux.
         </p>
 
         <p>
@@ -148,7 +148,7 @@
         <b>Le corpus recueilli semble être un des plus complets sur internet, le seul annoté pour cette tâche, et pourrait donc servir pour d'autres applications linguistiques !</b>
         </p>
 
-      <h2> Etape 3 : L'entrainement et la pipeline SpaCy </h2>
+      <h2>Étape 3 : L'entrainement et la pipeline SpaCy </h2>
 
         <p>
         L'entrainement de la pipeline SpaCy est étudiée en détails à l'onglet <a href="pipeline_spacy.html">Pipepline Spacy</a>. Nous n'allons ici qu'explorer brièvement les différents problèmes que nous avons du essayer de résoudre.
@@ -158,7 +158,7 @@
         Le premier questionnement que nous avons rencontré est celui des embeddings à utiliser dans la pipeline. Spacy ne dispose pas d'embeddings pour le quenya, il a donc fallu trouver une solution. Nous avons expérimenté avec deux modèles.
         <ul>
         <li><b>Le modèle multilingue de SpaCy</b> : le quenya étant inspiré de plusieurs langues européeenes (le finnois, le latin, le grec, le vieil anglais, le gallois et le gotique ...) il pouvait faire sens d'utiliser un modèle global.</li>
-        <li><b>Le modèle finnois de SpaCy</b> : plus encore que les autres langues, le finnois est mis en avant comme l'influence principale de Tolkien pour le quenya. Des emprunts direct de vocabulaires ont même existés jusqu'à ce qu'il ne décide de les supprimer. De plus, <a href="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/custom/15811193.pdf">cet article</a>, qui décrit un traducteur anglais-quenya dispose de bon résultats en s'appuyant sur un modèle de traduction anglais-finnois entrainé sur le corpus europarl.</li>
+        <li><b>Le modèle finnois de SpaCy</b> : plus encore que les autres langues, le finnois est mis en avant comme l'influence principale de Tolkien pour le quenya. Des emprunts direct de vocabulaires ont même existés jusqu'à ce qu'il ne décide de les supprimer. De plus, <a href="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/custom/15811193.pdf">cet article</a>, qui décrit un traducteur anglais-quenya présente de bon résultats en s'appuyant sur un modèle de traduction anglais-finnois entrainé sur le corpus europarl.</li>
         <li><b>Le modèle maison</b> : pour le BLSTM CRF, nous avons tenté de faire nos propres embeddings pour le quenya en utilisant GloVe. </li>
         </ul>
         </p>
@@ -208,7 +208,7 @@
         </table>
 
         <p>
-        On peut voir notamment que les textes bibliques ont écrasés les autres en termes de nombre d'entités nommées présentes :
+        On peut voir notamment que les textes bibliques ont écrasé les autres en termes de nombre d'entités nommées présentes :
         </p>
         <img src="img/train_entities.png" style="max-width: 100%; height: auto;"/>
         <center><img src="img/test_entities.png"/></center>
@@ -217,7 +217,7 @@
         <p>Enfin, comme indiqué plus haut, nous avons nous-mêmes divisé des textes longs en plus petits paragraphes pour garder une fenêtre de contexte tout en évitant d'avoir une variation trop grande de longueur de textes.
           En effet, certains textes écrits par Tolkien sont très courts (quelques mots) tandis que d'autres (comme pour la bible) sont composés de plusieurs paragraphes.
         </p>
-        <h2> Etape 4 : les perspectives futures </h2>
+        <h2>Étape 4 : les perspectives futures </h2>
 
         <ul>
           <li><b>Augmentation et annotation des données :</b> au vu des résultats obtenus à partir des deux architectures testées, nous pensons que la piste d'amélioration
@@ -228,12 +228,12 @@
             Mais là aussi, nous pourrions faire face à un soucis d'authenticité et les traductions faites par les nerds seraient toujours mieux. Il serait donc aussi intéressant d'utiliser les traducteurs anglais-quenya
             disponibles sur internet.
           </li>
-          <li><b>Pipeline Spacy : </b> concernant la pipeline Spacy, nous avons pu voir que l'utilisation des modèles pré-entrainés en Finnois permettaient d'obtenir dee=s résultats plus que satisfaisants sur le quenya.
+          <li><b>Pipeline Spacy : </b> concernant la pipeline Spacy, nous avons pu voir que l'utilisation des modèles pré-entrainés en Finnois permettaient d'obtenir des résultats plus que satisfaisants sur le quenya.
             En utilisant là encore les modèles et pipelines proposés par Spacy, nous pourrions entraîner nous mêmes un Tokenizer ainsi qu'un modèle pour vectoriser des données en elfique. Si très intéressante, cette piste pourrait
             également expliciter le manque de données disponibles.
         </ul>
    
-        <h2> Etape ? : Qui fait quoi ? </h2>
+        <h2>Étape ? : Qui fait quoi ? </h2>
 
           <p> Nous avons beaucoup travaillé (et mangé du houmous) dans la même pièce, nous avons donc participé à toutes les étapes. Les parties analyses, recherches et récupération des textes ont par exemple été faits de concert. Cependant, chacune a pris en charge majoritairement certaines parties du projet.</p>
             <ul>
